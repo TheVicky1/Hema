@@ -27,3 +27,4 @@
 - [2026-11-02T15:43:09+05:30] style(layout): add default section vertical padding utility
 - [2026-11-02T15:52:34+05:30] style(layout): add compact section-sm vertical padding utility
 - [2026-11-02T16:11:14+05:30] style(a11y): add screen-reader only sr-only utility class
+- [2026-11-02T16:22:27+05:30] docs(tokens): draft design system specifications in docs/DESIGN_SYSTEM.md
