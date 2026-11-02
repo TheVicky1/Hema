@@ -17,3 +17,4 @@
 - [2026-11-02T12:17:44+05:30] style(base): add universal box-sizing border-box reset
 - [2026-11-02T12:29:22+05:30] style(base): zero out default margin and padding on all elements
 - [2026-11-02T12:39:20+05:30] style(base): enable smooth scrolling behavior on html
+- [2026-11-02T14:19:46+05:30] style(base): enable subpixel font smoothing and text rendering optimization
