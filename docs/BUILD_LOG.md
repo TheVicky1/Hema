@@ -34,3 +34,4 @@
 - [2026-11-02T17:04:49+05:30] feat(html): update index.html title to Hema Blood Donor Network
 - [2026-11-02T17:20:21+05:30] feat(html): preload Inter font family weights from Google Fonts
 - [2026-11-02T17:30:29+05:30] feat(html): add viewport meta tags and theme-color declaration
+- [2026-11-02T17:45:47+05:30] chore(deps): add react-router-dom to package.json dependencies
