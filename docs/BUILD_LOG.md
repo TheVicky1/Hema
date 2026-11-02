@@ -38,3 +38,4 @@
 - [2026-11-02T17:52:53+05:30] chore(deps): add lucide-react to package.json dependencies
 - [2026-11-02T18:05:25+05:30] chore(deps): update package-lock.json with resolved dependency graph
 - [2026-11-02T18:17:55+05:30] style(index): refine root color variable naming for consistency
+- [2026-11-02T19:52:05+05:30] style(index): enhance dark mode border-light contrast in dark theme
