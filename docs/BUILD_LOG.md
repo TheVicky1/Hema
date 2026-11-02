@@ -2,3 +2,4 @@
 - [2026-11-02T09:40:36+05:30] style(tokens): declare primary crimson color palette and shades
 - [2026-11-02T09:51:41+05:30] style(tokens): configure pure white and off-white surface tokens
 - [2026-11-02T10:00:10+05:30] style(tokens): setup dark theme near-black background values
+- [2026-11-02T10:09:19+05:30] style(tokens): configure status colors for available donors (#15803D)
