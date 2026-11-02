@@ -13,3 +13,4 @@
 - [2026-11-02T11:39:45+05:30] style(theme): optimize dark mode text contrast ratios for readability
 - [2026-11-02T11:47:10+05:30] style(theme): tune dark mode primary crimson brightness for contrast
 - [2026-11-02T11:59:03+05:30] style(theme): define dark mode elevated surface token values
+- [2026-11-02T12:05:50+05:30] style(theme): add dark mode shadow elevation tokens
