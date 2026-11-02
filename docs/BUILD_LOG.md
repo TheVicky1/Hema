@@ -9,3 +9,4 @@
 - [2026-11-02T10:53:09+05:30] style(tokens): define font family token prioritizing Inter typeface
 - [2026-11-02T11:03:09+05:30] style(tokens): define smooth cubic bezier transition variables
 - [2026-11-02T11:14:43+05:30] style(tokens): add layout max-width and initial navbar height tokens
+- [2026-11-02T11:25:27+05:30] style(theme): add dark mode token overrides for backgrounds and borders
