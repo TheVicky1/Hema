@@ -43,3 +43,4 @@
 - [2026-11-02T20:13:27+05:30] style(index): add text-inverse pure white token definition
 - [2026-11-02T20:29:15+05:30] style(index): optimize available-bg tint in light theme
 - [2026-11-02T20:44:38+05:30] style(index): configure available-border alpha transparency
+- [2026-11-02T20:51:31+05:30] style(index): define shadow-primary crimson glow effect
