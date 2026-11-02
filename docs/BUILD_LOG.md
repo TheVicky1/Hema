@@ -19,3 +19,4 @@
 - [2026-11-02T12:39:20+05:30] style(base): enable smooth scrolling behavior on html
 - [2026-11-02T14:19:46+05:30] style(base): enable subpixel font smoothing and text rendering optimization
 - [2026-11-02T14:30:37+05:30] style(base): set responsive base typography and line height on body
+- [2026-11-02T14:42:35+05:30] style(base): configure root container flex direction for sticky footer
