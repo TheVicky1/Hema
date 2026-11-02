@@ -1,1 +1,2 @@
 - [2026-11-02T09:27:37+05:30] chore(init): prepare modern design token architecture
+- [2026-11-02T09:40:36+05:30] style(tokens): declare primary crimson color palette and shades
