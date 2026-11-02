@@ -45,3 +45,4 @@
 - [2026-11-02T20:44:38+05:30] style(index): configure available-border alpha transparency
 - [2026-11-02T20:51:31+05:30] style(index): define shadow-primary crimson glow effect
 - [2026-11-02T21:08:30+05:30] style(index): add transition-fast, transition-base, and transition-slow
+- [2026-11-02T21:21:44+05:30] docs(architecture): document token system in docs/ARCHITECTURE.md
