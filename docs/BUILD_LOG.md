@@ -5,3 +5,4 @@
 - [2026-11-02T10:09:19+05:30] style(tokens): configure status colors for available donors (#15803D)
 - [2026-11-02T10:19:57+05:30] style(tokens): configure unavailable status neutral grey tokens
 - [2026-11-02T10:36:28+05:30] style(tokens): setup warm-tinted shadow hierarchy for natural depth
+- [2026-11-02T10:43:15+05:30] style(tokens): configure border radius tokens from xs to full circle
