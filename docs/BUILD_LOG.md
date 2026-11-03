@@ -105,3 +105,4 @@
 - [2026-11-03T21:13:12+05:30] test(buttons): draft button state test cases in docs/TESTING.md
 - [2026-11-03T21:24:01+05:30] style(cards): add border-color transition on card hover states
 - [2026-11-03T21:37:43+05:30] style(cards): optimize card padding for compact viewports
+- [2026-11-03T21:47:34+05:30] style(tokens): fine-tune button active scale transform ratio
