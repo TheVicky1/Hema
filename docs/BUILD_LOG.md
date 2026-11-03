@@ -81,3 +81,4 @@
 - [2026-11-03T15:26:25+05:30] style(inputs): add subtle border and rounded radius to form inputs
 - [2026-11-03T15:37:25+05:30] style(inputs): configure primary color focus ring on form inputs
 - [2026-11-03T15:45:38+05:30] style(inputs): configure placeholder text color styling
+- [2026-11-03T16:00:39+05:30] style(inputs): add search-wrap container for input with search icon
