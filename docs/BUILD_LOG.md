@@ -107,3 +107,4 @@
 - [2026-11-03T21:37:43+05:30] style(cards): optimize card padding for compact viewports
 - [2026-11-03T21:47:34+05:30] style(tokens): fine-tune button active scale transform ratio
 - [2026-11-03T21:56:19+05:30] style(tokens): tune shadow-primary opacity for subtle glow
+- [2026-11-03T22:06:23+05:30] style(badges): add aria attributes support for badge components
