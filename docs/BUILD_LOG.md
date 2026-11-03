@@ -72,3 +72,4 @@
 - [2026-11-03T12:19:45+05:30] style(cards): setup card-base utility with surface background and border
 - [2026-11-03T12:28:17+05:30] style(cards): configure subtle shadow and border transition on card hover
 - [2026-11-03T12:38:43+05:30] style(badges): implement status-badge base class for donor states
+- [2026-11-03T14:22:32+05:30] style(badges): configure available status badge with green background
