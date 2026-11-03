@@ -54,3 +54,4 @@
 - [2026-11-02T22:31:23+05:30] chore(audit): verify initial token variables compile without syntax warnings
 - [2026-11-03T09:33:11+05:30] style(buttons): declare base button class with inline-flex alignment
 - [2026-11-03T09:41:11+05:30] style(buttons): configure standard button padding, font size and weight
+- [2026-11-03T09:48:34+05:30] style(buttons): setup button border-radius and cursor pointer defaults
