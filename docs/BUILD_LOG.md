@@ -63,3 +63,4 @@
 - [2026-11-03T10:48:14+05:30] style(buttons): implement btn-secondary with neutral surface background
 - [2026-11-03T10:57:06+05:30] style(buttons): configure subtle border highlight on btn-secondary hover
 - [2026-11-03T11:12:28+05:30] style(buttons): implement btn-ghost variant with transparent background
+- [2026-11-03T11:18:33+05:30] style(buttons): add subtle background fill on btn-ghost hover
