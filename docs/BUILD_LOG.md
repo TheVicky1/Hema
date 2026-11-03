@@ -78,3 +78,4 @@
 - [2026-11-03T14:53:22+05:30] style(badges): add blood group badge styling with bold typography
 - [2026-11-03T15:03:02+05:30] style(inputs): declare base input class with padding and full width
 - [2026-11-03T15:16:31+05:30] style(inputs): configure input background matching surface tokens
+- [2026-11-03T15:26:25+05:30] style(inputs): add subtle border and rounded radius to form inputs
