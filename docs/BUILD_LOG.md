@@ -71,3 +71,4 @@
 - [2026-11-03T12:07:47+05:30] style(buttons): add cursor not-allowed state for disabled buttons
 - [2026-11-03T12:19:45+05:30] style(cards): setup card-base utility with surface background and border
 - [2026-11-03T12:28:17+05:30] style(cards): configure subtle shadow and border transition on card hover
+- [2026-11-03T12:38:43+05:30] style(badges): implement status-badge base class for donor states
