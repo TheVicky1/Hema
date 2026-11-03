@@ -60,3 +60,4 @@
 - [2026-11-03T10:19:27+05:30] style(buttons): add hover lift transform on btn-primary
 - [2026-11-03T10:30:57+05:30] style(buttons): add active pressed state scaling for btn-primary
 - [2026-11-03T10:40:16+05:30] style(buttons): configure primary button box-shadow on focus and hover
+- [2026-11-03T10:48:14+05:30] style(buttons): implement btn-secondary with neutral surface background
