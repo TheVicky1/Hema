@@ -77,3 +77,4 @@
 - [2026-11-03T14:41:46+05:30] style(badges): configure busy status badge for unavailable donors
 - [2026-11-03T14:53:22+05:30] style(badges): add blood group badge styling with bold typography
 - [2026-11-03T15:03:02+05:30] style(inputs): declare base input class with padding and full width
+- [2026-11-03T15:16:31+05:30] style(inputs): configure input background matching surface tokens
