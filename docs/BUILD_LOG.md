@@ -86,3 +86,4 @@
 - [2026-11-03T16:22:33+05:30] style(inputs): add input-left-icon padding adjustment utility
 - [2026-11-03T16:28:21+05:30] docs(components): document button variants and state styles in docs
 - [2026-11-03T16:39:05+05:30] docs(components): document input guidelines and accessibility specs
+- [2026-11-03T16:54:01+05:30] docs(components): document badge and status indicator conventions
