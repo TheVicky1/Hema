@@ -66,3 +66,4 @@
 - [2026-11-03T11:18:33+05:30] style(buttons): add subtle background fill on btn-ghost hover
 - [2026-11-03T11:29:49+05:30] style(buttons): implement btn-icon with equal width and height circle
 - [2026-11-03T11:42:06+05:30] style(buttons): configure icon button hover background and active state
+- [2026-11-03T11:47:28+05:30] style(buttons): add focus-visible outline for keyboard accessibility
