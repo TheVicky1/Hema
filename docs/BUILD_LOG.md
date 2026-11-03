@@ -100,3 +100,4 @@
 - [2026-11-03T20:18:16+05:30] style(utilities): add text-muted and text-secondary helper classes
 - [2026-11-03T20:24:34+05:30] style(utilities): add font-semibold and font-bold weight helpers
 - [2026-11-03T20:34:55+05:30] refactor(buttons): clean up redundant font declarations in btn classes
+- [2026-11-03T20:49:56+05:30] refactor(buttons): ensure SVG icons inside buttons align vertically
