@@ -83,3 +83,4 @@
 - [2026-11-03T15:45:38+05:30] style(inputs): configure placeholder text color styling
 - [2026-11-03T16:00:39+05:30] style(inputs): add search-wrap container for input with search icon
 - [2026-11-03T16:06:04+05:30] style(inputs): position search icon absolute inside search input
+- [2026-11-03T16:22:33+05:30] style(inputs): add input-left-icon padding adjustment utility
