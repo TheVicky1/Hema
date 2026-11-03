@@ -92,3 +92,4 @@
 - [2026-11-03T17:21:29+05:30] style(grid): add 2-column tablet breakpoint for card grids
 - [2026-11-03T17:36:34+05:30] style(grid): add 1-column mobile breakpoint for card grids
 - [2026-11-03T17:47:20+05:30] style(animation): define fadeUp keyframe animation for content reveals
+- [2026-11-03T17:54:31+05:30] style(animation): define pulseDot keyframe animation for live status
