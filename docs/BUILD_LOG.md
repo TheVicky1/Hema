@@ -75,3 +75,4 @@
 - [2026-11-03T14:22:32+05:30] style(badges): configure available status badge with green background
 - [2026-11-03T14:30:45+05:30] style(badges): add pulsing green live dot indicator to available badge
 - [2026-11-03T14:41:46+05:30] style(badges): configure busy status badge for unavailable donors
+- [2026-11-03T14:53:22+05:30] style(badges): add blood group badge styling with bold typography
