@@ -57,3 +57,4 @@
 - [2026-11-03T09:48:34+05:30] style(buttons): setup button border-radius and cursor pointer defaults
 - [2026-11-03T10:03:12+05:30] style(buttons): configure smooth transitions for hover and active states
 - [2026-11-03T10:08:17+05:30] style(buttons): implement btn-primary with rich crimson gradient background
+- [2026-11-03T10:19:27+05:30] style(buttons): add hover lift transform on btn-primary
