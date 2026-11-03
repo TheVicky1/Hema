@@ -98,3 +98,4 @@
 - [2026-11-03T19:51:23+05:30] style(utilities): add flex-center utility class
 - [2026-11-03T20:01:02+05:30] style(utilities): add gap utilities for flex containers
 - [2026-11-03T20:18:16+05:30] style(utilities): add text-muted and text-secondary helper classes
+- [2026-11-03T20:24:34+05:30] style(utilities): add font-semibold and font-bold weight helpers
