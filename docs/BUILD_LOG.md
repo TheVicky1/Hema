@@ -102,3 +102,4 @@
 - [2026-11-03T20:34:55+05:30] refactor(buttons): clean up redundant font declarations in btn classes
 - [2026-11-03T20:49:56+05:30] refactor(buttons): ensure SVG icons inside buttons align vertically
 - [2026-11-03T20:58:48+05:30] style(buttons): add transition for icon fill and stroke colors
+- [2026-11-03T21:13:12+05:30] test(buttons): draft button state test cases in docs/TESTING.md
