@@ -154,3 +154,4 @@
 - [2026-11-05T20:15:33+05:30] style(navbar): add dark mode background override with 12px opacity
 - [2026-11-05T20:34:38+05:30] style(navbar): configure dark mode scroll shadow with darker alpha
 - [2026-11-05T20:47:27+05:30] refactor(navbar): optimize scroll handler with passive event listener
+- [2026-11-05T21:01:17+05:30] test(logo): verify HemaLogo renders valid SVG DOM element
