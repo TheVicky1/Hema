@@ -157,3 +157,4 @@
 - [2026-11-05T21:01:17+05:30] test(logo): verify HemaLogo renders valid SVG DOM element
 - [2026-11-05T21:12:18+05:30] docs(logo): add SVG icon usage examples in docs/COMPONENTS.md
 - [2026-11-05T21:21:09+05:30] style(brand): refine letter-spacing on Hema brand typography
+- [2026-11-05T21:35:23+05:30] style(brand): test brand hover state in mobile viewports
