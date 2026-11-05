@@ -148,3 +148,4 @@
 - [2026-11-05T17:38:38+05:30] style(navbar): configure backdrop-filter blur 24px for frosted glass look
 - [2026-11-05T17:50:55+05:30] style(navbar): add webkit-backdrop-filter vendor prefix for Safari
 - [2026-11-05T18:05:56+05:30] style(navbar): declare transparent border-bottom transition
+- [2026-11-05T18:20:32+05:30] style(navbar): configure navbar-scrolled class with border and shadow
