@@ -122,3 +122,4 @@
 - [2026-11-05T11:08:27+05:30] feat(logo): render vertical cross bar with white fill and rounded corners
 - [2026-11-05T11:17:50+05:30] feat(logo): render horizontal cross bar with matching corner radius
 - [2026-11-05T11:32:22+05:30] feat(logo): add gentle cupped hand silhouette beneath medical cross
+- [2026-11-05T11:47:09+05:30] feat(logo): tune hand shape opacity to 22% for balanced contrast
