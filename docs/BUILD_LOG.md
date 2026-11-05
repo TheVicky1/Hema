@@ -125,3 +125,4 @@
 - [2026-11-05T11:47:09+05:30] feat(logo): tune hand shape opacity to 22% for balanced contrast
 - [2026-11-05T11:57:37+05:30] feat(logo): ensure SVG has aria-hidden attribute for accessibility
 - [2026-11-05T12:08:33+05:30] feat(logo): test logo scaling at 24px, 32px, 48px, and 64px sizes
+- [2026-11-05T12:14:24+05:30] refactor(logo): eliminate unnecessary vector points in SVG drop path
