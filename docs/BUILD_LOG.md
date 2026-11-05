@@ -143,3 +143,4 @@
 - [2026-11-05T16:41:48+05:30] feat(navbar): define NAV_LINKS array with Home, Donors, BecomeDonor, HowItWorks, About
 - [2026-11-05T16:53:50+05:30] feat(navbar): wire NavLink components with active route matching
 - [2026-11-05T17:06:02+05:30] style(navbar): configure fixed position top: 0 with full width
+- [2026-11-05T17:22:55+05:30] style(navbar): set initial navbar height to 64px variable
