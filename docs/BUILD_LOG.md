@@ -136,3 +136,4 @@
 - [2026-11-05T15:18:00+05:30] docs(brand): specify color specifications for Hema blood drop emblem
 - [2026-11-05T15:30:35+05:30] docs(brand): document symbolism of blood drop, medical cross and hand
 - [2026-11-05T15:44:02+05:30] feat(assets): add public/hema-logo.png for favicon and metadata fallbacks
+- [2026-11-05T16:00:12+05:30] style(brand): test logo rendering on pure white background
