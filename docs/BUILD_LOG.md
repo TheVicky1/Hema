@@ -155,3 +155,4 @@
 - [2026-11-05T20:34:38+05:30] style(navbar): configure dark mode scroll shadow with darker alpha
 - [2026-11-05T20:47:27+05:30] refactor(navbar): optimize scroll handler with passive event listener
 - [2026-11-05T21:01:17+05:30] test(logo): verify HemaLogo renders valid SVG DOM element
+- [2026-11-05T21:12:18+05:30] docs(logo): add SVG icon usage examples in docs/COMPONENTS.md
