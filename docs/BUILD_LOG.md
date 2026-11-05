@@ -150,3 +150,4 @@
 - [2026-11-05T18:05:56+05:30] style(navbar): declare transparent border-bottom transition
 - [2026-11-05T18:20:32+05:30] style(navbar): configure navbar-scrolled class with border and shadow
 - [2026-11-05T19:51:49+05:30] feat(navbar): add window scroll event listener to trigger navbar-scrolled
+- [2026-11-05T20:06:19+05:30] feat(navbar): clean up scroll event listener on component unmount
