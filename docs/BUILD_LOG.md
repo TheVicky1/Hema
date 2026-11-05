@@ -127,3 +127,4 @@
 - [2026-11-05T12:08:33+05:30] feat(logo): test logo scaling at 24px, 32px, 48px, and 64px sizes
 - [2026-11-05T12:14:24+05:30] refactor(logo): eliminate unnecessary vector points in SVG drop path
 - [2026-11-05T12:31:27+05:30] refactor(logo): export default HemaLogo function component
+- [2026-11-05T12:40:35+05:30] style(brand): define navbar-brand flex container styling
