@@ -112,3 +112,4 @@
 - [2026-11-03T22:31:40+05:30] chore(audit): verify button styles render consistently in light and dark mode
 - [2026-11-05T09:29:52+05:30] feat(logo): scaffold HemaLogo component file in src/components
 - [2026-11-05T09:43:28+05:30] feat(logo): define scalable SVG viewBox (0 0 44 48) for logo
+- [2026-11-05T09:56:41+05:30] feat(logo): add size prop with default 32px for flexible scaling
