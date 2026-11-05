@@ -153,3 +153,4 @@
 - [2026-11-05T20:06:19+05:30] feat(navbar): clean up scroll event listener on component unmount
 - [2026-11-05T20:15:33+05:30] style(navbar): add dark mode background override with 12px opacity
 - [2026-11-05T20:34:38+05:30] style(navbar): configure dark mode scroll shadow with darker alpha
+- [2026-11-05T20:47:27+05:30] refactor(navbar): optimize scroll handler with passive event listener
