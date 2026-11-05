@@ -132,3 +132,4 @@
 - [2026-11-05T14:32:32+05:30] style(brand): configure navbar-brand-text font weight 800 and tracking
 - [2026-11-05T14:43:14+05:30] style(brand): add hover opacity feedback on brand link
 - [2026-11-05T14:56:29+05:30] style(brand): add focus-visible outline for brand keyboard focus
+- [2026-11-05T15:11:04+05:30] docs(brand): write brand identity and logo documentation in docs
