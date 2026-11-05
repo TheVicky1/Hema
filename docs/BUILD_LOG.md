@@ -158,3 +158,4 @@
 - [2026-11-05T21:12:18+05:30] docs(logo): add SVG icon usage examples in docs/COMPONENTS.md
 - [2026-11-05T21:21:09+05:30] style(brand): refine letter-spacing on Hema brand typography
 - [2026-11-05T21:35:23+05:30] style(brand): test brand hover state in mobile viewports
+- [2026-11-05T21:50:01+05:30] refactor(logo): add JSDoc documentation to HemaLogo component
