@@ -129,3 +129,4 @@
 - [2026-11-05T12:31:27+05:30] refactor(logo): export default HemaLogo function component
 - [2026-11-05T12:40:35+05:30] style(brand): define navbar-brand flex container styling
 - [2026-11-05T14:18:37+05:30] style(brand): align logo SVG and brand text with tight 9px gap
+- [2026-11-05T14:32:32+05:30] style(brand): configure navbar-brand-text font weight 800 and tracking
