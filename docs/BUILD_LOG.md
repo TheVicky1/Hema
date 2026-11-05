@@ -114,3 +114,4 @@
 - [2026-11-05T09:43:28+05:30] feat(logo): define scalable SVG viewBox (0 0 44 48) for logo
 - [2026-11-05T09:56:41+05:30] feat(logo): add size prop with default 32px for flexible scaling
 - [2026-11-05T10:03:03+05:30] feat(logo): declare linearGradient for blood drop gradient fill
+- [2026-11-05T10:11:31+05:30] feat(logo): define gradient stop #E8182C for vibrant drop apex
