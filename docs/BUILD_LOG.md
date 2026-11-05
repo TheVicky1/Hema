@@ -146,3 +146,4 @@
 - [2026-11-05T17:22:55+05:30] style(navbar): set initial navbar height to 64px variable
 - [2026-11-05T17:32:14+05:30] style(navbar): add translucent background with 90% opacity
 - [2026-11-05T17:38:38+05:30] style(navbar): configure backdrop-filter blur 24px for frosted glass look
+- [2026-11-05T17:50:55+05:30] style(navbar): add webkit-backdrop-filter vendor prefix for Safari
