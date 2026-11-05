@@ -138,3 +138,4 @@
 - [2026-11-05T15:44:02+05:30] feat(assets): add public/hema-logo.png for favicon and metadata fallbacks
 - [2026-11-05T16:00:12+05:30] style(brand): test logo rendering on pure white background
 - [2026-11-05T16:11:46+05:30] style(brand): test logo rendering on pure black dark mode background
+- [2026-11-05T16:19:37+05:30] style(brand): ensure logo vectors remain crisp on high DPI screens
