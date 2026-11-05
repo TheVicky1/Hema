@@ -140,3 +140,4 @@
 - [2026-11-05T16:11:46+05:30] style(brand): test logo rendering on pure black dark mode background
 - [2026-11-05T16:19:37+05:30] style(brand): ensure logo vectors remain crisp on high DPI screens
 - [2026-11-05T16:28:56+05:30] feat(navbar): scaffold base Navbar structure with HemaLogo integration
+- [2026-11-05T16:41:48+05:30] feat(navbar): define NAV_LINKS array with Home, Donors, BecomeDonor, HowItWorks, About
