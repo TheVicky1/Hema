@@ -152,3 +152,4 @@
 - [2026-11-05T19:51:49+05:30] feat(navbar): add window scroll event listener to trigger navbar-scrolled
 - [2026-11-05T20:06:19+05:30] feat(navbar): clean up scroll event listener on component unmount
 - [2026-11-05T20:15:33+05:30] style(navbar): add dark mode background override with 12px opacity
+- [2026-11-05T20:34:38+05:30] style(navbar): configure dark mode scroll shadow with darker alpha
