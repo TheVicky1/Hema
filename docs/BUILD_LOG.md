@@ -190,3 +190,4 @@
 - [2026-11-06T14:57:45+05:30] refactor(navbar): improve keyboard accessibility for mobile drawer toggle
 - [2026-11-06T15:12:17+05:30] refactor(navbar): add aria-expanded attribute to hamburger button
 - [2026-11-06T15:21:54+05:30] refactor(navbar): add role navigation and aria-label to mobile drawer
+- [2026-11-06T15:27:37+05:30] style(navbar): ensure mobile drawer respects dark mode theme tokens
