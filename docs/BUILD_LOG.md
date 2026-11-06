@@ -202,3 +202,4 @@
 - [2026-11-06T16:57:31+05:30] style(navbar): prevent text wrapping on navigation link labels
 - [2026-11-06T17:08:32+05:30] style(navbar): configure focus-visible outlines for keyboard navigation
 - [2026-11-06T17:21:50+05:30] style(navbar): add touch-action manipulation for snappy mobile taps
+- [2026-11-06T17:26:36+05:30] refactor(navbar): extract navigation links array to constant
