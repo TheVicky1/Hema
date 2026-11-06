@@ -200,3 +200,4 @@
 - [2026-11-06T16:38:30+05:30] docs(navbar): document mobile navigation drawer behavior and responsive rules
 - [2026-11-06T16:53:15+05:30] style(navbar): add smooth color transitions to all nav links
 - [2026-11-06T16:57:31+05:30] style(navbar): prevent text wrapping on navigation link labels
+- [2026-11-06T17:08:32+05:30] style(navbar): configure focus-visible outlines for keyboard navigation
