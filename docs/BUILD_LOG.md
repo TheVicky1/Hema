@@ -168,3 +168,4 @@
 - [2026-11-06T09:59:47+05:30] style(navbar): configure nav-link padding and hover background transition
 - [2026-11-06T10:08:01+05:30] style(navbar): configure desktop navigation flex container with gap
 - [2026-11-06T10:15:09+05:30] feat(navbar): implement dark mode toggle button with Sun and Moon icons
+- [2026-11-06T10:29:35+05:30] feat(navbar): add aria-label to theme button announcing current mode
