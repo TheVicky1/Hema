@@ -163,3 +163,4 @@
 - [2026-11-05T22:19:13+05:30] docs(changelog): log brand identity and HemaLogo implementation
 - [2026-11-05T22:34:59+05:30] feat(platform): implement brand identity & svg logo improvement (step 52)
 - [2026-11-06T09:27:21+05:30] feat(navbar): add active route styling with nav-link-active class
+- [2026-11-06T09:38:44+05:30] style(navbar): add sleek crimson underline indicator for active nav link
