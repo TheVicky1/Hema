@@ -215,3 +215,4 @@
 - [2026-11-06T20:36:39+05:30] docs(a11y): document navbar accessibility compliance in docs/A11Y.md
 - [2026-11-06T20:47:24+05:30] docs(changelog): document Navbar and mobile drawer completion
 - [2026-11-06T21:00:30+05:30] chore(audit): run lint check on Navbar component code
+- [2026-11-06T21:13:58+05:30] style(navbar): ensure background blur fallback for older browsers
