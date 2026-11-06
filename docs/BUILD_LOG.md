@@ -208,3 +208,4 @@
 - [2026-11-06T18:03:08+05:30] style(navbar): ensure right action buttons remain flex-shrink 0
 - [2026-11-06T18:13:29+05:30] style(navbar): fine-tune gap between theme toggle and live pill
 - [2026-11-06T18:17:42+05:30] style(navbar): tune active link underline vertical position
+- [2026-11-06T19:50:24+05:30] style(navbar): add subtle hover color shift on non-active nav links
