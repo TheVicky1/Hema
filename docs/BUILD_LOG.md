@@ -166,3 +166,4 @@
 - [2026-11-06T09:38:44+05:30] style(navbar): add sleek crimson underline indicator for active nav link
 - [2026-11-06T09:47:57+05:30] style(navbar): animate underline width expansion on route change
 - [2026-11-06T09:59:47+05:30] style(navbar): configure nav-link padding and hover background transition
+- [2026-11-06T10:08:01+05:30] style(navbar): configure desktop navigation flex container with gap
