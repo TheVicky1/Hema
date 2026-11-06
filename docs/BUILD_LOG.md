@@ -198,3 +198,4 @@
 - [2026-11-06T16:17:21+05:30] test(navbar): verify theme toggle invokes setDarkMode callback
 - [2026-11-06T16:31:44+05:30] docs(navbar): document Navbar architecture and props in docs/COMPONENTS.md
 - [2026-11-06T16:38:30+05:30] docs(navbar): document mobile navigation drawer behavior and responsive rules
+- [2026-11-06T16:53:15+05:30] style(navbar): add smooth color transitions to all nav links
