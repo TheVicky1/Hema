@@ -188,3 +188,4 @@
 - [2026-11-06T14:40:48+05:30] feat(navbar): automatically close mobile drawer when any link is tapped
 - [2026-11-06T14:50:09+05:30] style(navbar): add fadeUp transition for smooth drawer entrance
 - [2026-11-06T14:57:45+05:30] refactor(navbar): improve keyboard accessibility for mobile drawer toggle
+- [2026-11-06T15:12:17+05:30] refactor(navbar): add aria-expanded attribute to hamburger button
