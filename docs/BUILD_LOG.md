@@ -182,3 +182,4 @@
 - [2026-11-06T12:11:45+05:30] style(navbar): style mobile drawer with full width and surface background
 - [2026-11-06T12:23:17+05:30] style(navbar): add border-bottom and elevation shadow to mobile drawer
 - [2026-11-06T12:28:57+05:30] style(navbar): configure mobile-nav-link padding and font size for touch
+- [2026-11-06T12:38:43+05:30] style(navbar): add active route highlight for mobile drawer links
