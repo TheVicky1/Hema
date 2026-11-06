@@ -183,3 +183,4 @@
 - [2026-11-06T12:23:17+05:30] style(navbar): add border-bottom and elevation shadow to mobile drawer
 - [2026-11-06T12:28:57+05:30] style(navbar): configure mobile-nav-link padding and font size for touch
 - [2026-11-06T12:38:43+05:30] style(navbar): add active route highlight for mobile drawer links
+- [2026-11-06T14:22:32+05:30] feat(navbar): add Become a Donor primary CTA button inside mobile drawer
