@@ -180,3 +180,4 @@
 - [2026-11-06T11:50:08+05:30] feat(navbar): implement mobile-drawer overlay container for small screens
 - [2026-11-06T12:02:37+05:30] style(navbar): position mobile drawer directly below navbar with z-index 99
 - [2026-11-06T12:11:45+05:30] style(navbar): style mobile drawer with full width and surface background
+- [2026-11-06T12:23:17+05:30] style(navbar): add border-bottom and elevation shadow to mobile drawer
