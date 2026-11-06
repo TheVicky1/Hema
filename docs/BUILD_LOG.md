@@ -206,3 +206,4 @@
 - [2026-11-06T17:40:46+05:30] refactor(navbar): streamline NavLink className callback syntax
 - [2026-11-06T17:47:51+05:30] style(navbar): adjust navbar container max-width alignment
 - [2026-11-06T18:03:08+05:30] style(navbar): ensure right action buttons remain flex-shrink 0
+- [2026-11-06T18:13:29+05:30] style(navbar): fine-tune gap between theme toggle and live pill
