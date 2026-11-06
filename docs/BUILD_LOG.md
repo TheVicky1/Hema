@@ -195,3 +195,4 @@
 - [2026-11-06T15:49:44+05:30] style(navbar): refine live counter pill font size and spacing
 - [2026-11-06T16:00:39+05:30] style(navbar): hide live pill on mobile viewports to prevent overflow
 - [2026-11-06T16:08:09+05:30] test(navbar): verify mobile drawer opens and closes on click events
+- [2026-11-06T16:17:21+05:30] test(navbar): verify theme toggle invokes setDarkMode callback
