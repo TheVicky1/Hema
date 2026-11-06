@@ -186,3 +186,4 @@
 - [2026-11-06T14:22:32+05:30] feat(navbar): add Become a Donor primary CTA button inside mobile drawer
 - [2026-11-06T14:30:02+05:30] feat(navbar): add window resize listener to auto-close drawer above 768px
 - [2026-11-06T14:40:48+05:30] feat(navbar): automatically close mobile drawer when any link is tapped
+- [2026-11-06T14:50:09+05:30] style(navbar): add fadeUp transition for smooth drawer entrance
