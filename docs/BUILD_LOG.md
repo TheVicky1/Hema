@@ -217,3 +217,4 @@
 - [2026-11-06T21:00:30+05:30] chore(audit): run lint check on Navbar component code
 - [2026-11-06T21:13:58+05:30] style(navbar): ensure background blur fallback for older browsers
 - [2026-11-06T21:21:15+05:30] style(navbar): polish drawer bottom padding for modern touch bars
+- [2026-11-06T21:38:56+05:30] style(navbar): align mobile drawer CTA button center
