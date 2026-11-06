@@ -192,3 +192,4 @@
 - [2026-11-06T15:21:54+05:30] refactor(navbar): add role navigation and aria-label to mobile drawer
 - [2026-11-06T15:27:37+05:30] style(navbar): ensure mobile drawer respects dark mode theme tokens
 - [2026-11-06T15:40:46+05:30] style(navbar): tune hamburger button border and icon color in dark mode
+- [2026-11-06T15:49:44+05:30] style(navbar): refine live counter pill font size and spacing
