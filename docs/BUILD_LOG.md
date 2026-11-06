@@ -205,3 +205,4 @@
 - [2026-11-06T17:26:36+05:30] refactor(navbar): extract navigation links array to constant
 - [2026-11-06T17:40:46+05:30] refactor(navbar): streamline NavLink className callback syntax
 - [2026-11-06T17:47:51+05:30] style(navbar): adjust navbar container max-width alignment
+- [2026-11-06T18:03:08+05:30] style(navbar): ensure right action buttons remain flex-shrink 0
