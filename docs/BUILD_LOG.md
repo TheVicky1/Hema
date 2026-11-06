@@ -171,3 +171,4 @@
 - [2026-11-06T10:29:35+05:30] feat(navbar): add aria-label to theme button announcing current mode
 - [2026-11-06T10:35:43+05:30] style(navbar): style theme toggle button with btn-icon circular frame
 - [2026-11-06T10:43:41+05:30] feat(navbar): add live available donors counter pill to navbar right
+- [2026-11-06T10:58:44+05:30] style(navbar): style navbar-live-pill with subtle crimson background
