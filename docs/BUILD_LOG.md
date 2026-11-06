@@ -218,3 +218,4 @@
 - [2026-11-06T21:13:58+05:30] style(navbar): ensure background blur fallback for older browsers
 - [2026-11-06T21:21:15+05:30] style(navbar): polish drawer bottom padding for modern touch bars
 - [2026-11-06T21:38:56+05:30] style(navbar): align mobile drawer CTA button center
+- [2026-11-06T21:50:01+05:30] refactor(navbar): add comprehensive JSDoc comments to Navbar props
