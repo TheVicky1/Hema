@@ -203,3 +203,4 @@
 - [2026-11-06T17:08:32+05:30] style(navbar): configure focus-visible outlines for keyboard navigation
 - [2026-11-06T17:21:50+05:30] style(navbar): add touch-action manipulation for snappy mobile taps
 - [2026-11-06T17:26:36+05:30] refactor(navbar): extract navigation links array to constant
+- [2026-11-06T17:40:46+05:30] refactor(navbar): streamline NavLink className callback syntax
