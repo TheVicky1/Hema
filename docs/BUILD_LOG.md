@@ -194,3 +194,4 @@
 - [2026-11-06T15:40:46+05:30] style(navbar): tune hamburger button border and icon color in dark mode
 - [2026-11-06T15:49:44+05:30] style(navbar): refine live counter pill font size and spacing
 - [2026-11-06T16:00:39+05:30] style(navbar): hide live pill on mobile viewports to prevent overflow
+- [2026-11-06T16:08:09+05:30] test(navbar): verify mobile drawer opens and closes on click events
