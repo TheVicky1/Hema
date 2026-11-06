@@ -173,3 +173,4 @@
 - [2026-11-06T10:43:41+05:30] feat(navbar): add live available donors counter pill to navbar right
 - [2026-11-06T10:58:44+05:30] style(navbar): style navbar-live-pill with subtle crimson background
 - [2026-11-06T11:07:23+05:30] style(navbar): add pulsating live-dot animation inside live pill
+- [2026-11-06T11:15:11+05:30] feat(navbar): add mobile hamburger button with Menu and X icons
