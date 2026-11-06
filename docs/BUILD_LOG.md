@@ -196,3 +196,4 @@
 - [2026-11-06T16:00:39+05:30] style(navbar): hide live pill on mobile viewports to prevent overflow
 - [2026-11-06T16:08:09+05:30] test(navbar): verify mobile drawer opens and closes on click events
 - [2026-11-06T16:17:21+05:30] test(navbar): verify theme toggle invokes setDarkMode callback
+- [2026-11-06T16:31:44+05:30] docs(navbar): document Navbar architecture and props in docs/COMPONENTS.md
