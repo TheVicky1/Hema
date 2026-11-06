@@ -178,3 +178,4 @@
 - [2026-11-06T11:35:06+05:30] style(navbar): hide desktop navigation links on viewports below 768px
 - [2026-11-06T11:46:02+05:30] feat(navbar): implement mobileOpen state hook in Navbar component
 - [2026-11-06T11:50:08+05:30] feat(navbar): implement mobile-drawer overlay container for small screens
+- [2026-11-06T12:02:37+05:30] style(navbar): position mobile drawer directly below navbar with z-index 99
