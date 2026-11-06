@@ -175,3 +175,4 @@
 - [2026-11-06T11:07:23+05:30] style(navbar): add pulsating live-dot animation inside live pill
 - [2026-11-06T11:15:11+05:30] feat(navbar): add mobile hamburger button with Menu and X icons
 - [2026-11-06T11:23:37+05:30] style(navbar): configure hamburger button visibility across breakpoints
+- [2026-11-06T11:35:06+05:30] style(navbar): hide desktop navigation links on viewports below 768px
