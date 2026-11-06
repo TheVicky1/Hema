@@ -165,3 +165,4 @@
 - [2026-11-06T09:27:21+05:30] feat(navbar): add active route styling with nav-link-active class
 - [2026-11-06T09:38:44+05:30] style(navbar): add sleek crimson underline indicator for active nav link
 - [2026-11-06T09:47:57+05:30] style(navbar): animate underline width expansion on route change
+- [2026-11-06T09:59:47+05:30] style(navbar): configure nav-link padding and hover background transition
