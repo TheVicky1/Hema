@@ -177,3 +177,4 @@
 - [2026-11-06T11:23:37+05:30] style(navbar): configure hamburger button visibility across breakpoints
 - [2026-11-06T11:35:06+05:30] style(navbar): hide desktop navigation links on viewports below 768px
 - [2026-11-06T11:46:02+05:30] feat(navbar): implement mobileOpen state hook in Navbar component
+- [2026-11-06T11:50:08+05:30] feat(navbar): implement mobile-drawer overlay container for small screens
