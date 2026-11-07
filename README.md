@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-07-4 | docs(readme): define main project headline and emergency network tagline -->
+<!-- revision: 2026-11-07-5 | docs(readme): add live Vercel production deployment badge -->
