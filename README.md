@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-07-20 | docs(readme): formulate Principle 2: Temporal Availability and Real-Time State -->
+<!-- revision: 2026-11-07-21 | docs(readme): formulate Principle 3: Privacy-First Data Architecture -->
