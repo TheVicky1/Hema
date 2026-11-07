@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-07-19 | docs(readme): formulate Principle 1: Zero-Friction Emergency Dispatch -->
+<!-- revision: 2026-11-07-20 | docs(readme): formulate Principle 2: Temporal Availability and Real-Time State -->
