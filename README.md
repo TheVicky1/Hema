@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-07-29 | docs(readme): create micro-contributions callout box with single-file scope -->
+<!-- revision: 2026-11-07-30 | docs(readme): detail Why Contribute to Hema value proposition bullets -->
