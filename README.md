@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-07-15 | docs(readme): build quick navigation anchor row for major sections -->
+<!-- revision: 2026-11-07-16 | docs(readme): write About section framing the global blood donation gap -->
