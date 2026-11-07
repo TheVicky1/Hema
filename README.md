@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-07-11 | docs(readme): add Contributions Welcome badge pointing to docs -->
+<!-- revision: 2026-11-07-12 | docs(readme): add React 19, Vite 7 and React Router technology badges -->
