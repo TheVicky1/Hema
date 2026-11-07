@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-07-5 | docs(readme): add live Vercel production deployment badge -->
+<!-- revision: 2026-11-07-6 | docs(readme): add GitHub Actions CI workflow status badge -->
