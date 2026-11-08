@@ -268,3 +268,4 @@
 - [2026-11-08T20:03:19+05:30] feat(context): restore requested donor IDs on initial page load
 - [2026-11-08T20:13:02+05:30] refactor(context): ensure sessionStorage failures degrade gracefully
 - [2026-11-08T20:30:11+05:30] docs(context): document persistence strategy for donor requests
+- [2026-11-08T20:39:12+05:30] style(context): clean up debug logs from context provider
