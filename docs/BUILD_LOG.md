@@ -241,3 +241,4 @@
 - [2026-11-08T12:08:04+05:30] feat(context): implement requestDonor action handler function
 - [2026-11-08T12:21:06+05:30] feat(context): update donor availability state optimistically on request
 - [2026-11-08T12:30:08+05:30] feat(context): record timestamp and donor ID in requestedDonors list
+- [2026-11-08T12:38:27+05:30] feat(context): expose requestedIds array through context value
