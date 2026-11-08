@@ -273,3 +273,4 @@
 - [2026-11-08T21:09:05+05:30] test(context): test sessionStorage hydration on initial mount
 - [2026-11-08T21:15:56+05:30] test(context): test requestDonor action persistence across mounts
 - [2026-11-08T21:32:11+05:30] docs(changelog): document DonorContext implementation in CHANGELOG.md
+- [2026-11-08T21:42:02+05:30] chore(audit): verify DonorContext passes ESLint rules without warnings
