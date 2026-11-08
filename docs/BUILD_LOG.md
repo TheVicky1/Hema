@@ -253,3 +253,4 @@
 - [2026-11-08T15:52:45+05:30] refactor(context): useCallback on requestDonor action to prevent rerenders
 - [2026-11-08T16:01:58+05:30] refactor(context): useCallback on fetchDonors to stabilize references
 - [2026-11-08T16:17:34+05:30] test(context): write unit test for DonorProvider initial loading state
+- [2026-11-08T16:26:00+05:30] test(context): write unit test for requestDonor optimistic status change
