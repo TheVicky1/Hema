@@ -248,3 +248,4 @@
 - [2026-11-08T14:53:19+05:30] feat(context): add refreshDonors function for manual re-fetching
 - [2026-11-08T15:07:05+05:30] feat(context): catch and handle network failures with friendly error message
 - [2026-11-08T15:18:04+05:30] feat(context): add fallback mock donor dataset in case API is offline
+- [2026-11-08T15:25:22+05:30] feat(context): ensure fallback donors have complete profile attributes
