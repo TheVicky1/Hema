@@ -237,3 +237,4 @@
 - [2026-11-08T11:28:43+05:30] feat(context): augment fetched user records with realistic blood groups
 - [2026-11-08T11:36:28+05:30] feat(context): assign random availability flags to mock donor records
 - [2026-11-08T11:47:12+05:30] feat(context): format donor location details from API response
+- [2026-11-08T11:55:17+05:30] feat(context): compute initial donor stats upon successful fetch
