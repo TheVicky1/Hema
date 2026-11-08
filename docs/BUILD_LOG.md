@@ -258,3 +258,4 @@
 - [2026-11-08T16:47:40+05:30] docs(context): create docs/STATE_MANAGEMENT.md architecture guide
 - [2026-11-08T17:00:50+05:30] docs(context): document Donor object schema and expected types
 - [2026-11-08T17:10:14+05:30] docs(context): document useDonors hook API and available actions
+- [2026-11-08T17:23:28+05:30] docs(context): document offline fallback strategy for donor data
