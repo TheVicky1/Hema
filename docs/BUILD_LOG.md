@@ -239,3 +239,4 @@
 - [2026-11-08T11:47:12+05:30] feat(context): format donor location details from API response
 - [2026-11-08T11:55:17+05:30] feat(context): compute initial donor stats upon successful fetch
 - [2026-11-08T12:08:04+05:30] feat(context): implement requestDonor action handler function
+- [2026-11-08T12:21:06+05:30] feat(context): update donor availability state optimistically on request
