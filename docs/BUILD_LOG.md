@@ -255,3 +255,4 @@
 - [2026-11-08T16:17:34+05:30] test(context): write unit test for DonorProvider initial loading state
 - [2026-11-08T16:26:00+05:30] test(context): write unit test for requestDonor optimistic status change
 - [2026-11-08T16:34:31+05:30] test(context): write unit test for useDonors outside provider exception
+- [2026-11-08T16:47:40+05:30] docs(context): create docs/STATE_MANAGEMENT.md architecture guide
