@@ -265,3 +265,4 @@
 - [2026-11-08T18:06:10+05:30] feat(context): add filter helper function by bloodGroup and city
 - [2026-11-08T18:21:04+05:30] refactor(context): improve error state recovery mechanism
 - [2026-11-08T19:49:46+05:30] feat(context): persist requested donor IDs in sessionStorage
+- [2026-11-08T20:03:19+05:30] feat(context): restore requested donor IDs on initial page load
