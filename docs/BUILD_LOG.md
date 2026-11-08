@@ -231,3 +231,4 @@
 - [2026-11-08T10:23:35+05:30] feat(context): add loading state hook initialized to true
 - [2026-11-08T10:31:04+05:30] feat(context): add error state hook initialized to null
 - [2026-11-08T10:41:49+05:30] feat(context): add requestedDonors set in state for tracking requests
+- [2026-11-08T10:55:51+05:30] feat(context): declare standard blood groups list A+, A-, B+, B-, AB+, AB-, O+, O-
