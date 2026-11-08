@@ -228,3 +228,4 @@
 - [2026-11-08T09:54:39+05:30] feat(context): implement DonorProvider wrapper component
 - [2026-11-08T10:00:33+05:30] feat(context): export custom useDonors hook with context check
 - [2026-11-08T10:15:55+05:30] feat(context): add donors state hook initialized to empty array
+- [2026-11-08T10:23:35+05:30] feat(context): add loading state hook initialized to true
