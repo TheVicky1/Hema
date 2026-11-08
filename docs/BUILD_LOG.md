@@ -246,3 +246,4 @@
 - [2026-11-08T14:29:01+05:30] feat(context): expose totalDonors and availableCount derived values
 - [2026-11-08T14:46:53+05:30] feat(context): expose bloodGroupsCount unique count value
 - [2026-11-08T14:53:19+05:30] feat(context): add refreshDonors function for manual re-fetching
+- [2026-11-08T15:07:05+05:30] feat(context): catch and handle network failures with friendly error message
