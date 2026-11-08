@@ -249,3 +249,4 @@
 - [2026-11-08T15:07:05+05:30] feat(context): catch and handle network failures with friendly error message
 - [2026-11-08T15:18:04+05:30] feat(context): add fallback mock donor dataset in case API is offline
 - [2026-11-08T15:25:22+05:30] feat(context): ensure fallback donors have complete profile attributes
+- [2026-11-08T15:37:50+05:30] refactor(context): memoize context value object with useMemo hook
