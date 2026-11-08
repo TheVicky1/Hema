@@ -235,3 +235,4 @@
 - [2026-11-08T11:01:34+05:30] feat(context): declare major metropolitan cities list for donor distribution
 - [2026-11-08T11:14:13+05:30] feat(context): implement async fetchDonors function from placeholder API
 - [2026-11-08T11:28:43+05:30] feat(context): augment fetched user records with realistic blood groups
+- [2026-11-08T11:36:28+05:30] feat(context): assign random availability flags to mock donor records
