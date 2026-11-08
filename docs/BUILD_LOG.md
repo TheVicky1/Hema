@@ -269,3 +269,4 @@
 - [2026-11-08T20:13:02+05:30] refactor(context): ensure sessionStorage failures degrade gracefully
 - [2026-11-08T20:30:11+05:30] docs(context): document persistence strategy for donor requests
 - [2026-11-08T20:39:12+05:30] style(context): clean up debug logs from context provider
+- [2026-11-08T20:55:14+05:30] refactor(context): standardize donor ID formats to numeric strings
