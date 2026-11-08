@@ -275,3 +275,4 @@
 - [2026-11-08T21:32:11+05:30] docs(changelog): document DonorContext implementation in CHANGELOG.md
 - [2026-11-08T21:42:02+05:30] chore(audit): verify DonorContext passes ESLint rules without warnings
 - [2026-11-08T21:58:14+05:30] refactor(context): verify strict null checks on donor attributes
+- [2026-11-08T22:05:34+05:30] feat(context): add blood group compatibility matrix reference
