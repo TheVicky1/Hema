@@ -259,3 +259,4 @@
 - [2026-11-08T17:00:50+05:30] docs(context): document Donor object schema and expected types
 - [2026-11-08T17:10:14+05:30] docs(context): document useDonors hook API and available actions
 - [2026-11-08T17:23:28+05:30] docs(context): document offline fallback strategy for donor data
+- [2026-11-08T17:33:44+05:30] style(context): add type documentation comments above DonorContext
