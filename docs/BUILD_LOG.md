@@ -240,3 +240,4 @@
 - [2026-11-08T11:55:17+05:30] feat(context): compute initial donor stats upon successful fetch
 - [2026-11-08T12:08:04+05:30] feat(context): implement requestDonor action handler function
 - [2026-11-08T12:21:06+05:30] feat(context): update donor availability state optimistically on request
+- [2026-11-08T12:30:08+05:30] feat(context): record timestamp and donor ID in requestedDonors list
