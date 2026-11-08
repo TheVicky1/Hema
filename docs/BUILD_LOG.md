@@ -261,3 +261,4 @@
 - [2026-11-08T17:23:28+05:30] docs(context): document offline fallback strategy for donor data
 - [2026-11-08T17:33:44+05:30] style(context): add type documentation comments above DonorContext
 - [2026-11-08T17:44:14+05:30] feat(context): add simulateNetworkLatency helper for realistic testing
+- [2026-11-08T17:56:52+05:30] feat(context): sort donors with available donors prioritized at top
