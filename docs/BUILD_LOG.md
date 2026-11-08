@@ -244,3 +244,4 @@
 - [2026-11-08T12:38:27+05:30] feat(context): expose requestedIds array through context value
 - [2026-11-08T14:21:53+05:30] feat(context): expose requestDonor function through context value
 - [2026-11-08T14:29:01+05:30] feat(context): expose totalDonors and availableCount derived values
+- [2026-11-08T14:46:53+05:30] feat(context): expose bloodGroupsCount unique count value
