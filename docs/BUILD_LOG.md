@@ -286,3 +286,4 @@
 - [2026-11-09T10:14:50+05:30] feat(card): display live availability badge with green status dot
 - [2026-11-09T10:24:47+05:30] feat(card): display busy unavailable badge when donor is off-duty
 - [2026-11-09T10:32:52+05:30] feat(card): implement View Profile button triggering modal open
+- [2026-11-09T10:40:46+05:30] feat(card): implement Request Donor action button with loading feedback
