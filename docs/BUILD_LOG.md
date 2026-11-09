@@ -278,3 +278,4 @@
 - [2026-11-08T22:05:34+05:30] feat(context): add blood group compatibility matrix reference
 - [2026-11-08T22:17:42+05:30] docs(readme): update data architecture section in README.md
 - [2026-11-08T22:32:17+05:30] chore(audit): verify zero memory leaks on context unmount
+- [2026-11-09T09:26:19+05:30] feat(card): scaffold DonorCard component in src/components
