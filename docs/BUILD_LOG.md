@@ -300,3 +300,4 @@
 - [2026-11-09T12:25:01+05:30] feat(skeleton): build shimmer placeholder matching DonorCard layout
 - [2026-11-09T12:33:47+05:30] style(skeleton): implement shimmer wave keyframes with linear gradient
 - [2026-11-09T12:39:49+05:30] style(skeleton): apply shimmer animation to avatar, text, and badge placeholders
+- [2026-11-09T14:19:40+05:30] style(skeleton): configure skeleton container border and surface styling
