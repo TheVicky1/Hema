@@ -338,3 +338,4 @@
 - [2026-11-09T21:36:40+05:30] style(stats): round outer border of stats grid with radius-xl
 - [2026-11-09T21:47:16+05:30] style(stats): add overflow hidden to stats grid container
 - [2026-11-09T22:01:44+05:30] refactor(card): add JSDoc comments to DonorCard props interface
+- [2026-11-09T22:11:12+05:30] refactor(stats): add JSDoc comments to StatsBar props interface
