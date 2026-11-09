@@ -289,3 +289,4 @@
 - [2026-11-09T10:40:46+05:30] feat(card): implement Request Donor action button with loading feedback
 - [2026-11-09T10:53:09+05:30] feat(card): disable Request button and show Request Sent if already requested
 - [2026-11-09T11:00:31+05:30] style(card): configure donor-card container with surface tokens and border
+- [2026-11-09T11:09:47+05:30] style(card): add hover lift translate transform and shadow elevation
