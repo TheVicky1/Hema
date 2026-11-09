@@ -329,3 +329,4 @@
 - [2026-11-09T20:00:28+05:30] refactor(card): handle long city names with text-overflow ellipsis
 - [2026-11-09T20:09:38+05:30] style(card): add focus-visible styles to card action buttons
 - [2026-11-09T20:24:16+05:30] style(card): ensure active press animation on card request button
+- [2026-11-09T20:34:47+05:30] docs(a11y): audit DonorCard accessibility and document WCAG results
