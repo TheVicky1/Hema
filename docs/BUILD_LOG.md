@@ -293,3 +293,4 @@
 - [2026-11-09T11:20:29+05:30] style(card): add subtle crimson top accent line reveal on hover
 - [2026-11-09T11:30:41+05:30] style(card): style donor avatar circle with bold centered initials
 - [2026-11-09T11:34:14+05:30] style(card): style donor header row aligning name, blood badge, and avatar
+- [2026-11-09T11:45:28+05:30] style(card): style donor location row with muted secondary text
