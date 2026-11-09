@@ -296,3 +296,4 @@
 - [2026-11-09T11:45:28+05:30] style(card): style donor location row with muted secondary text
 - [2026-11-09T11:57:23+05:30] style(card): style donor action buttons row with flex layout
 - [2026-11-09T12:04:22+05:30] style(card): ensure card actions stack cleanly on narrow mobile viewports
+- [2026-11-09T12:14:44+05:30] feat(skeleton): scaffold SkeletonCard component in src/components
