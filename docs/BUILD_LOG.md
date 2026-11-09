@@ -320,3 +320,4 @@
 - [2026-11-09T17:13:12+05:30] test(stats): write unit test verifying metric values render in StatsBar
 - [2026-11-09T17:17:03+05:30] docs(card): document DonorCard component API and props in docs
 - [2026-11-09T17:30:03+05:30] docs(skeleton): document shimmer loading best practices in docs
+- [2026-11-09T17:40:14+05:30] docs(stats): document StatsBar integration in docs/COMPONENTS.md
