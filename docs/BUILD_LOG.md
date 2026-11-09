@@ -325,3 +325,4 @@
 - [2026-11-09T18:01:46+05:30] style(card): ensure dark mode avatar background maintains contrast
 - [2026-11-09T18:11:25+05:30] style(skeleton): configure dark mode shimmer gradient colors
 - [2026-11-09T18:19:31+05:30] style(stats): configure dark mode border and background tokens for stats
+- [2026-11-09T19:53:46+05:30] refactor(card): handle long donor names with text-overflow ellipsis
