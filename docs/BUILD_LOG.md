@@ -312,3 +312,4 @@
 - [2026-11-09T15:53:17+05:30] style(stats): configure responsive 1-column collapse for stats on mobile
 - [2026-11-09T15:58:24+05:30] style(stats): add subtle hover background shift to individual stat cards
 - [2026-11-09T16:12:30+05:30] refactor(card): optimize DonorCard re-renders using React.memo
+- [2026-11-09T16:22:58+05:30] refactor(card): add aria-labels to all interactive card buttons
