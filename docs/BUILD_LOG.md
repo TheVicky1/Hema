@@ -323,3 +323,4 @@
 - [2026-11-09T17:40:14+05:30] docs(stats): document StatsBar integration in docs/COMPONENTS.md
 - [2026-11-09T17:51:23+05:30] style(card): tune dark mode border contrast on donor cards
 - [2026-11-09T18:01:46+05:30] style(card): ensure dark mode avatar background maintains contrast
+- [2026-11-09T18:11:25+05:30] style(skeleton): configure dark mode shimmer gradient colors
