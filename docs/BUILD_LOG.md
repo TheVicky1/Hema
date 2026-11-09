@@ -327,3 +327,4 @@
 - [2026-11-09T18:19:31+05:30] style(stats): configure dark mode border and background tokens for stats
 - [2026-11-09T19:53:46+05:30] refactor(card): handle long donor names with text-overflow ellipsis
 - [2026-11-09T20:00:28+05:30] refactor(card): handle long city names with text-overflow ellipsis
+- [2026-11-09T20:09:38+05:30] style(card): add focus-visible styles to card action buttons
