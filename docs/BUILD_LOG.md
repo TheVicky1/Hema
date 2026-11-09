@@ -314,3 +314,4 @@
 - [2026-11-09T16:12:30+05:30] refactor(card): optimize DonorCard re-renders using React.memo
 - [2026-11-09T16:22:58+05:30] refactor(card): add aria-labels to all interactive card buttons
 - [2026-11-09T16:28:01+05:30] test(card): write unit test verifying donor name and blood group render
+- [2026-11-09T16:38:53+05:30] test(card): write unit test for Request Donor button click handler
