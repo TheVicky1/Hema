@@ -283,3 +283,4 @@
 - [2026-11-09T09:47:03+05:30] feat(card): generate dynamic avatar background tint from name hash
 - [2026-11-09T09:53:46+05:30] feat(card): render blood group badge with high-contrast text
 - [2026-11-09T10:08:24+05:30] feat(card): display donor city location with map marker icon
+- [2026-11-09T10:14:50+05:30] feat(card): display live availability badge with green status dot
