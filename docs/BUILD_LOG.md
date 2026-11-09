@@ -294,3 +294,4 @@
 - [2026-11-09T11:30:41+05:30] style(card): style donor avatar circle with bold centered initials
 - [2026-11-09T11:34:14+05:30] style(card): style donor header row aligning name, blood badge, and avatar
 - [2026-11-09T11:45:28+05:30] style(card): style donor location row with muted secondary text
+- [2026-11-09T11:57:23+05:30] style(card): style donor action buttons row with flex layout
