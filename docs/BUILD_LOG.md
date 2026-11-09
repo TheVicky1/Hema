@@ -335,3 +335,4 @@
 - [2026-11-09T21:07:49+05:30] style(card): tune card padding to 24px for balanced spacing
 - [2026-11-09T21:18:33+05:30] style(card): refine gap between avatar and donor name
 - [2026-11-09T21:32:17+05:30] style(skeleton): match skeleton height precisely with loaded card height
+- [2026-11-09T21:36:40+05:30] style(stats): round outer border of stats grid with radius-xl
