@@ -284,3 +284,4 @@
 - [2026-11-09T09:53:46+05:30] feat(card): render blood group badge with high-contrast text
 - [2026-11-09T10:08:24+05:30] feat(card): display donor city location with map marker icon
 - [2026-11-09T10:14:50+05:30] feat(card): display live availability badge with green status dot
+- [2026-11-09T10:24:47+05:30] feat(card): display busy unavailable badge when donor is off-duty
