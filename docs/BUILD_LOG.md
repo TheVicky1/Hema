@@ -330,3 +330,4 @@
 - [2026-11-09T20:09:38+05:30] style(card): add focus-visible styles to card action buttons
 - [2026-11-09T20:24:16+05:30] style(card): ensure active press animation on card request button
 - [2026-11-09T20:34:47+05:30] docs(a11y): audit DonorCard accessibility and document WCAG results
+- [2026-11-09T20:44:14+05:30] docs(changelog): document DonorCard, SkeletonCard and StatsBar in CHANGELOG
