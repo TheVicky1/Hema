@@ -326,3 +326,4 @@
 - [2026-11-09T18:11:25+05:30] style(skeleton): configure dark mode shimmer gradient colors
 - [2026-11-09T18:19:31+05:30] style(stats): configure dark mode border and background tokens for stats
 - [2026-11-09T19:53:46+05:30] refactor(card): handle long donor names with text-overflow ellipsis
+- [2026-11-09T20:00:28+05:30] refactor(card): handle long city names with text-overflow ellipsis
