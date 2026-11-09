@@ -302,3 +302,4 @@
 - [2026-11-09T12:39:49+05:30] style(skeleton): apply shimmer animation to avatar, text, and badge placeholders
 - [2026-11-09T14:19:40+05:30] style(skeleton): configure skeleton container border and surface styling
 - [2026-11-09T14:29:34+05:30] feat(stats): scaffold StatsBar component in src/components
+- [2026-11-09T14:39:53+05:30] feat(stats): define 3 metric slots: Total Donors, Available Now, Blood Types
