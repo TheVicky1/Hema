@@ -332,3 +332,4 @@
 - [2026-11-09T20:34:47+05:30] docs(a11y): audit DonorCard accessibility and document WCAG results
 - [2026-11-09T20:44:14+05:30] docs(changelog): document DonorCard, SkeletonCard and StatsBar in CHANGELOG
 - [2026-11-09T20:56:21+05:30] chore(audit): verify zero prop-type or lint warnings in card components
+- [2026-11-09T21:07:49+05:30] style(card): tune card padding to 24px for balanced spacing
