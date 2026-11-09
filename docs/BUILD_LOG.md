@@ -313,3 +313,4 @@
 - [2026-11-09T15:58:24+05:30] style(stats): add subtle hover background shift to individual stat cards
 - [2026-11-09T16:12:30+05:30] refactor(card): optimize DonorCard re-renders using React.memo
 - [2026-11-09T16:22:58+05:30] refactor(card): add aria-labels to all interactive card buttons
+- [2026-11-09T16:28:01+05:30] test(card): write unit test verifying donor name and blood group render
