@@ -355,3 +355,4 @@
 - [2026-11-10T11:21:46+05:30] feat(modal): prevent body scrolling when modal is open using body overflow
 - [2026-11-10T11:29:15+05:30] feat(modal): restore body scrolling when modal unmounts
 - [2026-11-10T11:40:06+05:30] style(modal): style modal backdrop with rgba dark tint and blur
+- [2026-11-10T11:50:19+05:30] style(modal): style modal container with spring entrance scale animation
