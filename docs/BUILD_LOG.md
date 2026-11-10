@@ -352,3 +352,4 @@
 - [2026-11-10T10:47:59+05:30] feat(modal): implement Close modal button with X icon
 - [2026-11-10T10:57:48+05:30] feat(modal): add Escape key event listener to dismiss modal
 - [2026-11-10T11:10:27+05:30] feat(modal): add backdrop click handler to dismiss modal dialog
+- [2026-11-10T11:21:46+05:30] feat(modal): prevent body scrolling when modal is open using body overflow
