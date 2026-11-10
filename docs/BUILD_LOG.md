@@ -348,3 +348,4 @@
 - [2026-11-10T10:13:02+05:30] feat(modal): render detailed contact information (email, phone, city)
 - [2026-11-10T10:17:59+05:30] feat(modal): render donor availability status and response time estimate
 - [2026-11-10T10:29:22+05:30] feat(modal): render donor donation history and badge highlights
+- [2026-11-10T10:40:12+05:30] feat(modal): add Send Emergency Blood Request CTA button in modal
