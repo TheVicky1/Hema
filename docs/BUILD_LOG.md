@@ -343,3 +343,4 @@
 - [2026-11-09T22:37:17+05:30] feat(platform): implement donor cards, shimmer & metrics improvement (step 63)
 - [2026-11-10T09:29:06+05:30] feat(modal): scaffold DonorModal component in src/components
 - [2026-11-10T09:43:25+05:30] feat(modal): create backdrop overlay container with blur effect
+- [2026-11-10T09:53:03+05:30] feat(modal): build modal card container with rounded corners and shadow
