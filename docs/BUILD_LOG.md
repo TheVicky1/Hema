@@ -367,3 +367,4 @@
 - [2026-11-10T14:54:54+05:30] feat(toast): add auto-dismiss timer (4000ms) for transient toasts
 - [2026-11-10T15:04:19+05:30] feat(toast): add manual dismiss button on each toast card
 - [2026-11-10T15:14:46+05:30] style(toast): position toast stack fixed at bottom right with z-index 1000
+- [2026-11-10T15:27:43+05:30] style(toast): style toast card with surface background, border, and shadow
