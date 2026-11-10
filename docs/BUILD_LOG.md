@@ -363,3 +363,4 @@
 - [2026-11-10T12:42:09+05:30] feat(toast): scaffold ToastContainer component in src/components
 - [2026-11-10T14:21:47+05:30] feat(toast): implement global event-based addToast helper function
 - [2026-11-10T14:32:24+05:30] feat(toast): maintain active toast notifications array in state
+- [2026-11-10T14:42:26+05:30] feat(toast): support toast variants: success, info, and error
