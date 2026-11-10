@@ -370,3 +370,4 @@
 - [2026-11-10T15:27:43+05:30] style(toast): style toast card with surface background, border, and shadow
 - [2026-11-10T15:38:37+05:30] style(toast): add slideUp entrance animation for toast cards
 - [2026-11-10T15:50:32+05:30] style(toast): style toast icon badge with variant-specific color
+- [2026-11-10T15:56:34+05:30] style(toast): style toast message text with readable font weight
