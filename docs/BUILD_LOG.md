@@ -375,3 +375,4 @@
 - [2026-11-10T16:23:04+05:30] refactor(modal): trap focus inside modal while dialog is active
 - [2026-11-10T16:31:25+05:30] refactor(modal): set role dialog and aria-modal true on modal container
 - [2026-11-10T16:45:06+05:30] refactor(modal): add aria-labelledby pointing to modal donor name heading
+- [2026-11-10T16:54:29+05:30] test(modal): write unit test for modal open and close behavior
