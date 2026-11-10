@@ -374,3 +374,4 @@
 - [2026-11-10T16:08:31+05:30] style(toast): configure responsive toast stack width on mobile screens
 - [2026-11-10T16:23:04+05:30] refactor(modal): trap focus inside modal while dialog is active
 - [2026-11-10T16:31:25+05:30] refactor(modal): set role dialog and aria-modal true on modal container
+- [2026-11-10T16:45:06+05:30] refactor(modal): add aria-labelledby pointing to modal donor name heading
