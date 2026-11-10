@@ -345,3 +345,4 @@
 - [2026-11-10T09:43:25+05:30] feat(modal): create backdrop overlay container with blur effect
 - [2026-11-10T09:53:03+05:30] feat(modal): build modal card container with rounded corners and shadow
 - [2026-11-10T09:57:42+05:30] feat(modal): render donor name, avatar, and blood group in modal header
+- [2026-11-10T10:13:02+05:30] feat(modal): render detailed contact information (email, phone, city)
