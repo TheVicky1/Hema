@@ -386,3 +386,4 @@
 - [2026-11-10T18:17:14+05:30] style(toast): optimize dark mode background and border for toast cards
 - [2026-11-10T19:53:32+05:30] refactor(toast): clean up active timers when toast is manually dismissed
 - [2026-11-10T20:02:49+05:30] refactor(toast): limit maximum concurrent visible toasts to 3
+- [2026-11-10T20:15:41+05:30] style(modal): add smooth transition to modal Request action button
