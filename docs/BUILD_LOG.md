@@ -387,3 +387,4 @@
 - [2026-11-10T19:53:32+05:30] refactor(toast): clean up active timers when toast is manually dismissed
 - [2026-11-10T20:02:49+05:30] refactor(toast): limit maximum concurrent visible toasts to 3
 - [2026-11-10T20:15:41+05:30] style(modal): add smooth transition to modal Request action button
+- [2026-11-10T20:33:30+05:30] style(modal): ensure emergency notice box has subtle crimson background
