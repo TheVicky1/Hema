@@ -364,3 +364,4 @@
 - [2026-11-10T14:21:47+05:30] feat(toast): implement global event-based addToast helper function
 - [2026-11-10T14:32:24+05:30] feat(toast): maintain active toast notifications array in state
 - [2026-11-10T14:42:26+05:30] feat(toast): support toast variants: success, info, and error
+- [2026-11-10T14:54:54+05:30] feat(toast): add auto-dismiss timer (4000ms) for transient toasts
