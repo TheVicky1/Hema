@@ -392,3 +392,4 @@
 - [2026-11-10T20:50:44+05:30] docs(a11y): document modal focus trap and ARIA compliance in docs/A11Y.md
 - [2026-11-10T21:03:25+05:30] docs(changelog): document modal and toast systems in CHANGELOG.md
 - [2026-11-10T21:15:37+05:30] chore(audit): verify zero memory leaks when rapidly opening/closing modal
+- [2026-11-10T21:32:29+05:30] style(modal): tune modal max-height with scrollable inner content
