@@ -354,3 +354,4 @@
 - [2026-11-10T11:10:27+05:30] feat(modal): add backdrop click handler to dismiss modal dialog
 - [2026-11-10T11:21:46+05:30] feat(modal): prevent body scrolling when modal is open using body overflow
 - [2026-11-10T11:29:15+05:30] feat(modal): restore body scrolling when modal unmounts
+- [2026-11-10T11:40:06+05:30] style(modal): style modal backdrop with rgba dark tint and blur
