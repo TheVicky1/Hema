@@ -380,3 +380,4 @@
 - [2026-11-10T17:17:07+05:30] test(modal): write unit test verifying backdrop click closes modal
 - [2026-11-10T17:28:31+05:30] test(toast): write unit test for addToast event dispatching
 - [2026-11-10T17:34:25+05:30] test(toast): write unit test for auto-dismiss timer behavior
+- [2026-11-10T17:49:59+05:30] docs(modal): document DonorModal props and accessibility in docs
