@@ -369,3 +369,4 @@
 - [2026-11-10T15:14:46+05:30] style(toast): position toast stack fixed at bottom right with z-index 1000
 - [2026-11-10T15:27:43+05:30] style(toast): style toast card with surface background, border, and shadow
 - [2026-11-10T15:38:37+05:30] style(toast): add slideUp entrance animation for toast cards
+- [2026-11-10T15:50:32+05:30] style(toast): style toast icon badge with variant-specific color
