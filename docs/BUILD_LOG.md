@@ -344,3 +344,4 @@
 - [2026-11-10T09:29:06+05:30] feat(modal): scaffold DonorModal component in src/components
 - [2026-11-10T09:43:25+05:30] feat(modal): create backdrop overlay container with blur effect
 - [2026-11-10T09:53:03+05:30] feat(modal): build modal card container with rounded corners and shadow
+- [2026-11-10T09:57:42+05:30] feat(modal): render donor name, avatar, and blood group in modal header
