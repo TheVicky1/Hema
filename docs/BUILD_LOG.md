@@ -391,3 +391,4 @@
 - [2026-11-10T20:41:05+05:30] style(modal): add shield check icon next to verified donor badge
 - [2026-11-10T20:50:44+05:30] docs(a11y): document modal focus trap and ARIA compliance in docs/A11Y.md
 - [2026-11-10T21:03:25+05:30] docs(changelog): document modal and toast systems in CHANGELOG.md
+- [2026-11-10T21:15:37+05:30] chore(audit): verify zero memory leaks when rapidly opening/closing modal
