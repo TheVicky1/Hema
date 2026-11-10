@@ -384,3 +384,4 @@
 - [2026-11-10T17:59:25+05:30] docs(toast): document Toast notification system usage in docs/API.md
 - [2026-11-10T18:11:50+05:30] style(modal): optimize dark mode background and border for modal dialog
 - [2026-11-10T18:17:14+05:30] style(toast): optimize dark mode background and border for toast cards
+- [2026-11-10T19:53:32+05:30] refactor(toast): clean up active timers when toast is manually dismissed
