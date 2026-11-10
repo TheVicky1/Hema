@@ -361,3 +361,4 @@
 - [2026-11-10T12:21:26+05:30] style(modal): style modal contact rows with icons and secondary text
 - [2026-11-10T12:29:51+05:30] style(modal): style close button with circular hover background
 - [2026-11-10T12:42:09+05:30] feat(toast): scaffold ToastContainer component in src/components
+- [2026-11-10T14:21:47+05:30] feat(toast): implement global event-based addToast helper function
