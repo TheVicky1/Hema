@@ -382,3 +382,4 @@
 - [2026-11-10T17:34:25+05:30] test(toast): write unit test for auto-dismiss timer behavior
 - [2026-11-10T17:49:59+05:30] docs(modal): document DonorModal props and accessibility in docs
 - [2026-11-10T17:59:25+05:30] docs(toast): document Toast notification system usage in docs/API.md
+- [2026-11-10T18:11:50+05:30] style(modal): optimize dark mode background and border for modal dialog
