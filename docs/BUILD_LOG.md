@@ -365,3 +365,4 @@
 - [2026-11-10T14:32:24+05:30] feat(toast): maintain active toast notifications array in state
 - [2026-11-10T14:42:26+05:30] feat(toast): support toast variants: success, info, and error
 - [2026-11-10T14:54:54+05:30] feat(toast): add auto-dismiss timer (4000ms) for transient toasts
+- [2026-11-10T15:04:19+05:30] feat(toast): add manual dismiss button on each toast card
