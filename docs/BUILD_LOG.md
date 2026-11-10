@@ -359,3 +359,4 @@
 - [2026-11-10T12:01:28+05:30] style(modal): configure responsive modal width with max-width 560px
 - [2026-11-10T12:08:57+05:30] style(modal): configure modal padding and internal grid layout
 - [2026-11-10T12:21:26+05:30] style(modal): style modal contact rows with icons and secondary text
+- [2026-11-10T12:29:51+05:30] style(modal): style close button with circular hover background
