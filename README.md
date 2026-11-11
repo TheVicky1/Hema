@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-11-22 | docs(readme): diagram Client Layer with Navbar and Wave Canvas components -->
+<!-- revision: 2026-11-11-23 | docs(readme): diagram React Router DOM navigation layer -->
