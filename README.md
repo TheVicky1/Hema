@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-11-3 | docs(readme): document Atmospheric Wave Canvas and ambient drifting orbs -->
+<!-- revision: 2026-11-11-4 | docs(readme): document Live Donor Directory with real-time multi-criteria filtering -->
