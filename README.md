@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-11-20 | docs(readme): describe Custom Scalable SVG Emblem geometry and hand contour -->
+<!-- revision: 2026-11-11-21 | docs(readme): draft ASCII Architecture diagram for Hema platform -->
