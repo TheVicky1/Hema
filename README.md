@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-11-16 | docs(readme): specify Canvas Foundation palette (#FFFFFF and #0C0C0C) -->
+<!-- revision: 2026-11-11-17 | docs(readme): specify Rich Crimson Primary brand token values -->
