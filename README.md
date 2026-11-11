@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-11-12 | docs(readme): document Dual Theme System supporting light and OLED dark modes -->
+<!-- revision: 2026-11-11-13 | docs(readme): document Shimmer Skeleton Loading preventing layout shift -->
