@@ -409,3 +409,4 @@
 - [2026-11-12T10:40:10+05:30] feat(donors): implement selectedGroup state hook for blood group filter
 - [2026-11-12T10:50:33+05:30] feat(donors): implement searchCity state hook for instant city search
 - [2026-11-12T11:02:08+05:30] feat(donors): implement showAvailOnly state hook for availability toggle
+- [2026-11-12T11:09:41+05:30] feat(donors): implement selectedDonor state hook for modal inspection
