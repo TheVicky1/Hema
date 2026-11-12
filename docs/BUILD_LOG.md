@@ -401,3 +401,4 @@
 - [2026-11-12T09:28:59+05:30] feat(router): configure BrowserRouter in src/App.jsx root component
 - [2026-11-12T09:37:47+05:30] feat(router): implement ScrollToTop component to reset scroll on route change
 - [2026-11-12T09:46:01+05:30] feat(router): define routes for HomePage, DonorsPage, BecomeDonorPage, AboutPage, HowItWorksPage
+- [2026-11-12T09:55:43+05:30] feat(router): implement catch-all wildcard route rendering NotFoundPage
