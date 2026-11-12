@@ -459,3 +459,4 @@
 - [2026-11-12T21:37:18+05:30] test(routing): verify ScrollToTop scrolls window to top on route change
 - [2026-11-12T21:51:31+05:30] test(routing): verify 404 page renders for invalid route pathnames
 - [2026-11-12T22:02:00+05:30] style(donors): tune mobile padding on donor page container
+- [2026-11-12T22:13:07+05:30] chore(audit): run ESLint validation on routing and donor page files
