@@ -452,3 +452,4 @@
 - [2026-11-12T20:21:14+05:30] docs(changelog): document DonorsPage and routing implementation in CHANGELOG
 - [2026-11-12T20:32:33+05:30] chore(audit): verify no console warnings during rapid filter toggling
 - [2026-11-12T20:46:12+05:30] style(donors): tune spacing between sticky filter bar and donor grid
+- [2026-11-12T20:55:22+05:30] style(donors): ensure sticky filter bar respects --navbar-height variable
