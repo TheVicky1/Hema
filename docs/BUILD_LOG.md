@@ -426,3 +426,4 @@
 - [2026-11-12T14:45:24+05:30] style(donors): style blood type pills with pill base class and active state
 - [2026-11-12T14:59:38+05:30] style(donors): add crimson background and white text to active blood pill
 - [2026-11-12T15:04:28+05:30] style(donors): add search input with magnifying glass left icon
+- [2026-11-12T15:14:08+05:30] style(donors): style filter-top flex row aligning heading and controls
