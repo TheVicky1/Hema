@@ -422,3 +422,4 @@
 - [2026-11-12T12:39:40+05:30] feat(donors): wire DonorCard view details button to open DonorModal
 - [2026-11-12T14:21:14+05:30] style(donors): build page-hero header section for DonorsPage
 - [2026-11-12T14:27:10+05:30] style(donors): configure sticky filter-section positioned below navbar
+- [2026-11-12T14:35:38+05:30] style(donors): add frosted glass backdrop-filter to sticky filter bar
