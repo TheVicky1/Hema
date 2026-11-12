@@ -448,3 +448,4 @@
 - [2026-11-12T18:18:50+05:30] style(donors): add active filter count indicator when filters are applied
 - [2026-11-12T19:47:50+05:30] feat(donors): add Reset All Filters button when any filter is active
 - [2026-11-12T20:02:38+05:30] style(donors): style Reset Filters button with subtle text link appearance
+- [2026-11-12T20:16:25+05:30] docs(a11y): test keyboard navigation across blood group filter pills
