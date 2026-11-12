@@ -430,3 +430,4 @@
 - [2026-11-12T15:23:58+05:30] style(donors): style empty results container with icon, message and CTA button
 - [2026-11-12T15:34:00+05:30] refactor(donors): memoize filtered donors array with useMemo hook
 - [2026-11-12T15:47:37+05:30] refactor(donors): debounce search input changes to prevent unnecessary filtering
+- [2026-11-12T15:58:15+05:30] test(donors): write unit test for blood group filter selection
