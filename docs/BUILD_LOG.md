@@ -406,3 +406,4 @@
 - [2026-11-12T10:11:40+05:30] style(not-found): style 404 page with centered flex layout and large typography
 - [2026-11-12T10:21:47+05:30] feat(donors): scaffold DonorsPage container in src/pages directory
 - [2026-11-12T10:31:43+05:30] feat(donors): consume donors, loading, and requestDonor from useDonors hook
+- [2026-11-12T10:40:10+05:30] feat(donors): implement selectedGroup state hook for blood group filter
