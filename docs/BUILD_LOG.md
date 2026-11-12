@@ -400,3 +400,4 @@
 - [2026-11-10T22:30:59+05:30] feat(platform): implement donor modal & toast notification system improvement (step 57)
 - [2026-11-12T09:28:59+05:30] feat(router): configure BrowserRouter in src/App.jsx root component
 - [2026-11-12T09:37:47+05:30] feat(router): implement ScrollToTop component to reset scroll on route change
+- [2026-11-12T09:46:01+05:30] feat(router): define routes for HomePage, DonorsPage, BecomeDonorPage, AboutPage, HowItWorksPage
