@@ -408,3 +408,4 @@
 - [2026-11-12T10:31:43+05:30] feat(donors): consume donors, loading, and requestDonor from useDonors hook
 - [2026-11-12T10:40:10+05:30] feat(donors): implement selectedGroup state hook for blood group filter
 - [2026-11-12T10:50:33+05:30] feat(donors): implement searchCity state hook for instant city search
+- [2026-11-12T11:02:08+05:30] feat(donors): implement showAvailOnly state hook for availability toggle
