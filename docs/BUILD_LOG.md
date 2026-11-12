@@ -435,3 +435,4 @@
 - [2026-11-12T16:16:45+05:30] test(donors): write unit test for availability toggle filtering
 - [2026-11-12T16:26:10+05:30] test(donors): write unit test for empty filter fallback display
 - [2026-11-12T16:37:42+05:30] docs(routing): document application routing table in docs/ROUTING.md
+- [2026-11-12T16:40:43+05:30] docs(donors): document DonorsPage architecture and filter pipeline in docs
