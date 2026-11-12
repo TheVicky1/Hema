@@ -454,3 +454,4 @@
 - [2026-11-12T20:46:12+05:30] style(donors): tune spacing between sticky filter bar and donor grid
 - [2026-11-12T20:55:22+05:30] style(donors): ensure sticky filter bar respects --navbar-height variable
 - [2026-11-12T21:05:12+05:30] refactor(donors): add JSDoc comments to DonorsPage component
+- [2026-11-12T21:21:12+05:30] style(donors): ensure zero layout shift when transitioning from skeletons to cards
