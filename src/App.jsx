@@ -1,93 +1,64 @@
-import React, { useEffect, useState } from "react";
-import DonorCard from "./components/DonorCard";
-import FilterBar from "./components/FilterBar";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
+import "./App.css";
 
-const bloodGroups = ["All", "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"];
+import { DonorProvider, useDonors } from "./context/DonorContext";
+import Navbar      from "./components/Navbar";
+import Footer      from "./components/Footer";
+import ToastContainer from "./components/ToastContainer";
+import ScrollToTop from "./components/ScrollToTop";
 
-export default function App() {
-  const [donors, setDonors] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [selectedGroup, setSelectedGroup] = useState("All");
-  const [searchCity, setSearchCity] = useState("");
-  const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("theme") === "dark"
-  );
+import HomePage        from "./pages/HomePage";
+import DonorsPage      from "./pages/DonorsPage";
+import BecomeDonorPage from "./pages/BecomeDonorPage";
+import AboutPage       from "./pages/AboutPage";
+import HowItWorksPage  from "./pages/HowItWorksPage";
+import NotFoundPage    from "./pages/NotFoundPage";
 
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((res) => res.json())
-      .then((data) => {
-        const mapped = data.map((user) => ({
-          id: user.id,
-          name: user.name,
-          city: user.address.city,
-          bloodGroup: bloodGroups[Math.floor(Math.random() * 8) + 1],
-          available: Math.random() > 0.3,
-          requested: false,
-        }));
-
-        setDonors(mapped);
-        setLoading(false);
-      });
-  }, []);
-
-  useEffect(() => {
-    document.body.className = darkMode ? "dark" : "";
-    localStorage.setItem("theme", darkMode ? "dark" : "light");
-  }, [darkMode]);
-
-  const handleRequest = (id) => {
-    setDonors((prev) =>
-      prev.map((d) =>
-        d.id === id ? { ...d, requested: true } : d
-      )
-    );
-  };
-
-  const filteredDonors = donors
-    .filter((d) =>
-      selectedGroup === "All" ? true : d.bloodGroup === selectedGroup
-    )
-    .filter((d) =>
-      d.city.toLowerCase().includes(searchCity.toLowerCase())
-    )
-    .sort((a, b) => b.available - a.available);
-
-  const availableCount = filteredDonors.filter((d) => d.available).length;
+function AppShell({ darkMode, setDarkMode }) {
+  const { donors, loading } = useDonors();
+  const liveCount = loading ? null : donors.filter((d) => d.available).length;
 
   return (
-    <div className="app">
-      <h1>🩸 Community Blood Donor Finder</h1>
+    <>
+      <ScrollToTop />
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} liveCount={liveCount} />
 
-      <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
-        {darkMode ? "☀ Light Mode" : "🌙 Dark Mode"}
-      </button>
+      <main style={{ flex: 1, display: "flex", flexDirection: "column" }}>
+        <Routes>
+          <Route path="/"              element={<HomePage />} />
+          <Route path="/donors"        element={<DonorsPage />} />
+          <Route path="/become-donor"  element={<BecomeDonorPage />} />
+          <Route path="/how-it-works"  element={<HowItWorksPage />} />
+          <Route path="/about"         element={<AboutPage />} />
+          <Route path="*"              element={<NotFoundPage />} />
+        </Routes>
+      </main>
 
-      <FilterBar
-        bloodGroups={bloodGroups}
-        selectedGroup={selectedGroup}
-        setSelectedGroup={setSelectedGroup}
-        searchCity={searchCity}
-        setSearchCity={setSearchCity}
-      />
+      <Footer />
+      <ToastContainer />
+    </>
+  );
+}
 
-      <h3>Available Donors: {availableCount}</h3>
+export default function App() {
+  const [darkMode, setDarkMode] = useState(() => {
+    const saved = localStorage.getItem("hema-theme");
+    if (saved) return saved === "dark";
+    return window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false;
+  });
 
-      {loading ? (
-        <div className="loader">Loading donors...</div>
-      ) : filteredDonors.length === 0 ? (
-        <p className="no-data">No donors found 😕</p>
-      ) : (
-        <div className="grid">
-          {filteredDonors.map((donor) => (
-            <DonorCard
-              key={donor.id}
-              donor={donor}
-              onRequest={handleRequest}
-            />
-          ))}
-        </div>
-      )}
-    </div>
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
+    localStorage.setItem("hema-theme", darkMode ? "dark" : "light");
+  }, [darkMode]);
+
+  return (
+    <BrowserRouter>
+      <DonorProvider>
+        <AppShell darkMode={darkMode} setDarkMode={setDarkMode} />
+      </DonorProvider>
+    </BrowserRouter>
   );
 }
