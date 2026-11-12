@@ -447,3 +447,4 @@
 - [2026-11-12T18:14:04+05:30] style(donors): add results count badge showing filtered donor total
 - [2026-11-12T18:18:50+05:30] style(donors): add active filter count indicator when filters are applied
 - [2026-11-12T19:47:50+05:30] feat(donors): add Reset All Filters button when any filter is active
+- [2026-11-12T20:02:38+05:30] style(donors): style Reset Filters button with subtle text link appearance
