@@ -414,3 +414,4 @@
 - [2026-11-12T11:30:07+05:30] feat(donors): implement instant city search input with clear button
 - [2026-11-12T11:37:32+05:30] feat(donors): implement Available Only checkbox filter toggle
 - [2026-11-12T11:43:11+05:30] feat(donors): combine blood group, city search, and availability into active filter pipeline
+- [2026-11-12T11:52:03+05:30] feat(donors): sort filtered donors prioritizing currently available donors
