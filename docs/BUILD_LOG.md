@@ -402,3 +402,4 @@
 - [2026-11-12T09:37:47+05:30] feat(router): implement ScrollToTop component to reset scroll on route change
 - [2026-11-12T09:46:01+05:30] feat(router): define routes for HomePage, DonorsPage, BecomeDonorPage, AboutPage, HowItWorksPage
 - [2026-11-12T09:55:43+05:30] feat(router): implement catch-all wildcard route rendering NotFoundPage
+- [2026-11-12T10:05:56+05:30] feat(not-found): build NotFoundPage component with 404 illustration and return link
