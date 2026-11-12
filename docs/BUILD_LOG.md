@@ -419,3 +419,4 @@
 - [2026-11-12T12:13:24+05:30] feat(donors): render 6 SkeletonCard components while loading state is true
 - [2026-11-12T12:20:22+05:30] feat(donors): implement empty search results fallback with Reset Filters CTA
 - [2026-11-12T12:32:05+05:30] feat(donors): connect DonorCard Request action to context requestDonor and toast
+- [2026-11-12T12:39:40+05:30] feat(donors): wire DonorCard view details button to open DonorModal
