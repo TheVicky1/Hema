@@ -417,3 +417,4 @@
 - [2026-11-12T11:52:03+05:30] feat(donors): sort filtered donors prioritizing currently available donors
 - [2026-11-12T12:02:33+05:30] feat(donors): render donor cards inside responsive donor-grid
 - [2026-11-12T12:13:24+05:30] feat(donors): render 6 SkeletonCard components while loading state is true
+- [2026-11-12T12:20:22+05:30] feat(donors): implement empty search results fallback with Reset Filters CTA
