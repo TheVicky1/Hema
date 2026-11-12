@@ -410,3 +410,4 @@
 - [2026-11-12T10:50:33+05:30] feat(donors): implement searchCity state hook for instant city search
 - [2026-11-12T11:02:08+05:30] feat(donors): implement showAvailOnly state hook for availability toggle
 - [2026-11-12T11:09:41+05:30] feat(donors): implement selectedDonor state hook for modal inspection
+- [2026-11-12T11:20:47+05:30] feat(donors): build blood group pill selector with All, A+, A-, B+, B-, AB+, AB-, O+, O-
