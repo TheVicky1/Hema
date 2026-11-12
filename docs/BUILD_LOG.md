@@ -413,3 +413,4 @@
 - [2026-11-12T11:20:47+05:30] feat(donors): build blood group pill selector with All, A+, A-, B+, B-, AB+, AB-, O+, O-
 - [2026-11-12T11:30:07+05:30] feat(donors): implement instant city search input with clear button
 - [2026-11-12T11:37:32+05:30] feat(donors): implement Available Only checkbox filter toggle
+- [2026-11-12T11:43:11+05:30] feat(donors): combine blood group, city search, and availability into active filter pipeline
