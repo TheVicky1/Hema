@@ -421,3 +421,4 @@
 - [2026-11-12T12:32:05+05:30] feat(donors): connect DonorCard Request action to context requestDonor and toast
 - [2026-11-12T12:39:40+05:30] feat(donors): wire DonorCard view details button to open DonorModal
 - [2026-11-12T14:21:14+05:30] style(donors): build page-hero header section for DonorsPage
+- [2026-11-12T14:27:10+05:30] style(donors): configure sticky filter-section positioned below navbar
