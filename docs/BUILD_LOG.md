@@ -443,3 +443,4 @@
 - [2026-11-12T17:33:39+05:30] style(donors): enable horizontal scroll for blood pills on small screens
 - [2026-11-12T17:41:25+05:30] style(donors): hide scrollbars on horizontal blood pill scroll row
 - [2026-11-12T17:53:55+05:30] refactor(donors): handle case-insensitive city search matching
+- [2026-11-12T18:04:13+05:30] refactor(donors): trim whitespace from city search queries
