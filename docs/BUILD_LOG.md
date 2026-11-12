@@ -440,3 +440,4 @@
 - [2026-11-12T17:04:14+05:30] style(donors): configure dark mode border color for sticky filter bar
 - [2026-11-12T17:12:32+05:30] style(donors): tune dark mode blood pill active and inactive states
 - [2026-11-12T17:19:23+05:30] style(donors): optimize filter bar layout on mobile viewports below 640px
+- [2026-11-12T17:33:39+05:30] style(donors): enable horizontal scroll for blood pills on small screens
