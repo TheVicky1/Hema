@@ -441,3 +441,4 @@
 - [2026-11-12T17:12:32+05:30] style(donors): tune dark mode blood pill active and inactive states
 - [2026-11-12T17:19:23+05:30] style(donors): optimize filter bar layout on mobile viewports below 640px
 - [2026-11-12T17:33:39+05:30] style(donors): enable horizontal scroll for blood pills on small screens
+- [2026-11-12T17:41:25+05:30] style(donors): hide scrollbars on horizontal blood pill scroll row
