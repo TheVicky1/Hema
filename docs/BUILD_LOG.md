@@ -424,3 +424,4 @@
 - [2026-11-12T14:27:10+05:30] style(donors): configure sticky filter-section positioned below navbar
 - [2026-11-12T14:35:38+05:30] style(donors): add frosted glass backdrop-filter to sticky filter bar
 - [2026-11-12T14:45:24+05:30] style(donors): style blood type pills with pill base class and active state
+- [2026-11-12T14:59:38+05:30] style(donors): add crimson background and white text to active blood pill
