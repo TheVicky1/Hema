@@ -445,3 +445,4 @@
 - [2026-11-12T17:53:55+05:30] refactor(donors): handle case-insensitive city search matching
 - [2026-11-12T18:04:13+05:30] refactor(donors): trim whitespace from city search queries
 - [2026-11-12T18:14:04+05:30] style(donors): add results count badge showing filtered donor total
+- [2026-11-12T18:18:50+05:30] style(donors): add active filter count indicator when filters are applied
