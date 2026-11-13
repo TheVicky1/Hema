@@ -502,3 +502,4 @@
 - [2026-11-13T17:50:56+05:30] refactor(home): ensure hero buttons have accessible touch targets
 - [2026-11-13T18:09:59+05:30] refactor(register): clear form validation errors when user types in field
 - [2026-11-13T18:15:02+05:30] refactor(register): show success confirmation card upon form submission
+- [2026-11-13T19:52:52+05:30] test(home): write unit test for HomePage hero elements and CTAs
