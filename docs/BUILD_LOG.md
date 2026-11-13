@@ -475,3 +475,4 @@
 - [2026-11-13T11:13:10+05:30] feat(home): build How Hema Works 3-step preview section on homepage
 - [2026-11-13T11:28:14+05:30] style(home): style step-card with numbered badge, emoji icon, and descriptions
 - [2026-11-13T11:33:46+05:30] feat(home): build high-impact Call To Action bottom strip with register links
+- [2026-11-13T11:49:25+05:30] style(home): style cta-strip with crimson gradient, white heading, and dual CTA buttons
