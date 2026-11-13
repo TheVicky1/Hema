@@ -473,3 +473,4 @@
 - [2026-11-13T10:51:20+05:30] feat(home): add trust badges row (Verified Community, Real-time Availability, Registered Donors)
 - [2026-11-13T11:03:39+05:30] feat(home): integrate StatsBar component on homepage displaying live metrics
 - [2026-11-13T11:13:10+05:30] feat(home): build How Hema Works 3-step preview section on homepage
+- [2026-11-13T11:28:14+05:30] style(home): style step-card with numbered badge, emoji icon, and descriptions
