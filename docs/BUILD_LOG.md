@@ -506,3 +506,4 @@
 - [2026-11-13T20:09:28+05:30] test(register): write unit test for form validation and submit handling
 - [2026-11-13T20:21:46+05:30] test(how-it-works): write unit test for FAQ accordion item toggle
 - [2026-11-13T20:36:21+05:30] docs(pages): document application pages structure in docs/ARCHITECTURE.md
+- [2026-11-13T20:43:57+05:30] style(home): optimize hero padding for mobile viewports
