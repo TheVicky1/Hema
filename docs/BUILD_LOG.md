@@ -497,3 +497,4 @@
 - [2026-11-13T16:55:06+05:30] feat(footer): scaffold Footer component with 4-column responsive layout
 - [2026-11-13T17:08:56+05:30] feat(footer): declare platform, company, and resources link columns in Footer
 - [2026-11-13T17:22:20+05:30] style(footer): style footer-brand with HemaLogo, tagline, and copyright notice
+- [2026-11-13T17:27:02+05:30] style(footer): add crimson underline hover animation on all footer links
