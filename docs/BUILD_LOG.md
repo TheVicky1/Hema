@@ -484,3 +484,4 @@
 - [2026-11-13T14:25:15+05:30] feat(register): display donation benefits column (Save 3 lives, Free health check, Replenishes in 56 days)
 - [2026-11-13T14:31:26+05:30] style(register): build 2-column layout for donor registration with sticky form card
 - [2026-11-13T14:46:18+05:30] style(register): style form card with surface background, padding, and subtle shadow
+- [2026-11-13T14:54:19+05:30] feat(about): scaffold AboutPage with Hema mission, story, and core values
