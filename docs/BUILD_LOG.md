@@ -469,3 +469,4 @@
 - [2026-11-13T10:14:44+05:30] style(home): style hero-eyebrow with pill badge and pulsing heart icon
 - [2026-11-13T10:20:55+05:30] style(home): style hero-title with large clamp font size and crimson accent line
 - [2026-11-13T10:31:20+05:30] style(home): style hero-subtitle with comfortable reading max-width
+- [2026-11-13T10:42:59+05:30] feat(home): add Find a Donor primary CTA and Become a Donor secondary CTA buttons
