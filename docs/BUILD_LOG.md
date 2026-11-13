@@ -499,3 +499,4 @@
 - [2026-11-13T17:22:20+05:30] style(footer): style footer-brand with HemaLogo, tagline, and copyright notice
 - [2026-11-13T17:27:02+05:30] style(footer): add crimson underline hover animation on all footer links
 - [2026-11-13T17:44:18+05:30] style(footer): style footer-bottom bar with copyright and Made with Heart for life
+- [2026-11-13T17:50:56+05:30] refactor(home): ensure hero buttons have accessible touch targets
