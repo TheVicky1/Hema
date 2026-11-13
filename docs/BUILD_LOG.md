@@ -485,3 +485,4 @@
 - [2026-11-13T14:31:26+05:30] style(register): build 2-column layout for donor registration with sticky form card
 - [2026-11-13T14:46:18+05:30] style(register): style form card with surface background, padding, and subtle shadow
 - [2026-11-13T14:54:19+05:30] feat(about): scaffold AboutPage with Hema mission, story, and core values
+- [2026-11-13T15:07:57+05:30] feat(about): define 6 core values: Compassion, Community, Accuracy, Safety, Speed, Growth
