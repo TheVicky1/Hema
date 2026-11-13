@@ -481,3 +481,4 @@
 - [2026-11-13T12:18:25+05:30] feat(register): implement form validation rules for required fields and email format
 - [2026-11-13T12:28:29+05:30] feat(register): implement phone number format validation helper
 - [2026-11-13T12:40:09+05:30] feat(register): handle form submit action with loading state and success feedback
+- [2026-11-13T14:25:15+05:30] feat(register): display donation benefits column (Save 3 lives, Free health check, Replenishes in 56 days)
