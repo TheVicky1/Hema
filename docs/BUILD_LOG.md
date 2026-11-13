@@ -495,3 +495,4 @@
 - [2026-11-13T16:33:04+05:30] style(how-it-works): style FAQ accordion with smooth chevron rotation and height expand
 - [2026-11-13T16:43:06+05:30] style(how-it-works): build sidebar column with quick donor search CTA widget
 - [2026-11-13T16:55:06+05:30] feat(footer): scaffold Footer component with 4-column responsive layout
+- [2026-11-13T17:08:56+05:30] feat(footer): declare platform, company, and resources link columns in Footer
