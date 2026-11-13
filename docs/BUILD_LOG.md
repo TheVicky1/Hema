@@ -504,3 +504,4 @@
 - [2026-11-13T18:15:02+05:30] refactor(register): show success confirmation card upon form submission
 - [2026-11-13T19:52:52+05:30] test(home): write unit test for HomePage hero elements and CTAs
 - [2026-11-13T20:09:28+05:30] test(register): write unit test for form validation and submit handling
+- [2026-11-13T20:21:46+05:30] test(how-it-works): write unit test for FAQ accordion item toggle
