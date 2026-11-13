@@ -493,3 +493,4 @@
 - [2026-11-13T16:12:06+05:30] feat(how-it-works): implement expandable FAQ accordion with common questions
 - [2026-11-13T16:17:41+05:30] feat(how-it-works): implement openFaq state toggle for accordion items
 - [2026-11-13T16:33:04+05:30] style(how-it-works): style FAQ accordion with smooth chevron rotation and height expand
+- [2026-11-13T16:43:06+05:30] style(how-it-works): build sidebar column with quick donor search CTA widget
