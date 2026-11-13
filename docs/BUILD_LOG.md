@@ -487,3 +487,4 @@
 - [2026-11-13T14:54:19+05:30] feat(about): scaffold AboutPage with Hema mission, story, and core values
 - [2026-11-13T15:07:57+05:30] feat(about): define 6 core values: Compassion, Community, Accuracy, Safety, Speed, Growth
 - [2026-11-13T15:20:33+05:30] style(about): style values-row with 3-column responsive card grid
+- [2026-11-13T15:30:26+05:30] style(about): style mission-card with large emoji icon and descriptive paragraphs
