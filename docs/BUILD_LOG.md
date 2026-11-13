@@ -490,3 +490,4 @@
 - [2026-11-13T15:30:26+05:30] style(about): style mission-card with large emoji icon and descriptive paragraphs
 - [2026-11-13T15:45:41+05:30] feat(how-it-works): scaffold HowItWorksPage with 5 detailed process steps
 - [2026-11-13T15:55:38+05:30] feat(how-it-works): build step timeline from Searching to Coordinating Donation
+- [2026-11-13T16:12:06+05:30] feat(how-it-works): implement expandable FAQ accordion with common questions
