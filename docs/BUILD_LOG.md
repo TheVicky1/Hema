@@ -477,3 +477,4 @@
 - [2026-11-13T11:33:46+05:30] feat(home): build high-impact Call To Action bottom strip with register links
 - [2026-11-13T11:49:25+05:30] style(home): style cta-strip with crimson gradient, white heading, and dual CTA buttons
 - [2026-11-13T11:58:23+05:30] feat(register): scaffold BecomeDonorPage in src/pages directory
+- [2026-11-13T12:11:15+05:30] feat(register): build registration form with name, email, phone, city, bloodGroup fields
