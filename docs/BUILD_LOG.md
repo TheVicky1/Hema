@@ -465,3 +465,4 @@
 - [2026-11-13T09:29:05+05:30] feat(home): scaffold HomePage in src/pages directory
 - [2026-11-13T09:39:31+05:30] feat(home): implement live Urgency Banner at top of homepage
 - [2026-11-13T09:49:42+05:30] style(home): style urgency-banner with crimson gradient and white text
+- [2026-11-13T10:02:08+05:30] feat(home): build Hero section with bold headline: Find the right donor, save a life today
