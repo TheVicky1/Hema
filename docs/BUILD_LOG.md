@@ -510,3 +510,4 @@
 - [2026-11-13T21:03:47+05:30] style(register): collapse 2-column registration layout on tablet screens
 - [2026-11-13T21:14:34+05:30] style(about): collapse values grid to 1 column on mobile screens
 - [2026-11-13T21:21:37+05:30] style(how-it-works): collapse timeline and sidebar to 1 column on mobile
+- [2026-11-13T21:41:33+05:30] style(footer): collapse 4-column footer to 2-column on tablet and 1-column on mobile
