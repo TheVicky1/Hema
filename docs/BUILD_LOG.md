@@ -478,3 +478,4 @@
 - [2026-11-13T11:49:25+05:30] style(home): style cta-strip with crimson gradient, white heading, and dual CTA buttons
 - [2026-11-13T11:58:23+05:30] feat(register): scaffold BecomeDonorPage in src/pages directory
 - [2026-11-13T12:11:15+05:30] feat(register): build registration form with name, email, phone, city, bloodGroup fields
+- [2026-11-13T12:18:25+05:30] feat(register): implement form validation rules for required fields and email format
