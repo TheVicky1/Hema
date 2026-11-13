@@ -472,3 +472,4 @@
 - [2026-11-13T10:42:59+05:30] feat(home): add Find a Donor primary CTA and Become a Donor secondary CTA buttons
 - [2026-11-13T10:51:20+05:30] feat(home): add trust badges row (Verified Community, Real-time Availability, Registered Donors)
 - [2026-11-13T11:03:39+05:30] feat(home): integrate StatsBar component on homepage displaying live metrics
+- [2026-11-13T11:13:10+05:30] feat(home): build How Hema Works 3-step preview section on homepage
