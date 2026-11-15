@@ -536,3 +536,4 @@
 - [2026-11-15T12:23:58+05:30] feat(background): integrate WaveBackground into HowItWorksPage header
 - [2026-11-15T12:30:14+05:30] style(body): add faint radial dot-grid pattern to body background (32px spacing)
 - [2026-11-15T12:41:23+05:30] style(body): configure subtle crimson dot-grid opacity (5.5% light, 7% dark)
+- [2026-11-15T14:16:53+05:30] style(body): set background-attachment fixed for persistent texture across scrolls
