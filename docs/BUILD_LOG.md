@@ -558,3 +558,4 @@
 - [2026-11-15T17:38:03+05:30] test(e2e): verify donor modal opens, displays data, and closes properly
 - [2026-11-15T17:45:15+05:30] test(e2e): verify donor search and blood type filters work seamlessly
 - [2026-11-15T17:58:21+05:30] test(e2e): verify donor registration form validates required fields
+- [2026-11-15T18:07:57+05:30] test(e2e): verify toast notifications appear and auto-dismiss after timeout
