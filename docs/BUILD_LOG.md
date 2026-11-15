@@ -531,3 +531,4 @@
 - [2026-11-15T11:32:42+05:30] style(background): configure dark mode wave orb opacity and saturation adjustments
 - [2026-11-15T11:42:00+05:30] feat(background): integrate WaveBackground into HomePage hero section
 - [2026-11-15T11:51:22+05:30] feat(background): integrate WaveBackground into DonorsPage header
+- [2026-11-15T12:02:39+05:30] feat(background): integrate WaveBackground into BecomeDonorPage header
