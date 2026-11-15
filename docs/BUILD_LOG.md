@@ -540,3 +540,4 @@
 - [2026-11-15T14:31:00+05:30] style(sections): ensure solid section backgrounds cleanly overlay dot-grid texture
 - [2026-11-15T14:44:35+05:30] style(footer): override body dot grid on footer with clean solid background
 - [2026-11-15T14:50:03+05:30] style(navbar): tune navbar height token to 72px for optimal vertical balance
+- [2026-11-15T14:58:51+05:30] style(navbar): configure navbar > .container with height 100% and flex align-items stretch
