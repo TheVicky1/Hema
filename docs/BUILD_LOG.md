@@ -560,3 +560,4 @@
 - [2026-11-15T17:58:21+05:30] test(e2e): verify donor registration form validates required fields
 - [2026-11-15T18:07:57+05:30] test(e2e): verify toast notifications appear and auto-dismiss after timeout
 - [2026-11-15T18:23:09+05:30] test(build): run production build with vite build and verify zero errors
+- [2026-11-15T19:49:19+05:30] docs(readme): polish README.md with live features, screenshots and setup guide
