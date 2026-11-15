@@ -533,3 +533,4 @@
 - [2026-11-15T11:51:22+05:30] feat(background): integrate WaveBackground into DonorsPage header
 - [2026-11-15T12:02:39+05:30] feat(background): integrate WaveBackground into BecomeDonorPage header
 - [2026-11-15T12:11:47+05:30] feat(background): integrate WaveBackground into AboutPage header
+- [2026-11-15T12:23:58+05:30] feat(background): integrate WaveBackground into HowItWorksPage header
