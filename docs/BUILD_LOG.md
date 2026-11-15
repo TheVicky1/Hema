@@ -528,3 +528,4 @@
 - [2026-11-15T11:04:41+05:30] feat(background): add SVG flowing wave curves to hero top and bottom boundaries
 - [2026-11-15T11:16:36+05:30] style(background): style wave-svg curves with delicate crimson stroke and low opacity
 - [2026-11-15T11:24:59+05:30] feat(background): implement subtle variant with scaled-down ambient orbs for inner pages
+- [2026-11-15T11:32:42+05:30] style(background): configure dark mode wave orb opacity and saturation adjustments
