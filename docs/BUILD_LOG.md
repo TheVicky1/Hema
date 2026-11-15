@@ -516,3 +516,4 @@
 - [2026-11-13T22:21:44+05:30] feat(platform): implement pages: home, register, about & howitworks improvement (step 52)
 - [2026-11-13T22:27:36+05:30] feat(platform): implement pages: home, register, about & howitworks improvement (step 53)
 - [2026-11-15T09:29:51+05:30] feat(background): scaffold WaveBackground component in src/components
+- [2026-11-15T09:38:56+05:30] feat(background): support variant prop with hero and subtle options
