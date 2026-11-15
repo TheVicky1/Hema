@@ -534,3 +534,4 @@
 - [2026-11-15T12:02:39+05:30] feat(background): integrate WaveBackground into BecomeDonorPage header
 - [2026-11-15T12:11:47+05:30] feat(background): integrate WaveBackground into AboutPage header
 - [2026-11-15T12:23:58+05:30] feat(background): integrate WaveBackground into HowItWorksPage header
+- [2026-11-15T12:30:14+05:30] style(body): add faint radial dot-grid pattern to body background (32px spacing)
