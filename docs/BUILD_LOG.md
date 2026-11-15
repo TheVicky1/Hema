@@ -548,3 +548,4 @@
 - [2026-11-15T15:55:25+05:30] feat(logo): refine HemaLogo SVG with delicate cupped hand contour beneath cross
 - [2026-11-15T16:07:32+05:30] feat(logo): ensure HemaLogo renders flawlessly without black PNG background
 - [2026-11-15T16:18:18+05:30] style(responsive): audit and polish all mobile breakpoints from 320px to 1440px
+- [2026-11-15T16:23:29+05:30] style(theme): audit dark mode contrast across all pages for WCAG AA compliance
