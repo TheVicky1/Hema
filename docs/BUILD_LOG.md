@@ -525,3 +525,4 @@
 - [2026-11-15T10:34:28+05:30] style(background): implement waveFloat2 keyframe animation with alternate timing
 - [2026-11-15T10:43:08+05:30] style(background): implement waveFloat3 keyframe animation for organic ambient flow
 - [2026-11-15T10:57:43+05:30] style(background): apply blur(80px) to ambient orbs for ultra-soft transition
+- [2026-11-15T11:04:41+05:30] feat(background): add SVG flowing wave curves to hero top and bottom boundaries
