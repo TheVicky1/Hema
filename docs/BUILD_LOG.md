@@ -563,3 +563,4 @@
 - [2026-11-15T19:49:19+05:30] docs(readme): polish README.md with live features, screenshots and setup guide
 - [2026-11-15T20:03:36+05:30] docs(architecture): finalize docs/ARCHITECTURE.md with completed component tree
 - [2026-11-15T20:18:34+05:30] docs(design): finalize docs/DESIGN_SYSTEM.md with completed token definitions
+- [2026-11-15T20:27:55+05:30] docs(changelog): complete comprehensive CHANGELOG.md for v2.0 release
