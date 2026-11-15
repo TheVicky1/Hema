@@ -546,3 +546,4 @@
 - [2026-11-15T15:32:28+05:30] style(navbar): animate underline indicator width cleanly on active route change
 - [2026-11-15T15:40:21+05:30] style(navbar): improve brand logo hover effect with smooth opacity transition
 - [2026-11-15T15:55:25+05:30] feat(logo): refine HemaLogo SVG with delicate cupped hand contour beneath cross
+- [2026-11-15T16:07:32+05:30] feat(logo): ensure HemaLogo renders flawlessly without black PNG background
