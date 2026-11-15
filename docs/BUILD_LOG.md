@@ -538,3 +538,4 @@
 - [2026-11-15T12:41:23+05:30] style(body): configure subtle crimson dot-grid opacity (5.5% light, 7% dark)
 - [2026-11-15T14:16:53+05:30] style(body): set background-attachment fixed for persistent texture across scrolls
 - [2026-11-15T14:31:00+05:30] style(sections): ensure solid section backgrounds cleanly overlay dot-grid texture
+- [2026-11-15T14:44:35+05:30] style(footer): override body dot grid on footer with clean solid background
