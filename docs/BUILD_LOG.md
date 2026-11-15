@@ -565,3 +565,4 @@
 - [2026-11-15T20:18:34+05:30] docs(design): finalize docs/DESIGN_SYSTEM.md with completed token definitions
 - [2026-11-15T20:27:55+05:30] docs(changelog): complete comprehensive CHANGELOG.md for v2.0 release
 - [2026-11-15T20:36:09+05:30] chore(cleanup): remove temporary build logs and test scratch files
+- [2026-11-15T20:49:13+05:30] chore(release): package production-ready release assets
