@@ -542,3 +542,4 @@
 - [2026-11-15T14:50:03+05:30] style(navbar): tune navbar height token to 72px for optimal vertical balance
 - [2026-11-15T14:58:51+05:30] style(navbar): configure navbar > .container with height 100% and flex align-items stretch
 - [2026-11-15T15:09:53+05:30] style(navbar): ensure navbar-inner items are perfectly vertically centered
+- [2026-11-15T15:22:44+05:30] style(navbar): replace nav link pill background with clean crimson underline indicator
