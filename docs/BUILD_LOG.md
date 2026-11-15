@@ -544,3 +544,4 @@
 - [2026-11-15T15:09:53+05:30] style(navbar): ensure navbar-inner items are perfectly vertically centered
 - [2026-11-15T15:22:44+05:30] style(navbar): replace nav link pill background with clean crimson underline indicator
 - [2026-11-15T15:32:28+05:30] style(navbar): animate underline indicator width cleanly on active route change
+- [2026-11-15T15:40:21+05:30] style(navbar): improve brand logo hover effect with smooth opacity transition
