@@ -356,5 +356,3 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 [⬆ Back to top](#top)
 
 </div>
-
-<!-- revision: 2026-11-16-34 | chore(readme): verify Vite build compiles cleanly alongside updated README -->
