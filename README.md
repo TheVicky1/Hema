@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-16-1 | docs(readme): create Documentation index table linking to canonical guides -->
+<!-- revision: 2026-11-16-2 | docs(readme): link Contributing Guide and Architecture Guide in table -->
