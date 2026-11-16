@@ -357,4 +357,4 @@ HEMA is open-source software licensed under the [MIT License](LICENSE).
 
 </div>
 
-<!-- revision: 2026-11-16-19 | docs(audit): verify single dash (-) in all badge labels and link anchor tags -->
+<!-- revision: 2026-11-16-20 | docs(audit): verify single dash (-) in time ranges (5-30 minutes) -->
