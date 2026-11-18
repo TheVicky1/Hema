@@ -10,3 +10,4 @@
 - [2026-11-18T11:32:17+05:30] docs(architecture): update system architecture documentation with v2.0 component tree
 - [2026-11-18T11:45:52+05:30] docs(community): initialize Contributors Hall of Fame in CONTRIBUTORS.md
 - [2026-11-18T12:00:31+05:30] docs(design): document complete design system tokens in docs/DESIGN_SYSTEM.md
+- [2026-11-18T12:17:49+05:30] docs(git): document Conventional Commits standards in docs/GIT_WORKFLOW.md
