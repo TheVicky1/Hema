@@ -48,3 +48,4 @@
 - [2026-11-18T20:25:33+05:30] docs(wiki): document emergency donor dispatch timeline and hospital coordination SLA
 - [2026-11-18T20:38:59+05:30] docs(wiki): document privacy boundaries and emergency contact isolation architecture
 - [2026-11-18T20:55:32+05:30] docs(wiki): document browser support matrix and progressive enhancement fallbacks
+- [2026-11-18T21:11:01+05:30] ci(workflows): add schedule triggers and push event filters across CI pipelines
