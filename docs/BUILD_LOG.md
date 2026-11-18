@@ -3,3 +3,4 @@
 - [2026-11-18T09:56:00+05:30] ci(scripts): initialize dependency health and lockfile audit script in scratch/check-dependency-health.mjs
 - [2026-11-18T10:07:55+05:30] ci(workflow): create Continuous Integration pipeline in .github/workflows/ci.yml
 - [2026-11-18T10:28:08+05:30] ci(workflow): name quality gates job Quality Gates & Verification (20.x) matching ruleset
+- [2026-11-18T10:37:32+05:30] ci(workflow): create Dependency Security Audit workflow in .github/workflows/dependency-audit.yml
