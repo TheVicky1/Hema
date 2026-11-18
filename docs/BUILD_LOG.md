@@ -45,3 +45,4 @@
 - [2026-11-18T19:48:16+05:30] docs(wiki): audit single dash formatting across all wiki chapters
 - [2026-11-18T20:00:59+05:30] docs(wiki): add contributor journey roadmap and mentorship callouts
 - [2026-11-18T20:11:42+05:30] docs(wiki): detail good-first-issue onboarding guidelines for students and beginners
+- [2026-11-18T20:25:33+05:30] docs(wiki): document emergency donor dispatch timeline and hospital coordination SLA
