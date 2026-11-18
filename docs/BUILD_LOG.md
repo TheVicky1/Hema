@@ -39,3 +39,4 @@
 - [2026-11-18T18:22:28+05:30] docs(wiki): author 23-User-Flows-and-UX.md detailing emergency recipient and volunteer donor flows
 - [2026-11-18T18:35:21+05:30] docs(wiki): author 24-Maintainer-Runbook.md with PR review criteria and release tagging runbook
 - [2026-11-18T18:48:28+05:30] docs(wiki): optimize wiki SEO tags and search keywords across all chapters
+- [2026-11-18T19:00:59+05:30] docs(wiki): add cross-reference links between Architecture, State Management, and Features
