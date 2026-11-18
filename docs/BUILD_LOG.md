@@ -1,0 +1,1 @@
+- [2026-11-18T09:30:47+05:30] ci(scripts): initialize zero-secret scan verification script in scratch/secret-scan.mjs
