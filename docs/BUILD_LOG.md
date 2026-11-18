@@ -15,3 +15,4 @@
 - [2026-11-18T12:44:18+05:30] docs(wiki): create 4-category hierarchical navigation menu in wiki/_Sidebar.md
 - [2026-11-18T13:02:15+05:30] docs(wiki): build 3-column navigation footer links in wiki/_Footer.md
 - [2026-11-18T13:13:57+05:30] docs(wiki): author 01-Product-Overview.md covering humanitarian mission and core personas
+- [2026-11-18T13:28:10+05:30] docs(wiki): author 02-Features.md detailing all 12 implemented platform subsystems
