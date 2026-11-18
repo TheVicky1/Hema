@@ -29,3 +29,4 @@
 - [2026-11-18T16:00:26+05:30] docs(wiki): author 13-CI-CD.md detailing GitHub Actions workflows and branch ruleset protection
 - [2026-11-18T16:12:57+05:30] docs(wiki): author 14-Deployment.md covering Vercel production deployment and preview domains
 - [2026-11-18T16:29:40+05:30] docs(wiki): author 15-Contributing.md with 8-step contributor quick start and micro-issues
+- [2026-11-18T16:43:59+05:30] docs(wiki): author 16-Contributor-Journey.md outlining contributor progression tiers
