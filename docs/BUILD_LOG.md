@@ -37,3 +37,4 @@
 - [2026-11-18T17:51:16+05:30] docs(wiki): author 21-FAQ.md answering frequent donor, recipient, and contributor questions
 - [2026-11-18T18:05:59+05:30] docs(wiki): author 22-Performance-Optimization.md covering Core Web Vitals and zero CLS
 - [2026-11-18T18:22:28+05:30] docs(wiki): author 23-User-Flows-and-UX.md detailing emergency recipient and volunteer donor flows
+- [2026-11-18T18:35:21+05:30] docs(wiki): author 24-Maintainer-Runbook.md with PR review criteria and release tagging runbook
