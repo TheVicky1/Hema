@@ -24,3 +24,4 @@
 - [2026-11-18T14:48:12+05:30] docs(wiki): author 08-Geolocation-and-Search.md with debounced multi-criteria filter pipeline
 - [2026-11-18T15:04:20+05:30] docs(wiki): author 09-Design-System.md with crimson color tokens and Inter typography scales
 - [2026-11-18T15:22:27+05:30] docs(wiki): author 10-Atmospheric-Wave-Engine.md detailing floating orbs and dot-grid canvas
+- [2026-11-18T15:36:39+05:30] docs(wiki): author 11-Development.md with 2-minute local setup guide and npm commands
