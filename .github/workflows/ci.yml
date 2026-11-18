@@ -1,30 +1,48 @@
-name: CI
+name: Continuous Integration
 
 on:
   push:
-    branches: [ main ]
+    branches: [main, 'community/**', 'feat/**', 'fix/**']
   pull_request:
-    branches: [ main ]
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
-  build-and-lint:
+  quality-gates:
+    name: Quality Gates & Verification (20.x)
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: ['20.x']
+
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: ${{ matrix.node-version }}
           cache: 'npm'
 
-      - name: Install Dependencies
+      - name: Clean install dependencies
         run: npm ci
 
-      - name: Run ESLint
+      - name: 🔒 Zero-Secret Scan
+        run: node scratch/secret-scan.mjs
+
+      - name: 🔗 Markdown Relative Link Audit
+        run: node scratch/check-links.mjs
+
+      - name: 🧹 ESLint Code Quality
         run: npm run lint
 
-      - name: Build Project
+      - name: 🏗️ Vite Production Build
         run: npm run build
