@@ -17,3 +17,4 @@
 - [2026-11-18T13:13:57+05:30] docs(wiki): author 01-Product-Overview.md covering humanitarian mission and core personas
 - [2026-11-18T13:28:10+05:30] docs(wiki): author 02-Features.md detailing all 12 implemented platform subsystems
 - [2026-11-18T13:42:03+05:30] docs(wiki): author 03-Architecture.md detailing layered system architecture and state flow
+- [2026-11-18T13:54:43+05:30] docs(wiki): author 04-Codebase-Tour.md with directory tree walkthrough and file responsibilities
