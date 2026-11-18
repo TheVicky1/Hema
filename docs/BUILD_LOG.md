@@ -33,3 +33,4 @@
 - [2026-11-18T16:59:48+05:30] docs(wiki): author 17-GitHub-Community.md documenting issue labels taxonomy and templates
 - [2026-11-18T17:09:34+05:30] docs(wiki): author 18-Roadmap.md with completed v2.0 capabilities and future milestones
 - [2026-11-18T17:25:33+05:30] docs(wiki): author 19-Releases.md documenting Semantic Versioning standards and changelog policy
+- [2026-11-18T17:42:29+05:30] docs(wiki): author 20-Troubleshooting.md with solutions for common port, lint and build roadblocks
