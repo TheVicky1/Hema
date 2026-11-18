@@ -26,3 +26,4 @@
 - [2026-11-18T15:22:27+05:30] docs(wiki): author 10-Atmospheric-Wave-Engine.md detailing floating orbs and dot-grid canvas
 - [2026-11-18T15:36:39+05:30] docs(wiki): author 11-Development.md with 2-minute local setup guide and npm commands
 - [2026-11-18T15:44:08+05:30] docs(wiki): author 12-Testing-and-QA.md detailing quality gates and verification runbook
+- [2026-11-18T16:00:26+05:30] docs(wiki): author 13-CI-CD.md detailing GitHub Actions workflows and branch ruleset protection
