@@ -1,1 +1,2 @@
 - [2026-11-18T09:30:47+05:30] ci(scripts): initialize zero-secret scan verification script in scratch/secret-scan.mjs
+- [2026-11-18T09:43:45+05:30] ci(scripts): initialize markdown relative link audit script in scratch/check-links.mjs
