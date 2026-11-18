@@ -6,3 +6,4 @@
 - [2026-11-18T10:37:32+05:30] ci(workflow): create Dependency Security Audit workflow in .github/workflows/dependency-audit.yml
 - [2026-11-18T10:54:09+05:30] ci(workflow): name audit job Dependency Health & Vulnerability Scan (20.x) matching ruleset
 - [2026-11-18T11:09:28+05:30] ci(workflow): create Welcome First-Time Contributor automation in .github/workflows/welcome-contributor.yml
+- [2026-11-18T11:22:45+05:30] chore(eslint): configure allowConstantExport for fast refresh in eslint.config.js
