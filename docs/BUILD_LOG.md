@@ -13,3 +13,4 @@
 - [2026-11-18T12:17:49+05:30] docs(git): document Conventional Commits standards in docs/GIT_WORKFLOW.md
 - [2026-11-18T12:30:05+05:30] docs(wiki): initialize HEMA GitHub documentation wiki with Home.md entry point
 - [2026-11-18T12:44:18+05:30] docs(wiki): create 4-category hierarchical navigation menu in wiki/_Sidebar.md
+- [2026-11-18T13:02:15+05:30] docs(wiki): build 3-column navigation footer links in wiki/_Footer.md
