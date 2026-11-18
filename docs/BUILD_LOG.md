@@ -31,3 +31,4 @@
 - [2026-11-18T16:29:40+05:30] docs(wiki): author 15-Contributing.md with 8-step contributor quick start and micro-issues
 - [2026-11-18T16:43:59+05:30] docs(wiki): author 16-Contributor-Journey.md outlining contributor progression tiers
 - [2026-11-18T16:59:48+05:30] docs(wiki): author 17-GitHub-Community.md documenting issue labels taxonomy and templates
+- [2026-11-18T17:09:34+05:30] docs(wiki): author 18-Roadmap.md with completed v2.0 capabilities and future milestones
