@@ -21,18 +21,14 @@ jobs:
     name: Dependency Health & Vulnerability Scan (20.x)
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: ['20.x']
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js ${{ matrix.node-version }}
+      - name: Set up Node.js 20.x
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: '20.x'
           cache: 'npm'
 
       - name: Clean install dependencies
@@ -43,4 +39,3 @@ jobs:
 
       - name: 🔒 Strict Vulnerability Gate (High & Critical)
         run: npm audit --audit-level=high || echo "::warning ::npm audit completed with warnings or npm registry service maintenance."
-

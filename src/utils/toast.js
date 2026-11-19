@@ -9,3 +9,4 @@ export function addToast(options) {
     _globalAdd(options);
   }
 }
+
