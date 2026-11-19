@@ -1,12 +1,8 @@
 import React, { useCallback, useEffect, useState } from "react";
 import { CheckCircle2, Heart, AlertCircle, X } from "lucide-react";
+import { setToastHandler } from "../utils/toast";
 
 let _id = 0;
-let _globalAdd = null;
-
-export function addToast(options) {
-  if (_globalAdd) _globalAdd(options);
-}
 
 export default function ToastContainer() {
   const [toasts, setToasts] = useState([]);
@@ -26,8 +22,8 @@ export default function ToastContainer() {
   );
 
   useEffect(() => {
-    _globalAdd = add;
-    return () => { _globalAdd = null; };
+    setToastHandler(add);
+    return () => { setToastHandler(null); };
   }, [add]);
 
   const icons = {

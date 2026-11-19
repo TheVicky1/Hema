@@ -12,22 +12,22 @@ const steps = [
   {
     num: "2",
     title: "Review Donor Profiles",
-    desc: "Click on any donor card to view their full profile — blood type, city, donation history, current availability, and status. Each profile shows whether the donor has already been contacted or is ready to respond.",
+    desc: "Click on any donor card to view their full profile - blood type, city, donation history, current availability, and status. Each profile shows whether the donor has already been contacted or is ready to respond.",
   },
   {
     num: "3",
     title: "Send a Request",
-    desc: "Hit the 'Request Donor' button. This sends a notification to the donor immediately. No account required. No sign-up forms. The donor will reach out to you at the contact details provided.",
+    desc: "Hit the 'Request Donor' button to dispatch an in-browser request. In this demonstration application, requests update the local session state with instant confirmation toast feedback without dispatching real-world alerts.",
   },
   {
     num: "4",
     title: "Coordinate the Donation",
-    desc: "The donor connects with you directly to arrange the donation at a mutually convenient hospital or blood bank. Hema facilitates the connection — the rest is handled with warmth and care by both parties.",
+    desc: "In a live deployment, the donor connects with you directly to arrange the donation at a mutually convenient hospital or blood bank. Hema facilitates the connection - the rest is handled with warmth and care by both parties.",
   },
   {
     num: "5",
     title: "Register as a Donor Yourself",
-    desc: "Want to give back? Register your profile on our 'Become a Donor' page. It takes under two minutes. Once registered, you'll appear in the donor directory and can receive requests from people in your city.",
+    desc: "Want to give back? Register your profile on our 'Become a Donor' page. It takes under two minutes to test the registration workflow and explore donor readiness.",
   },
 ];
 
@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     q: "How is my privacy protected?",
-    a: "Your contact details are never displayed publicly. They are only shared with the person who sends you a blood request, and only after you confirm availability.",
+    a: "Donor contact details (phone numbers and emails) are kept private and are never rendered on public profile cards or modal dialogs. The current application is a demonstration with simulated donor data.",
   },
   {
     q: "How often can I donate blood?",
@@ -46,7 +46,7 @@ const faqs = [
   },
   {
     q: "What are the basic eligibility requirements?",
-    a: "Generally: age 18–65, weight above 50 kg, haemoglobin above 12.5 g/dL, no recent illness, tattoos, or surgeries. Your local blood bank will conduct a full screening before each donation.",
+    a: "Generally: age 18-65, weight above 50 kg, haemoglobin above 12.5 g/dL, no recent illness, tattoos, or surgeries. Your local blood bank will conduct a full screening before each donation.",
   },
   {
     q: "Can I update my availability status?",
@@ -54,7 +54,7 @@ const faqs = [
   },
   {
     q: "What if I need blood urgently?",
-    a: "Use the 'Available Only' filter on the donors page and search by your city. Select your blood type to narrow results. Requests are sent instantly. For extreme emergencies, always contact your nearest hospital directly first.",
+    a: "Use the 'Available Only' filter on the donors page and search by your city. Select your blood type to narrow results. For real-world medical emergencies, always contact emergency medical services or your nearest hospital directly first.",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function HowItWorksPage() {
           </span>
           <h1 className="page-hero-title">How Hema Works</h1>
           <p className="page-hero-sub">
-            From searching for a donor to making a life-saving connection — here's exactly
+            From searching for a donor to making a life-saving connection - here's exactly
             how it works, step by step.
           </p>
         </div>
@@ -167,7 +167,7 @@ export default function HowItWorksPage() {
       <section className="cta-strip">
         <div className="container">
           <h2>Ready to get started?</h2>
-          <p>Find a donor in seconds or join our network — it's free, fast, and life-saving.</p>
+          <p>Find a donor in seconds or join our network - it's free, fast, and life-saving.</p>
           <div className="cta-strip-actions">
             <Link to="/donors"       className="btn btn-cta-white">Find a Donor</Link>
             <Link to="/become-donor" className="btn btn-cta-outline">Become a Donor</Link>

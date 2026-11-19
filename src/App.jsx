@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import "./App.css";
 
-import { DonorProvider, useDonors } from "./context/DonorContext";
+import { DonorProvider } from "./context/DonorContext";
+import { useDonors } from "./context/useDonors";
 import Navbar      from "./components/Navbar";
 import Footer      from "./components/Footer";
 import ToastContainer from "./components/ToastContainer";
@@ -44,14 +45,24 @@ function AppShell({ darkMode, setDarkMode }) {
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(() => {
-    const saved = localStorage.getItem("hema-theme");
-    if (saved) return saved === "dark";
-    return window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false;
+    try {
+      localStorage.removeItem("hema-theme");
+      const saved = localStorage.getItem("hema-user-theme");
+      if (saved === "dark") return true;
+      if (saved === "light") return false;
+    } catch {
+      // Fallback for restricted storage environments
+    }
+    return false; // Default to Light theme
   });
 
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
-    localStorage.setItem("hema-theme", darkMode ? "dark" : "light");
+    try {
+      document.documentElement.setAttribute("data-theme", darkMode ? "dark" : "light");
+      localStorage.setItem("hema-user-theme", darkMode ? "dark" : "light");
+    } catch {
+      // Fallback for restricted storage environments
+    }
   }, [darkMode]);
 
   return (

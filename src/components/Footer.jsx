@@ -47,7 +47,7 @@ export default function Footer() {
               <span className="footer-brand-name">Hema</span>
             </Link>
             <p className="footer-tagline">
-              Connecting blood donors with those who need them most —
+              Connecting blood donors with those who need them most -
               one request at a time.
             </p>
           </div>

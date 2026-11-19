@@ -1,7 +1,7 @@
 import React from "react";
 
 /**
- * WaveBackground — Soft flowing crimson wave orbs
+ * WaveBackground - Soft flowing crimson wave orbs
  * Inspired by the reference image: gentle, translucent waves
  * in brand color, completely non-distracting.
  */
@@ -9,9 +9,9 @@ export default function WaveBackground({ variant = "hero" }) {
   if (variant === "hero") {
     return (
       <div className="wave-bg" aria-hidden="true">
-        {/* Large ambient orb — top left */}
+        {/* Large ambient orb - top left */}
         <div className="wave-orb wave-orb-1" />
-        {/* Flowing wave — top right */}
+        {/* Flowing wave - top right */}
         <div className="wave-orb wave-orb-2" />
         {/* Bottom accent wave */}
         <div className="wave-orb wave-orb-3" />

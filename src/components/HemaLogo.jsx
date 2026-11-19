@@ -1,9 +1,9 @@
 import React from "react";
 
 /**
- * HemaLogo — Premium SVG blood drop with medical cross and cupped hand.
+ * HemaLogo - Premium SVG blood drop with medical cross and cupped hand.
  * Inspired by user's logo: blood drop shape, white cross, white hand.
- * No PNG, no black background — pure SVG, renders on any background.
+ * No PNG, no black background - pure SVG, renders on any background.
  */
 export default function HemaLogo({ size = 32 }) {
   return (
@@ -28,11 +28,11 @@ export default function HemaLogo({ size = 32 }) {
         fill="url(#hema-drop-grad)"
       />
 
-      {/* White medical cross — centered at top half of drop */}
+      {/* White medical cross - centered at top half of drop */}
       <rect x="19.5" y="16" width="5"  height="17" rx="2" fill="white" />
       <rect x="13"   y="22" width="18" height="5"  rx="2" fill="white" />
 
-      {/* White cupped hand — lower portion of drop */}
+      {/* White cupped hand - lower portion of drop */}
       <path
         d="M10 36 Q12 30 22 32 Q32 30 34 36 Q32 42 22 44 Q12 42 10 36Z"
         fill="white"
