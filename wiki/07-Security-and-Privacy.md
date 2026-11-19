@@ -1,12 +1,25 @@
-# Security & Donor Privacy Architecture
+# Security Architecture & Privacy Safeguards
 
-HEMA prioritizes user trust, data minimization, and transparent privacy boundaries across demonstration and production architectures.
+Protecting donor safety and safeguarding personal data is a foundational architectural priority in HEMA.
 
 ---
 
-## 🔒 Privacy Safeguards & Architecture Boundaries
+## 🛡️ Privacy-by-Design Principles
 
-1. **Demonstration Data Isolation**: The demonstration application fetches public sample records from JSONPlaceholder to populate the donor directory. Because the sample dataset includes sample email addresses and phone numbers in the initial response payload, production architectures will require a backend proxy layer to strip sensitive fields before transmitting donor summaries to the client.
-2. **Display Minimization**: Neither `DonorCard` nor `DonorModal` render phone numbers or email addresses in the user interface. Sending a request updates in-memory request state and displays a confirmation toast without revealing or exchanging private contact credentials.
-3. **Zero Third-Party Telemetry**: Zero marketing analytics, tracking cookies, or external ad pixels are injected into the client bundle, maintaining complete user anonymity.
-4. **Clean Session Lifecycle**: Demonstration request states exist only in active browser memory and reset cleanly upon page reload or tab closure.
+1. **PII Minimization**: Personal Identifiable Information (such as personal phone numbers and direct email addresses) is stripped from all client-facing donor card renderings.
+2. **Contact Masking**: The profile inspection modal demonstrates masked communication channels rather than exposing raw telecommunications numbers to prevent web scraping and unwanted marketing calls.
+3. **No Third-Party Trackers**: HEMA does not integrate invasive third-party advertising scripts, telemetry trackers, or fingerprinting libraries.
+4. **Local Session Scoping**: Request states are held in memory during the active session and are not stored in persistent third-party databases.
+
+---
+
+## 🔒 Security Best Practices
+
+### Client-Side Security
+- **XSS Prevention**: React automatically escapes all string expressions rendered in JSX, mitigating Cross-Site Scripting (XSS) risks.
+- **Strict HTTPS**: Deployed via Vercel with automatic SSL/TLS certificate renewal and HSTS headers.
+- **Safe External Links**: All external anchors utilize `rel="noopener noreferrer"` to prevent reverse tab-jacking.
+
+### Dependency Security
+- Automated `npm audit` checks are executed on every pull request via the GitHub Actions CI pipeline.
+- Continuous vulnerability scanning ensures zero high or critical severity dependencies.

@@ -1,23 +1,36 @@
 # User Flows & UX Journey
 
-Detailed user journey workflows for demonstration donor discovery and volunteer registration flows.
+Visual sequence flows and interaction walkthroughs across primary user journeys.
 
 ---
 
-## 🩸 Donor Discovery Flow
-```
-Home -> Click 'Find Donors' -> Select Blood Group Pill -> Enter City -> Review Donor Cards -> Click 'Request Donor' -> Receive Confirmation Toast (Simulated Action, Updates Local In-Memory State Only)
-```
+## 🔄 Flow A: Emergency Donor Discovery
 
-> [!NOTE]
-> In this demonstration version, clicking 'Request Donor' updates the local in-memory request state and displays a confirmation toast notification. It does not dispatch external network notifications to real donors or initiate live contact.
+```mermaid
+sequenceDiagram
+    actor Recipient as Family Coordinator
+    participant Nav as Navbar / Directory
+    participant State as DonorContext
+    participant Modal as DonorModal
+    participant Toast as Toast Container
+
+    Recipient->>Nav: Selects 'O+' blood pill and enters 'Mumbai'
+    Nav->>State: Applies compound predicate filter
+    State-->>Nav: Returns matching donor cards
+    Recipient->>Nav: Clicks 'View Profile' on donor card
+    Nav->>Modal: Opens accessible profile modal
+    Recipient->>Modal: Clicks 'Request Donor'
+    Modal->>State: Dispatches requestDonor(id)
+    State->>State: Sets requested = true
+    State->>Toast: Emits success toast notification
+    Toast-->>Recipient: Displays 'Demonstration request recorded'
+```
 
 ---
 
-## 📝 Volunteer Donor Registration Flow
-```
-Home -> Click 'Become a Donor' -> Fill Name, Phone, Blood Group -> Review Donation Benefits -> Submit Form -> Receive Instant Local Success Feedback (Demonstration Mode)
-```
+## 🔄 Flow B: Self-Service Donor Registration
 
-> [!NOTE]
-> Submitting the volunteer registration form displays local success feedback and a confirmation toast. It does not append the entered profile to the donor directory, which loads demonstration records from an external API.
+1. User navigates to `/become-donor`.
+2. Fills in donor credentials: Full Name, City, Phone, Email, and Blood Group.
+3. Form validates inputs on submission.
+4. Triggers confirmation toast and welcomes the contributor to the network.

@@ -1,18 +1,31 @@
 # Open Source Contributing Guide
 
-We love open source contributions! HEMA is designed to be welcoming to contributors of all skill levels.
+We welcome contributions of all kinds: documentation improvements, bug fixes, UI enhancements, and accessibility upgrades!
 
 ---
 
-## 🎯 Micro-Issues (5-30 Minutes)
-Beginner issues touch only **one file**, have zero complex backend logic, and provide immediate visual gratification.
+## 🤝 How to Contribute
 
-### 8-Step Quick Start:
-1. Browse open [Good First Issues](https://github.com/TheVicky1/Hema/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
-2. Comment to claim the issue.
-3. Fork and clone the repository: `git clone https://github.com/<your-username>/Hema.git`
-4. Enter the repository directory: `cd Hema`
-5. Install project dependencies: `npm install`
-6. Create a feature branch (`git checkout -b feat/my-improvement`).
-7. Make your edits and verify with `npm run lint` and `npm run build`.
-8. Push and open a Pull Request. Maintainers will review within 48 hours!
+1. **Find an Issue**: Browse open issues with the `good first issue` or `first-timers-only` labels.
+2. **Fork the Repository**: Create a fork under your personal GitHub account.
+3. **Create a Feature Branch**:
+   ```bash
+   git checkout -b docs/add-eligibility-checklist
+   ```
+4. **Make Your Changes**: Follow clean formatting and test locally with `npm run dev`.
+5. **Commit Your Changes**: Follow Conventional Commits:
+   ```bash
+   git commit -m "docs: add blood donation eligibility checklist to wiki"
+   ```
+6. **Push and Open a Pull Request**: Submit your PR with a clear description of changes.
+
+---
+
+## 📋 Commit Message Standards
+
+- `feat:` New user-facing capability
+- `fix:` Bug fix
+- `docs:` Documentation and wiki updates
+- `style:` Code style, formatting, or CSS tokens
+- `refactor:` Code reorganization without functional changes
+- `test:` Adding or improving test cases

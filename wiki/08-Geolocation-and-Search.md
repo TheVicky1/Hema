@@ -1,20 +1,39 @@
-# Geolocation & Fast Search Engine
+# Geolocation & Search Pipeline
 
-HEMA provides sub-millisecond donor search and blood type filtering directly on the client.
+HEMA includes a fast, responsive search and filtering pipeline capable of instantly refining hundreds of donor profiles.
 
 ---
 
-## 🔍 Filter Pipeline Architecture
+## 🔍 Search Pipeline Architecture
 
 ```mermaid
-graph LR
-    Input[User Search Query / Blood Pill Click] --> Normalizer[Case-Insensitive Normalizer]
-    Normalizer --> GroupFilter{Blood Group Match?}
-    GroupFilter -->|Yes| CityFilter{City Substring Match?}
-    CityFilter -->|Yes| AvailFilter{Available Only Active?}
-    AvailFilter -->|Yes| Grid[Render Responsive DonorCard Grid]
+flowchart LR
+    A[Raw Donor Records] --> B{Blood Group Filter}
+    B -->|Match Blood Group or 'All'| C{City Substring Filter}
+    C -->|Case-Insensitive Match| D[Filtered Donor Output]
+    D --> E[Render Donor Cards]
 ```
 
-- **Reactive State Filter**: Input changes immediately recompute the filtered donor array in memory.
-- **Normalized Query**: In `DonorsPage`, search queries match the donor's `city` property using case-insensitive lowercase matching (`d.city.toLowerCase().includes(searchCity.toLowerCase())`).
-- **Blood Type Filter**: Matches the exact selected blood group, or passes all records when `All` is selected.
+---
+
+## ⚙️ Filter Implementation Details
+
+The filtering logic executes client-side with $O(n)$ complexity:
+
+```javascript
+const filteredDonors = donors.filter((donor) => {
+  const matchesGroup = selectedGroup === "All" || donor.bloodGroup === selectedGroup;
+  const matchesCity = cityQuery.trim() === "" ||
+    donor.city.toLowerCase().includes(cityQuery.trim().toLowerCase());
+  return matchesGroup && matchesCity;
+});
+```
+
+---
+
+## 🗺️ Planned Geospatial Roadmap
+
+For production deployment with real-world geographical coordinates, HEMA plans to introduce:
+1. **Haversine Distance Sorting**: Sorting donors by radial distance (km/miles) from the user's current coordinates.
+2. **Radius Filter**: 5 km, 10 km, 25 km, and 50 km distance thresholds.
+3. **Privacy-Preserving Geolocation**: Truncating donor coordinates to 2 decimal places (~1.1 km precision) to protect residential privacy.

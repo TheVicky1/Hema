@@ -1,24 +1,25 @@
 # Testing & Quality Assurance Matrix
 
-HEMA enforces automated quality gates before merging code to assess code quality, static syntax correctness, and build compilation without guaranteeing zero regressions. The gates currently verify secret patterns, link integrity, dependency synchronization, static lint rules, and production bundle compilation.
+HEMA follows a multi-tiered quality assurance strategy ensuring accessibility, responsiveness, and zero regressions.
 
 ---
 
-## 🧪 Quality Gate Commands
+## 🧪 Testing Pyramid
 
-```bash
-# 1. Zero-Secret Scan
-node scratch/secret-scan.mjs
+1. **Static Analysis**: ESLint checks code structure, syntax errors, and unused imports.
+2. **Build Verification**: `npm run build` executes rollup tree-shaking and assets compilation to verify clean bundling.
+3. **Accessibility Audits**: Automated audits with `axe-core` and Google Lighthouse ensuring WCAG 2.1 AA compliance.
+4. **Manual QA Protocols**: Standardized verification checklist for all pull requests.
 
-# 2. Markdown Link Integrity Audit
-node scratch/check-links.mjs
+---
 
-# 3. Dependency Health & Lockfile Sync Audit
-node scratch/check-dependency-health.mjs
+## ✅ Manual QA Verification Checklist
 
-# 4. ESLint Code Quality Check
-npm run lint
+Before submitting a Pull Request, verify the following user journeys:
 
-# 5. Production Build Compilation
-npm run build
-```
+- [ ] **Navbar Navigation**: All links navigate cleanly; mobile hamburger toggles drawer smoothly.
+- [ ] **Search & Filter**: Blood group pills and city search correctly filter donor cards.
+- [ ] **Donor Modal**: Clicking "View Profile" opens modal; pressing `Escape` or backdrop closes it.
+- [ ] **Request Action**: Clicking "Request Donor" triggers toast and toggles button state.
+- [ ] **Theme Switching**: Toggling light/dark mode updates CSS variables instantly with zero flash.
+- [ ] **Registration Form**: Submitting the form validates inputs and displays a confirmation toast.

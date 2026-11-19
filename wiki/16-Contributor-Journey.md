@@ -1,19 +1,22 @@
-# Contributor Journey & Progression
+# Contributor Journey & Pathways
 
-HEMA recognizes and celebrates open-source contributors at every step of their journey.
+At HEMA, we actively nurture contributors from their very first open-source contribution to core maintainership.
 
 ---
 
-## 🌟 Contributor Tiers
+## 🗺️ Contribution Milestones
 
-1. **First-Time Contributor**:
-   - Tackles a single-file Good First Issue (5-30 min).
-   - Receives priority review and a personalized welcome message on their PR.
-   - Merged PR permanently featured in `CONTRIBUTORS.md`.
+```
+[Explorer] ---> [First Contributor] ---> [Regular Contributor] ---> [Module Maintainer]
+  Browse          Good First Issue         Multiple PRs             Issue Triage &
+  Discussions     Doc Improvement          Feature Slices           Code Reviews
+```
 
-2. **Component Specialist**:
-   - Implements new UI components, accessible modal dialogs, or responsive layout improvements.
-   - Reviews community pull requests.
+---
 
-3. **Core Maintainer**:
-   - Has triage permissions, coordinates releases, and guides project architecture.
+## ⏱️ The 48-Hour Review Promise
+
+We know how frustrating it is to submit a pull request and wait weeks for feedback. The HEMA maintainer team commits to:
+- Reviewing all first-time contributor PRs within **48 hours**.
+- Providing constructive, encouraging, and actionable feedback.
+- Merging promptly once quality gates pass.

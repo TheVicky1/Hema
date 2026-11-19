@@ -1,20 +1,21 @@
 # HEMA - Community Blood Donor Network Wiki
 
-> **Connecting Lifesavers with Those in Critical Need.** An open-source, humanitarian blood donor platform concept built with React 19, Vite 7, React Router v7, and Lucide React.
+> **Connecting Lifesavers with Those in Critical Need.** An open-source, humanitarian blood donor platform concept engineered with React 19, Vite 7, React Router v7, and Lucide React.
 
 ---
 
 ## ⚡ What is HEMA?
 
-HEMA is a proof-of-concept blood donor platform interface designed to explore how modern web interfaces can streamline donor discovery workflows. In this demonstration application, the donor directory presents simulated mock profiles, randomized availability statuses, client-side blood group and city filters, and simulated request dispatch without paywalls or account barriers.
+HEMA is an open-source humanitarian software platform designed to explore how modern client-side web interfaces can streamline the discovery and coordination of volunteer blood donors. By removing mandatory registration barriers, providing instant client-side blood group and city filters, and maintaining strict privacy boundaries over donor contact data, HEMA demonstrates a zero-friction paradigm for community-driven lifesaving networks.
 
 ```mermaid
 graph TD
-    A[Demonstration Donor Search] --> B[Client-Side Filter by Blood Type & City]
-    B --> C{Simulated Availability Check}
-    C -->|Simulated Donor Available| D[Simulated In-Memory Request Dispatch]
-    C -->|Simulated Donor Unavailable| E[Alternative Filter Selection]
-    D --> F[Local Confirmation Toast & Status Update]
+    A[Emergency Recipient / Family Coordinator] -->|Open Platform| B(Donor Directory)
+    B -->|Filter by Blood Group & City| C{Active Donors Available?}
+    C -->|Yes| D[Inspect Donor Profile Modal]
+    C -->|No| E[Broaden Filter Criteria]
+    D -->|Click Request Donor| F[Optimistic Request Dispatch & Toast Confirmation]
+    F -->|In-Memory State Updated| G[Donor Tagged as Requested]
 ```
 
 ---
@@ -22,76 +23,88 @@ graph TD
 ## 🎯 The Humanitarian Problem
 
 Emergency blood donation worldwide frequently encounters coordination friction:
-- **Fragmented Directories**: Contact information scattered across messaging groups and outdated spreadsheets.
-- **Stale Availability**: Potential lifesavers contacted who recently donated or are medically unavailable.
-- **Barrier to Entry**: Excessive mandatory account registrations delaying urgent transfusion coordination.
+- **Fragmented Directories**: Contact information scattered across chat groups, private lists, and outdated spreadsheets.
+- **Stale Availability**: Potential lifesavers contacted who recently donated, relocated, or are medically deferred.
+- **Account Barriers**: Mandatory sign-up flows that introduce life-threatening latency during urgent medical emergencies.
 - **Lack of Transparency**: Opacity regarding blood type compatibility and emergency response timing.
 
-## 🩸 Platform Philosophy & Architectural Goals
+---
+
+## 🩸 Platform Philosophy & Architectural Principles
 
 HEMA demonstrates **Zero-Friction Lifesaving Coordination**:
-1. **Barrier-Free Discovery**: Donor discovery requires zero user account creation.
-2. **Availability Indicators**: Demonstrates visual status badges distinguishing ready donors from resting donors.
-3. **Data Display Minimization**: Contact credentials are kept private and omitted from client-side cards and inspection modals.
-4. **Accessible Minimalist UI**: High-contrast, WCAG AA compliant crimson design with fluid wave backdrops.
-5. **Open Source & Beginner Friendly**: Welcoming community with micro-issues (5-30 min) and fast reviews.
+1. **Barrier-Free Discovery**: Donor discovery requires zero account creation or authentication gates.
+2. **Availability Indicators**: Visual status badges distinguish immediately available donors from resting donors.
+3. **Data Display Minimization**: Direct contact credentials (phone numbers and emails) are omitted from client-side cards and modal displays to safeguard donor privacy.
+4. **Accessible Minimalist UI**: High-contrast, WCAG 2.1 AA compliant crimson design with fluid atmospheric wave backdrops.
+5. **Open Source & Beginner Friendly**: Welcoming community with micro-issues (5-20 min), comprehensive documentation, and fast maintainer reviews.
 
 ---
 
 ## ✨ Implemented Modules & Capabilities
 
-| Module | Core Capability | Architectural Highlight |
+| Module | Core Capability | Architectural Implementation |
 | :--- | :--- | :--- |
-| 🧭 **Command Navigation** | 72px vertically centered header & active underline indicator | Fluid CSS transitions & mobile drawer |
-| 🌊 **Atmospheric Wave Canvas** | Floating ambient crimson orbs & boundary curves | Keyframe animations & fixed dot-grid |
-| 🩸 **Donor Directory** | Simulated mock directory with blood group pills & city search | Client-side reactive filter pipeline |
-| 👤 **Interactive Donor Cards** | Initials avatar badges & simulated availability tags | Responsive grid & hover elevation |
-| 🪟 **Accessible Donor Modal** | Profile inspection with donation history & availability badge | Keyboard Escape trap & backdrop dismiss |
-| 📊 **Network Statistics Bar** | Real-time counts of total donors, active lifesavers & types | Derived reactive state computation |
-| ⚡ **Instant Request Pipeline** | One-click donor request updating in-memory state & confirmation toast | Optimistic UI update & toast feedback |
-| 📝 **Donor Registration** | Self-contained donor registration form with validation | Instant field validation & benefits column |
-| 🗺️ **Process Walkthrough** | 5-step interactive donation timeline & FAQ accordion | Expandable smooth disclosure panels |
-| 🔔 **Toast Notification Bus** | Global auto-dismissing notifications (success/info/error) | Lightweight decoupled event bus |
-| 🌓 **Dual Theme Engine** | Pure white light mode & deep OLED dark mode (#0C0C0C) | CSS Custom Property tokens system |
-| 💀 **Shimmer Skeletons** | Layout-stable animated loading placeholders | Zero Cumulative Layout Shift (CLS) |
+| 🧭 **Command Navigation** | 72px vertically centered header with route indicators & mobile drawer | Fluid CSS transitions, responsive breakpoint at 768px |
+| 🌊 **Atmospheric Wave Canvas** | Floating ambient crimson orbs and animated organic boundary curves | Hardware-accelerated CSS keyframes, zero JS runtime overhead |
+| 🩸 **Donor Directory** | Reactive filter pipeline supporting 8 blood groups and live city search | $O(n)$ client-side multi-predicate filter algorithm |
+| 👤 **Interactive Donor Cards** | Avatar badges, simulated availability tags, and donation history | Responsive CSS grid with smooth elevation transitions |
+| 🪟 **Accessible Profile Modal** | Deep profile inspection dialog with donation counts and location | Keyboard Escape trap, backdrop dismiss, ARIA dialog roles |
+| 📊 **Network Statistics Bar** | Real-time counts of total donors, active lifesavers, and blood types | Derived reactive state computation |
+| ⚡ **Instant Request Pipeline** | One-click simulated donor request with confirmation toast feedback | Optimistic in-memory state update via React Context |
+| 📝 **Donor Registration** | Self-service registration form with instant client-side validation | Controlled form inputs with blood group picker |
+| 🗺️ **Process Walkthrough** | 5-step interactive donation timeline and FAQ accordion | Smooth CSS disclosures and accessible tap targets |
+| 🔔 **Toast Notification Bus** | Auto-dismissing global notification toasts (success, info, error) | Decoupled lightweight event-driven notification queue |
+| 🌓 **Dual Theme Engine** | Pure white light mode and deep OLED dark mode (#0C0C0C) | CSS Custom Property tokens with instant localStorage persistence |
+| 💀 **Shimmer Skeletons** | Layout-stable animated loading placeholders | Zero Cumulative Layout Shift (CLS = 0) |
 
 ---
 
 ## 🏗️ Production Technology Stack
 
-| Technology | Role & Purpose | Documentation |
-| :--- | :--- | :--- |
-| **React 19** | Core declarative UI component model and reactive rendering | [`react.dev`](https://react.dev) |
-| **Vite 7** | Sub-50ms HMR bundler and zero-configuration production compiler | [`vite.dev`](https://vite.dev) |
-| **React Router v7** | Client-side declarative routing and path resolution | [`reactrouter.com`](https://reactrouter.com) |
-| **Lucide React** | Cohesive, featherweight SVG icon system | [`lucide.dev`](https://lucide.dev) |
+| Layer | Technology | Version | Purpose & Rationale |
+| :--- | :--- | :--- | :--- |
+| **UI Framework** | React | `^19.0.0` | Modern concurrent rendering, hooks, and clean component architecture |
+| **Build Tooling** | Vite | `^7.3.0` | Sub-50ms Hot Module Replacement (HMR) and optimized rollup production bundles |
+| **Routing** | React Router DOM | `^7.3.0` | Declarative client-side Single Page Application routing with scroll restoration |
+| **Iconography** | Lucide React | `^1.16.0` | Featherweight, accessible, tree-shakeable SVG icon system |
+| **Styling** | Native CSS Tokens | CSS3 | Custom property tokens for zero-runtime theme transitions |
+| **Deployment** | Vercel Edge | Global | Instant worldwide CDN delivery with SPA rewrites |
 
 ---
 
-## 🧭 Navigation & Chapters
+## 📚 Complete Documentation Index
 
-Explore the full documentation chapters in this wiki:
-- [01. Product Overview & Vision](01-Product-Overview)
-- [02. Platform Features](02-Features)
-- [03. Architecture & Data Flow](03-Architecture)
-- [04. Component Catalog](04-Component-Catalog)
-- [05. Domain Model & Blood Matrix](05-Domain-Model)
-- [06. State Management](06-State-Management)
-- [07. Security & Privacy](07-Security-and-Privacy)
-- [08. Geolocation & Search](08-Geolocation-and-Search)
-- [09. Design System & Tokens](09-Design-System)
-- [10. Accessibility & WCAG](10-Accessibility)
-- [11. Local Development Guide](11-Development)
-- [12. Testing & QA Matrix](12-Testing-and-QA)
-- [13. CI/CD Workflows](13-CI-CD)
-- [14. Production Deployment](14-Deployment)
-- [15. Open Source Contributing](15-Contributing)
-- [16. Good First Issues](16-Good-First-Issues)
-- [17. Code of Conduct](17-Code-of-Conduct)
-- [18. Project Roadmap](18-Roadmap)
-- [19. Performance Optimization](19-Performance)
-- [20. Troubleshooting Guide](20-Troubleshooting)
-- [21. Frequently Asked Questions](21-FAQ)
-- [22. Internationalization](22-Internationalization)
-- [23. User Flows & UX Journey](23-User-Flows-and-UX)
-- [24. Maintainer Runbook](24-Maintainer-Runbook)
+Explore the exhaustive documentation chapters in this wiki:
+
+### 🏠 Start Here
+- **[01. Product Overview](01-Product-Overview)**: Mission statement, humanitarian problem, user personas, and core value proposition.
+- **[02. Features Catalog](02-Features)**: Comprehensive breakdown of every feature, component, and interaction.
+- **[03. System Architecture](03-Architecture)**: High-level architectural diagrams, data flows, and layer responsibilities.
+- **[09. Design System & Tokens](09-Design-System)**: Complete design tokens, color palette, typography scale, and WCAG AA contrast specs.
+
+### 🩸 Under the Hood
+- **[04. Codebase Tour](04-Codebase-Tour)**: File-by-file walkthrough of `src/`, exports, hooks, and component hierarchy.
+- **[05. Domain Model & Blood Matrix](05-Domain-Model)**: Blood compatibility rules, Rh factors, universal donors, and TypeScript entities.
+- **[06. State Management](06-State-Management)**: React 19 Context API, `useDonors` hook, asynchronous hydration, and optimistic updates.
+- **[07. Security & Privacy](07-Security-and-Privacy)**: Privacy-by-design, PII minimization, contact masking, and Content Security Policy.
+- **[08. Geolocation & Search](08-Geolocation-and-Search)**: Search algorithms, multi-predicate filtering, and future radius calculation.
+- **[10. Atmospheric Wave Engine](10-Atmospheric-Wave-Engine)**: Pure CSS keyframe physics, radial gradient orbs, and reduced-motion support.
+
+### 🛠️ Developer Guides
+- **[11. Local Development](11-Development)**: Prerequisites, environment setup, Vite dev server, and Docker devcontainer instructions.
+- **[12. Testing & QA Matrix](12-Testing-and-QA)**: Static analysis, accessibility audits, manual test matrices, and browser testing.
+- **[13. CI/CD Workflows](13-CI-CD)**: GitHub Actions automation, dependency audits, build verification, and deployment pipelines.
+- **[14. Production Deployment](14-Deployment)**: Vercel edge deployment, SPA route rewrites (`vercel.json`), and caching policies.
+- **[20. Troubleshooting Guide](20-Troubleshooting)**: Common development errors, port conflicts, Node.js version fixes, and solutions.
+- **[22. Performance Optimization](22-Performance-Optimization)**: Core Web Vitals (LCP, INP, CLS), CSS containment, and bundle budgets.
+
+### 🌱 Community & Governance
+- **[15. Open Source Contributing](15-Contributing)**: Forking, branching conventions, conventional commits, and pull request guidelines.
+- **[16. Contributor Journey](16-Contributor-Journey)**: First-time contributor roadmap, micro-issues, and 48-hour maintainer reviews.
+- **[17. GitHub Community](17-GitHub-Community)**: Community discussions, issue templates, labeling taxonomy, and Code of Conduct.
+- **[18. Project Roadmap](18-Roadmap)**: Strategic milestones from demonstration MVP to hospital integration.
+- **[19. Releases & Changelog](19-Releases)**: Semantic Versioning standards and historical release logs.
+- **[21. Frequently Asked Questions](21-FAQ)**: Comprehensive FAQ covering medical, technical, and open-source topics.
+- **[23. User Flows & UX Journey](23-User-Flows-and-UX)**: End-to-end user journeys with sequence diagrams and UI states.
+- **[24. Maintainer Runbook](24-Maintainer-Runbook)**: Day-to-day triage, PR reviews, ruleset configuration, and release automation.

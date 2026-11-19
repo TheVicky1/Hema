@@ -1,14 +1,33 @@
-# CI/CD Workflows & Branch Protection
+# Continuous Integration & Deployment Pipeline
 
-HEMA uses GitHub Actions automated pipelines aligned with branch protection rulesets.
+Every commit and pull request to HEMA is automatically verified through GitHub Actions and deployed via Vercel.
 
 ---
 
-## 🔒 Branch Ruleset Alignment
+## 🔄 CI Workflow Architecture (`.github/workflows/ci.yml`)
 
-The `main` branch is protected by the **Protect Main** ruleset requiring:
-1. **Quality Gates & Verification (20.x)**: Validates secrets, markdown links, ESLint, and Vite build.
-2. **Dependency Health & Vulnerability Scan (20.x)**: Validates lockfile synchronization and audits dependency health. Vulnerability advisories from `npm audit` are reported as workflow warnings rather than hard failures, so a passing check verifies lockfile sync and dependency structure rather than the complete absence of high- or critical-severity advisories.
-3. **Pull Request Required**: 1 approving review required before merging.
-4. **Squash Merge**: Enforces linear history and clean commit trees.
-5. **No Force Pushing**: Force pushes are strictly blocked.
+```mermaid
+flowchart TD
+    Push[Code Pushed / PR Opened] --> Checkout[Checkout Repository]
+    Checkout --> SetupNode[Setup Node.js 20.x]
+    SetupNode --> Install[npm ci Clean Install]
+    Install --> Audit[npm audit Security Scan]
+    Install --> Lint[npm run lint Static Analysis]
+    Install --> Build[npm run build Production Bundle]
+    Audit --> Gate{All Checks Pass?}
+    Lint --> Gate
+    Build --> Gate
+    Gate -->|Yes| Success[Merge Permitted / Preview Deployed]
+    Gate -->|No| Fail[PR Blocked with Error Logs]
+```
+
+---
+
+## 🛡️ Protected Branch Rulesets
+
+The `main` branch requires:
+1. **Pull Request Required**: Direct pushes to `main` are prohibited.
+2. **Required Approving Review**: At least 1 review from a maintainer with write access.
+3. **Required Status Checks**:
+   - `Continuous Integration / Quality Gates & Verification (20.x) (pull_request)`
+   - `Dependency Security Audit / Dependency Health & Vulnerability Scan (20.x) (pull_request)`

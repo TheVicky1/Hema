@@ -1,71 +1,70 @@
-# Platform Features & Capabilities
+# Platform Features Catalog
 
-HEMA integrates 12 cohesive feature systems designed for emergency speed, aesthetic calm, and responsive precision.
+HEMA provides a cohesive set of client-side features engineered for clarity, speed, and ease of use.
 
 ---
 
-## 1. Command Navigation
-- 72px vertically centered header preventing visual cramping.
-- Sleek active underline indicator with fluid width animation on route change.
-- Dark/light mode toggle with Sun/Moon iconography.
-- Live available donors badge with pulsating green status dot.
-- Responsive mobile drawer with automatic dismiss on route tap or screen resize.
+## 🧭 1. Command Navigation Header
+- **Fixed Height**: Exactly 72px vertically centered header.
+- **Route Active Indicator**: Dynamic border and pill styling showing the current route.
+- **Live Donor Counter**: Real-time badge indicating currently available donors in memory.
+- **Theme Switcher**: One-click toggle between Light Mode and Dark OLED Mode.
+- **Mobile Responsive Drawer**: Accessible slide-out navigation for viewports under 768px.
 
-## 2. Atmospheric Wave Canvas
-- Multi-layer floating ambient crimson orbs (`wave-orb-1`, `wave-orb-2`, `wave-orb-3`).
-- Flowing SVG boundary wave curves along hero tops and bottoms.
-- Persistent 32px radial dot-grid texture on the body canvas.
-- Low-intensity opacity (5.5% light, 7% dark) ensuring zero text legibility interference.
+---
 
-## 3. Live Donor Directory
-- Interactive blood group filter pill row: `All`, `A+`, `A-`, `B+`, `B-`, `AB+`, `AB-`, `O+`, `O-`.
-- Instant debounced city search filter.
-- Available Only toggle checkbox.
-- Responsive grid with automatic 3-to-1 column collapse across viewport breakpoints.
+## 🌊 2. Atmospheric Wave Canvas Engine
+- **Visual Depth**: Layered crimson gradient waves and floating ambient orbs create an immersive backdrop.
+- **Zero Runtime Cost**: Pure CSS keyframe animations powered by hardware-accelerated transforms.
+- **Accessibility**: Automatically disables animations when `prefers-reduced-motion` is detected.
 
-## 4. Interactive Donor Cards
-- Initials avatar badges with deterministic color hashing based on donor name.
-- Prominent blood group pill with high-contrast badge styling.
-- Geolocation tag with map marker icon.
-- Live status badge indicating immediate availability.
-- View Profile and Request Donor action buttons.
+---
 
-## 5. Accessible Donor Modal
-- Spring-eased modal entrance animation.
-- Escape key listener and backdrop click dismiss.
-- Background body scroll locking while dialog is active.
-- Donor profile statistics including blood group, city location, total donation count, and last donation timing.
+## 🩸 3. Donor Directory & Instant Search
+- **Blood Group Pills**: Instant one-click filtering across all 8 standard blood groups (`A+`, `A-`, `B+`, `B-`, `AB+`, `AB-`, `O+`, `O-`) plus `All`.
+- **Live City Search**: Instant case-insensitive substring matching against donor cities.
+- **Compound Predicate Filter**: Blood group and city filters work together seamlessly.
+- **Zero Results State**: Graceful fallback UI with a one-click button to reset all active filters.
 
-## 6. Live Network Statistics Bar
-- 3-column live metric grid: Total Registered Donors, Active Lifesavers, Unique Blood Types.
-- Vibrant status color coding (crimson for total, green for active).
-- Dividers and rounded radius-xl container.
+---
 
-## 7. Instant Request Dispatch
-- Optimistic UI updates switching button to 'Request Sent'.
-- Immediate auto-dismissing toast notification.
-- In-memory request tracking updating button state to 'Request Sent' for the active session.
+## 👤 4. Interactive Donor Cards
+- **Initial Avatar Badges**: Circular badges with donor initials for clean visual identity.
+- **Availability Pill**: High-contrast green "Available" or muted "Resting" badges.
+- **Donation Count**: Displays verified past donation milestones.
+- **Quick Action**: Direct button to open the detailed profile modal.
 
-## 8. Donor Registration Workflow
-- Clean 2-column layout with donation benefits sidebar.
-- Form fields: Name, Email, Phone, City, Blood Group, Availability.
-- Client-side validation ensuring valid email format and required fields.
-- Toast confirmation and demonstration success feedback panel.
+---
 
-## 9. Process Walkthrough & FAQ Accordion
-- 5-step numbered donation timeline from search to hospital coordination.
-- Expandable FAQ accordion with smooth chevron rotation.
-- Quick search sidebar CTA card.
+## 🪟 5. Accessible Profile Inspection Modal
+- **Focus Trapping**: Traps keyboard focus inside the modal dialog while open.
+- **Escape Key Dismiss**: Closes immediately upon pressing the `Escape` key.
+- **Backdrop Click**: Dismisses cleanly when clicking the semi-transparent overlay.
+- **Privacy Masking**: Displays location and availability while safely redacting raw phone and email data.
 
-## 10. Toast Notification Bus
-- Decoupled event-driven toast dispatch (`addToast`).
-- Support for success, info, and error variants.
-- 4000ms auto-dismiss timer with manual close button.
+---
 
-## 11. Dual Theme System
-- Pure white light theme (`#FFFFFF`) by default and user-toggleable OLED Obsidian dark theme (`#0C0C0C`).
-- Seamless transitions via CSS Custom Properties.
+## ⚡ 6. Instant Request Dispatch
+- **Optimistic UI**: Immediately updates the donor card to show a "Requested" badge.
+- **Toast Feedback**: Dispatches a success toast confirming the demonstration request was logged.
+- **In-Memory Tracking**: Tracks request state for the duration of the browser session.
 
-## 12. Shimmer Skeleton Loading
-- Content-matching placeholder cards during asynchronous data fetching.
-- CSS keyframe shimmer wave preventing Cumulative Layout Shift (CLS).
+---
+
+## 📝 7. Self-Service Donor Registration
+- **Controlled Form Inputs**: Name, email, phone, city, and blood group selection.
+- **Client-Side Validation**: Checks required fields and email formats before submission.
+- **Benefits Side Panel**: Educational summary explaining the community impact of blood donation.
+
+---
+
+## 🗺️ 8. Interactive Process Timeline & FAQ
+- **5-Step Walkthrough**: Clear visual guide detailing Registration, Screening, Donation, Refreshment, and Notification.
+- **Expandable FAQ Accordion**: Smooth disclosure panels answering common donor questions.
+
+---
+
+## 🔔 9. Decoupled Toast Notification Bus
+- **Multi-Type Support**: Success (green), Info (blue), Error (red), and Warning (amber) toasts.
+- **Auto-Dismissal**: Configurable duration timers with clean unmount animations.
+- **Non-Blocking**: Fixed position container that never interrupts user interaction.
