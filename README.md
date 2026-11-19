@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./public/hema-logo.png" alt="Hema Blood Donor Network" width="88" height="88" />
+<img src="./public/hema-logo.svg" alt="Hema Blood Donor Network" width="88" height="96" />
 
 # HEMA - Community Blood Donor Network
 
