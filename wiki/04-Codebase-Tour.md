@@ -9,7 +9,7 @@ Hema/
 ├── .github/                   # CI/CD workflows, issue templates, dependabot
 │   ├── ISSUE_TEMPLATE/        # Bug report and feature request templates
 │   └── workflows/             # ci.yml, dependency-audit.yml, welcome-contributor.yml
-├── public/                    # Static assets (hema-logo.png)
+├── public/                    # Static assets (hema-logo.svg, hema-logo.png)
 ├── src/
 │   ├── components/            # Reusable UI component library
 │   │   ├── DonorCard.jsx      # Donor profile card

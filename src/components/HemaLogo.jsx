@@ -25,7 +25,7 @@ export default function HemaLogo({ size = 32 }) {
       {/* Blood drop body */}
       <path
         d="M22 2C22 2 5 20 5 32C5 40.8 12.8 46 22 46C31.2 46 39 40.8 39 32C39 20 22 2 22 2Z"
-        fill="url(#hema-drop-grad)"
+        fill="#E11D48"
       />
 
       {/* White medical cross - centered at top half of drop */}
