@@ -8,13 +8,13 @@ HEMA provides sub-millisecond donor search and blood type filtering directly on 
 
 ```mermaid
 graph LR
-    Input[User Search Query / Blood Pill Click] --> Normalizer[Case-Insensitive String Normalizer]
+    Input[User Search Query / Blood Pill Click] --> Normalizer[Case-Insensitive Normalizer]
     Normalizer --> GroupFilter{Blood Group Match?}
     GroupFilter -->|Yes| CityFilter{City Substring Match?}
     CityFilter -->|Yes| AvailFilter{Available Only Active?}
-    AvailFilter -->|Yes| Sorter[Prioritize Available Donors First]
-    Sorter --> Grid[Render Responsive DonorCard Grid]
+    AvailFilter -->|Yes| Grid[Render Responsive DonorCard Grid]
 ```
 
-- **Debounced Input**: Text input changes are debounced to ensure fluid 60fps animations.
-- **Normalized Query**: Cities and names are compared after `.toLowerCase().trim()` normalization.
+- **Reactive State Filter**: Input changes immediately recompute the filtered donor array in memory.
+- **Normalized Query**: In `DonorsPage`, search queries match the donor's `city` property using case-insensitive lowercase matching (`d.city.toLowerCase().includes(searchCity.toLowerCase())`).
+- **Blood Type Filter**: Matches the exact selected blood group, or passes all records when `All` is selected.

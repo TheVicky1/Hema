@@ -12,17 +12,17 @@ const mission = [
   {
     icon: "🌍",
     title: "Community First",
-    desc: "We are built entirely on the generosity of community members. Every donor on Hema is a volunteer giving the most irreplaceable gift — a part of themselves to save another.",
+    desc: "We are built entirely on the generosity of community members. Every donor on Hema is a volunteer giving the most irreplaceable gift - a part of themselves to save another.",
   },
   {
     icon: "🔒",
     title: "Privacy & Trust",
-    desc: "Donor information is never sold or misused. Contact details are only shared when a blood request is made, and donors always have full control over their availability.",
+    desc: "Donor privacy is paramount. Personal contact details are omitted from public directory cards. In this prototype demonstration, donor profiles utilize simulated sample records.",
   },
   {
     icon: "⚡",
     title: "Speed Matters",
-    desc: "In medical emergencies, every minute counts. Hema is designed to surface the right donor in seconds — not hours — when time is literally life.",
+    desc: "In medical emergencies, every minute counts. Hema is designed to surface the right donor in seconds - not hours - when time is literally life.",
   },
 ];
 
@@ -31,7 +31,7 @@ const values = [
   { emoji: "🤝", title: "Community", desc: "We succeed only when our donors and recipients succeed." },
   { emoji: "🔬", title: "Accuracy", desc: "Real-time availability data you can trust in a crisis." },
   { emoji: "🛡️", title: "Safety", desc: "Your data and your donors' privacy are never compromised." },
-  { emoji: "⚡", title: "Speed", desc: "Built for emergencies — fast search, instant requests." },
+  { emoji: "⚡", title: "Speed", desc: "Built for emergencies - fast search, instant requests." },
   { emoji: "🌱", title: "Growth", desc: "More cities, more donors, more lives saved every month." },
 ];
 
@@ -116,7 +116,7 @@ export default function AboutPage() {
       <section className="cta-strip">
         <div className="container">
           <h2>Join the Hema network</h2>
-          <p>Register as a donor or find one — it only takes a minute, and it could save a life.</p>
+          <p>Register as a donor or find one - it only takes a minute, and it could save a life.</p>
           <div className="cta-strip-actions">
             <Link to="/become-donor" className="btn btn-cta-white">
               Become a Donor

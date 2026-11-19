@@ -11,7 +11,6 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import { execSync } from 'node:child_process';
 
 const rootDir = process.cwd();
 const pkgPath = path.join(rootDir, 'package.json');
@@ -39,20 +38,22 @@ console.log(`📦 Package: ${pkg.name || 'hema'} (v${pkg.version || '0.0.0'})`);
 console.log(`🔒 Lockfile Version: ${lock.lockfileVersion || 'unknown'}\n`);
 
 // 2. Direct Dependency Inventory
-const prodDeps = Object.keys(pkg.dependencies || {});
-const devDeps = Object.keys(pkg.devDependencies || {});
+const pkgProdDeps = pkg.dependencies || {};
+const pkgDevDeps = pkg.devDependencies || {};
+const prodDepKeys = Object.keys(pkgProdDeps);
+const devDepKeys = Object.keys(pkgDevDeps);
 
 console.log('----------------------------------------------------------------');
 console.log('1. Direct Dependencies Inventory');
 console.log('----------------------------------------------------------------');
-console.log(`  Production Dependencies (${prodDeps.length}):`);
-for (const dep of prodDeps) {
-  console.log(`    • ${dep}: ${pkg.dependencies[dep]}`);
+console.log(`  Production Dependencies (${prodDepKeys.length}):`);
+for (const dep of prodDepKeys) {
+  console.log(`    • ${dep}: ${pkgProdDeps[dep]}`);
 }
 
-console.log(`\n  Development Dependencies (${devDeps.length}):`);
-for (const dep of devDeps) {
-  console.log(`    • ${dep}: ${pkg.devDependencies[dep]}`);
+console.log(`\n  Development Dependencies (${devDepKeys.length}):`);
+for (const dep of devDepKeys) {
+  console.log(`    • ${dep}: ${pkgDevDeps[dep]}`);
 }
 
 // 3. Framework-Critical Stack Baseline
@@ -69,7 +70,7 @@ const criticalStack = [
 ];
 
 for (const item of criticalStack) {
-  const sourceObj = item.scope === 'prod' ? pkg.dependencies : pkg.devDependencies;
+  const sourceObj = item.scope === 'prod' ? pkgProdDeps : pkgDevDeps;
   const versionSpec = sourceObj ? sourceObj[item.pkgKey] : undefined;
   if (versionSpec) {
     console.log(`  ✔ ${item.name.padEnd(20)}: ${versionSpec.padEnd(12)} [${item.scope}]`);
@@ -83,30 +84,56 @@ console.log('\n----------------------------------------------------------------'
 console.log('3. Lockfile Synchronization & Direct Mapping Check');
 console.log('----------------------------------------------------------------');
 
-const lockPackages = lock.packages ? lock.packages[''] : null;
+if (!lock.packages || typeof lock.packages !== 'object' || !lock.packages['']) {
+  console.error('✖ FATAL: Missing lock.packages[""] root mapping in package-lock.json.');
+  console.error('  Please regenerate lockfile using: npm install --package-lock-only');
+  process.exit(1);
+}
+
+const rootPackage = lock.packages[''];
+const lockProd = rootPackage.dependencies || {};
+const lockDev = rootPackage.devDependencies || {};
+
 let syncErrors = 0;
 
-if (lockPackages) {
-  const lockProd = lockPackages.dependencies || {};
-  const lockDev = lockPackages.devDependencies || {};
-
-  for (const dep of prodDeps) {
-    if (!lockProd[dep]) {
-      console.error(`  ✖ Direct dependency "${dep}" missing from lockfile root dependencies.`);
-      syncErrors++;
-    }
+// Bidirectional check for production dependencies
+for (const dep of prodDepKeys) {
+  if (!lockProd[dep]) {
+    console.error(`  ✖ Production dependency "${dep}" declared in package.json is missing from lockfile root dependencies.`);
+    syncErrors++;
+  } else if (lockProd[dep] !== pkgProdDeps[dep]) {
+    console.error(`  ✖ Version mismatch for "${dep}": package.json has "${pkgProdDeps[dep]}", lockfile root has "${lockProd[dep]}".`);
+    syncErrors++;
   }
+}
 
-  for (const dep of devDeps) {
-    if (!lockDev[dep]) {
-      console.error(`  ✖ Dev dependency "${dep}" missing from lockfile root devDependencies.`);
-      syncErrors++;
-    }
+for (const dep of Object.keys(lockProd)) {
+  if (!pkgProdDeps[dep]) {
+    console.error(`  ✖ Lockfile root dependency "${dep}" is not declared in package.json dependencies.`);
+    syncErrors++;
+  }
+}
+
+// Bidirectional check for development dependencies
+for (const dep of devDepKeys) {
+  if (!lockDev[dep]) {
+    console.error(`  ✖ Dev dependency "${dep}" declared in package.json is missing from lockfile root devDependencies.`);
+    syncErrors++;
+  } else if (lockDev[dep] !== pkgDevDeps[dep]) {
+    console.error(`  ✖ Version mismatch for dev dependency "${dep}": package.json has "${pkgDevDeps[dep]}", lockfile root has "${lockDev[dep]}".`);
+    syncErrors++;
+  }
+}
+
+for (const dep of Object.keys(lockDev)) {
+  if (!pkgDevDeps[dep]) {
+    console.error(`  ✖ Lockfile root devDependency "${dep}" is not declared in package.json devDependencies.`);
+    syncErrors++;
   }
 }
 
 if (syncErrors === 0) {
-  console.log('  ✔ All declared direct dependencies are synchronized in package-lock.json.');
+  console.log('  ✔ All declared direct dependencies and versions are perfectly synchronized in package-lock.json.');
 } else {
   console.error(`  ✖ Found ${syncErrors} lockfile synchronization discrepancy/discrepancies.`);
 }
@@ -123,4 +150,3 @@ if (syncErrors > 0) {
 console.log('✔ PASSED: Dependencies synchronized and verified.');
 console.log('================================================================\n');
 process.exit(0);
-

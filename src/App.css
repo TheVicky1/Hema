@@ -1,9 +1,9 @@
 /* ============================================
-   HEMA — Component Styles v3.0 (Forensic Fix)
+   HEMA - Component Styles v3.0 (Forensic Fix)
 ============================================ */
 
 /* ─────────────────────────────────────
-   NAVBAR — Premium Minimal
+   NAVBAR - Premium Minimal
 ───────────────────────────────────── */
 .navbar {
   position: fixed;
@@ -235,7 +235,7 @@
 
 /* ─────────────────────────────────────
    WAVE BACKGROUND SYSTEM
-   Soft crimson flowing waves — premium, minimal
+   Soft crimson flowing waves - premium, minimal
 ───────────────────────────────────── */
 .wave-bg {
   position: absolute;
@@ -254,7 +254,7 @@
   will-change: transform;
 }
 
-/* Orb 1 — top left large */
+/* Orb 1 - top left large */
 .wave-orb-1 {
   width: 700px; height: 500px;
   top: -180px; left: -120px;
@@ -265,7 +265,7 @@
   animation: waveFloat1 14s ease-in-out infinite alternate;
 }
 
-/* Orb 2 — top right */
+/* Orb 2 - top right */
 .wave-orb-2 {
   width: 500px; height: 450px;
   top: -80px; right: -100px;
@@ -276,7 +276,7 @@
   animation: waveFloat2 18s ease-in-out infinite alternate;
 }
 
-/* Orb 3 — bottom center */
+/* Orb 3 - bottom center */
 .wave-orb-3 {
   width: 600px; height: 400px;
   bottom: -100px; left: 50%;
@@ -320,7 +320,7 @@
   animation: waveFloat2 20s ease-in-out infinite alternate;
 }
 
-/* Dark mode — slightly brighter orbs */
+/* Dark mode - slightly brighter orbs */
 [data-theme="dark"] .wave-orb-1 {
   background: radial-gradient(ellipse at center,
     rgba(224, 45, 64, 0.11) 0%,
@@ -365,7 +365,7 @@
   overflow: hidden;
 }
 
-/* Legacy glow — keep for compat but it's supplemented by WaveBackground */
+/* Legacy glow - keep for compat but it's supplemented by WaveBackground */
 .hero-glow {
   position: absolute;
   top: -120px; left: 50%;
@@ -1337,7 +1337,7 @@
   border-top: 1px solid var(--color-border);
   padding: 52px 0 32px;
   background: var(--color-bg);
-  background-image: none;        /* clean footer — no dots */
+  background-image: none;        /* clean footer - no dots */
 }
 
 .footer-grid {

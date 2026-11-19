@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import "./App.css";
 
-import { DonorProvider, useDonors } from "./context/DonorContext";
+import { DonorProvider } from "./context/DonorContext";
+import { useDonors } from "./context/useDonors";
 import Navbar      from "./components/Navbar";
 import Footer      from "./components/Footer";
 import ToastContainer from "./components/ToastContainer";

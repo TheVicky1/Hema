@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Heart, ChevronRight, Shield, Clock, Users } from "lucide-react";
-import { useDonors } from "../context/DonorContext";
+import { useDonors } from "../context/useDonors";
 import StatsBar from "../components/StatsBar";
 import WaveBackground from "../components/WaveBackground";
 
@@ -22,7 +22,7 @@ const steps = [
     icon: "🩸",
     num: "03",
     title: "Connect & Donate",
-    desc: "The donor reaches out to coordinate the donation — fast, safe, and community-driven.",
+    desc: "The donor reaches out to coordinate the donation - fast, safe, and community-driven.",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Hero — with wave background */}
+      {/* Hero - with wave background */}
       <section className="hero">
         {/* Wave background layers */}
         <WaveBackground variant="hero" />
@@ -102,7 +102,7 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* How It Works — Preview */}
+      {/* How It Works - Preview */}
       <section className="how-section">
         <div className="container">
           <div className="section-header">

@@ -5,7 +5,7 @@ Get started with local development in under two minutes.
 ---
 
 ## 🛠️ Prerequisites
-- Node.js v20.x or higher
+- Node.js 20.19 or later (in the 20.x LTS line), or Node.js 22.12 or later
 - npm v10 or higher
 - Git
 

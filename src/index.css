@@ -1,7 +1,7 @@
 /* ============================================
-   HEMA — Design System & Global Styles
+   HEMA - Design System & Global Styles
    Premium Minimalistic Blood Donor Platform
-   v2.0 — Fixed Color Palette
+   v2.0 - Fixed Color Palette
 ============================================ */
 
 /* --- CSS Custom Properties (Design Tokens) --- */
@@ -14,7 +14,7 @@
   --color-primary-border: rgba(201, 25, 44, 0.18);
 
   /* ── Backgrounds ── */
-  --color-bg:              #FFFFFF;  /* Pure white — maximum clarity */
+  --color-bg:              #FFFFFF;  /* Pure white - maximum clarity */
   --color-bg-secondary:    #F7F7F8;  /* Very subtle off-white */
   --color-bg-tertiary:     #EFEFEF;
 
@@ -26,7 +26,7 @@
   --color-border:       #E6E6E6;
   --color-border-light: #F0F0F0;
 
-  /* ── Text — high readability system ── */
+  /* ── Text - high readability system ── */
   --color-text-primary:   #0F0F0F;   /* Near-black for headings */
   --color-text-secondary: #3D3D3D;   /* Clear dark grey for body */
   --color-text-muted:     #6B6B6B;   /* Readable but soft */
@@ -92,13 +92,13 @@
   --color-border:       #2B2B2B;
   --color-border-light: #232323;
 
-  /* Text — proper contrast in dark */
+  /* Text - proper contrast in dark */
   --color-text-primary:     #F0F0F0;   /* Warm white, not harsh */
   --color-text-secondary:   #A8A8A8;   /* Clear mid grey */
   --color-text-muted:       #686868;   /* Soft but visible */
   --color-text-placeholder: #505050;
 
-  /* Brand in dark mode — slightly brighter for legibility */
+  /* Brand in dark mode - slightly brighter for legibility */
   --color-primary:        #E02D40;
   --color-primary-light:  #F04455;
   --color-primary-subtle: #2A0810;
@@ -147,7 +147,7 @@ body {
     background-color var(--transition-slow),
     color var(--transition-slow);
   min-height: 100vh;
-  /* Subtle dot-grid texture — barely visible, premium feel */
+  /* Subtle dot-grid texture - barely visible, premium feel */
   background-image: radial-gradient(
     circle,
     rgba(201, 25, 44, 0.055) 1px,

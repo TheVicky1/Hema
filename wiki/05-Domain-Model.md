@@ -1,10 +1,10 @@
 # Domain Model & Blood Compatibility Matrix
 
-HEMA models donors, blood groups, and donation requests with medical accuracy and strict typing.
+HEMA models donors, blood groups, and donation requests with medical reference accuracy and clean schema typing.
 
 ---
 
-## 🩸 Blood Group Compatibility Matrix
+## 🩸 Blood Group Compatibility Reference Matrix
 
 | Recipient Blood Group | Compatible Donor Blood Groups | Universal Type Status |
 | :---: | :---: | :---: |
@@ -28,9 +28,11 @@ interface Donor {
   email: string;
   phone: string;
   city: string;
+  company?: string;
   bloodGroup: 'A+' | 'A-' | 'B+' | 'B-' | 'AB+' | 'AB-' | 'O+' | 'O-';
   available: boolean;
-  donationsCount: number;
-  lastDonationDate?: string;
+  requested: boolean;
+  donationCount: number;
+  lastDonated: string;
 }
 ```

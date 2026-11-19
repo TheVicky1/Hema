@@ -6,7 +6,7 @@
 A: Yes, 100% free and open-source forever. HEMA will never charge donors, recipients, or hospitals.
 
 ### Q: How is donor privacy protected?
-A: Contact details are never sold or exposed to public search crawlers. Phone numbers and emails are only shared when a specific emergency blood request is dispatched.
+A: The demonstration application utilizes simulated mock profiles from JSONPlaceholder for development and evaluation purposes. The user interface does not display donor telephone numbers or email addresses on cards or modal inspection dialogs, and does not implement real-world contact exchange.
 
 ### Q: How often can a volunteer donate blood?
 A: Whole blood can be safely donated every 56 days (8 weeks), giving the human body ample time to replenish red blood cells.

@@ -1,38 +1,38 @@
 # HEMA - Community Blood Donor Network Wiki
 
-> **Connecting Lifesavers with Those in Critical Need.** An open-source, humanitarian blood donor platform built with React 19, Vite 7, React Router v7, and Lucide React.
+> **Connecting Lifesavers with Those in Critical Need.** An open-source, humanitarian blood donor platform concept built with React 19, Vite 7, React Router v7, and Lucide React.
 
 ---
 
 ## ⚡ What is HEMA?
 
-HEMA is a unified, real-time blood donor network platform designed to eliminate delays in emergency medical blood matching. It coordinates blood type compatibility, verified geolocation searching, real-time availability badges, accessible donor profile inspection, and one-click contact requests without paywalls or registration barriers.
+HEMA is a proof-of-concept blood donor platform interface designed to explore how modern web interfaces can streamline donor discovery workflows. In this demonstration application, the donor directory presents simulated mock profiles, randomized availability statuses, client-side blood group and city filters, and simulated request dispatch without paywalls or account barriers.
 
 ```mermaid
 graph TD
-    A[Patient / Hospital in Need] --> B[Filter by Blood Type & City]
-    B --> C{Real-Time Availability Check}
-    C -->|Active Donor Ready| D[One-Click Emergency Request Dispatch]
-    C -->|Donor Off-Duty| E[Alternative Compatible Donor Suggestions]
-    D --> F[Direct Coordinator & Donor Contact]
+    A[Demonstration Donor Search] --> B[Client-Side Filter by Blood Type & City]
+    B --> C{Simulated Availability Check}
+    C -->|Simulated Donor Available| D[Simulated In-Memory Request Dispatch]
+    C -->|Simulated Donor Unavailable| E[Alternative Filter Selection]
+    D --> F[Local Confirmation Toast & Status Update]
 ```
 
 ---
 
-## 🎯 The Problem
+## 🎯 The Humanitarian Problem
 
-Emergency blood donation worldwide suffers from critical coordination friction:
+Emergency blood donation worldwide frequently encounters coordination friction:
 - **Fragmented Directories**: Contact information scattered across messaging groups and outdated spreadsheets.
 - **Stale Availability**: Potential lifesavers contacted who recently donated or are medically unavailable.
 - **Barrier to Entry**: Excessive mandatory account registrations delaying urgent transfusion coordination.
 - **Lack of Transparency**: Opacity regarding blood type compatibility and emergency response timing.
 
-## 🩸 The Solution & Core Philosophy
+## 🩸 Platform Philosophy & Architectural Goals
 
-HEMA introduces **Zero-Friction Lifesaving Coordination**:
-1. **Immediate Contact Dispatch**: Emergency requests require zero user account creation.
-2. **Temporal Availability**: Real-time status indicators distinguish active volunteers from resting donors.
-3. **Strict Privacy Boundaries**: Contact info is protected and shared only upon confirmed mutual request.
+HEMA demonstrates **Zero-Friction Lifesaving Coordination**:
+1. **Barrier-Free Discovery**: Donor discovery requires zero user account creation.
+2. **Availability Indicators**: Demonstrates visual status badges distinguishing ready donors from resting donors.
+3. **Data Display Minimization**: Contact credentials are kept private and omitted from client-side cards and inspection modals.
 4. **Accessible Minimalist UI**: High-contrast, WCAG AA compliant crimson design with fluid wave backdrops.
 5. **Open Source & Beginner Friendly**: Welcoming community with micro-issues (5-30 min) and fast reviews.
 
@@ -44,11 +44,11 @@ HEMA introduces **Zero-Friction Lifesaving Coordination**:
 | :--- | :--- | :--- |
 | 🧭 **Command Navigation** | 72px vertically centered header & active underline indicator | Fluid CSS transitions & mobile drawer |
 | 🌊 **Atmospheric Wave Canvas** | Floating ambient crimson orbs & boundary curves | Keyframe animations & fixed dot-grid |
-| 🩸 **Live Donor Directory** | Instant blood group pills & case-insensitive city search | Debounced real-time filter pipeline |
-| 👤 **Interactive Donor Cards** | Initials avatar badges & live availability tags | Responsive grid & hover elevation |
-| 🪟 **Accessible Donor Modal** | Complete donor profile inspection & contact credentials | Keyboard Escape trap & backdrop dismiss |
+| 🩸 **Donor Directory** | Simulated mock directory with blood group pills & city search | Client-side reactive filter pipeline |
+| 👤 **Interactive Donor Cards** | Initials avatar badges & simulated availability tags | Responsive grid & hover elevation |
+| 🪟 **Accessible Donor Modal** | Profile inspection with donation history & availability badge | Keyboard Escape trap & backdrop dismiss |
 | 📊 **Network Statistics Bar** | Real-time counts of total donors, active lifesavers & types | Derived reactive state computation |
-| ⚡ **Instant Request Pipeline** | One-click emergency contact notification | Optimistic UI & session persistence |
+| ⚡ **Instant Request Pipeline** | One-click donor request updating in-memory state & confirmation toast | Optimistic UI update & toast feedback |
 | 📝 **Donor Registration** | Self-contained donor registration form with validation | Instant field validation & benefits column |
 | 🗺️ **Process Walkthrough** | 5-step interactive donation timeline & FAQ accordion | Expandable smooth disclosure panels |
 | 🔔 **Toast Notification Bus** | Global auto-dismissing notifications (success/info/error) | Lightweight decoupled event bus |
@@ -59,39 +59,39 @@ HEMA introduces **Zero-Friction Lifesaving Coordination**:
 
 ## 🏗️ Production Technology Stack
 
-```mermaid
-graph LR
-    UI[React 19 + Lucide Icons] --> Router[React Router DOM v7]
-    Router --> Pages[Route Pages & Views]
-    Pages --> Context[DonorContext State Store]
-    Context --> REST[JSONPlaceholder / Mock Service API]
-    UI --> Tokens[CSS Custom Properties Design Tokens]
-```
-
-- **Frontend Library**: React 19 (Hooks, Concurrent Rendering, Context)
-- **Build System**: Vite 7 (Hot Module Replacement, Rollup Bundling)
-- **Routing Engine**: React Router DOM v7 (Declarative Client-Side Routing)
-- **Iconography**: Lucide React (Accessible SVG Icon Suite)
-- **Typography**: Inter (Variable Font with High X-Height)
-- **Design Tokens**: Pure CSS Custom Properties with Light and OLED Dark Palettes
+| Technology | Role & Purpose | Documentation |
+| :--- | :--- | :--- |
+| **React 19** | Core declarative UI component model and reactive rendering | [`react.dev`](https://react.dev) |
+| **Vite 7** | Sub-50ms HMR bundler and zero-configuration production compiler | [`vite.dev`](https://vite.dev) |
+| **React Router v7** | Client-side declarative routing and path resolution | [`reactrouter.com`](https://reactrouter.com) |
+| **Lucide React** | Cohesive, featherweight SVG icon system | [`lucide.dev`](https://lucide.dev) |
 
 ---
 
-## 🚀 Explore the HEMA Wiki
+## 🧭 Navigation & Chapters
 
-| Section | Description | Link |
-| :--- | :--- | :--- |
-| **Product Overview** | Humanitarian mission, personas, and emergency workflows | [Product Overview](01-Product-Overview) |
-| **Features & Subsystems** | Detailed breakdown of all 12 core platform modules | [Features & Subsystems](02-Features) |
-| **System Architecture** | Component hierarchy, routing tree, and data flow | [System Architecture](03-Architecture) |
-| **Design System** | Crimson palette, atmospheric wave orbs, and tokens | [Design System](09-Design-System) |
-| **Codebase Tour** | File layout, component directory, and naming rules | [Codebase Tour](04-Codebase-Tour) |
-| **Domain Model** | Donor entity schema and blood compatibility rules | [Domain Model](05-Domain-Model) |
-| **State Management** | DonorContext, useDonors hook, and optimistic state | [State Management](06-State-Management) |
-| **Security & Privacy** | Donor privacy protection and contact credential masking | [Security & Privacy](07-Security-and-Privacy) |
-| **Development Guide** | Local clone, npm commands, and debugging instructions | [Development Guide](11-Development) |
-| **Testing & QA Matrix** | Quality gates, ESLint rules, and build validation | [Testing & QA Matrix](12-Testing-and-QA) |
-| **CI/CD Pipeline** | GitHub Actions workflows and branch ruleset protection | [CI/CD Pipeline](13-CI-CD) |
-| **Contributing Guide** | Beginner friendly quick start, micro-issues, and PR steps | [Contributing Guide](15-Contributing) |
-| **Project Roadmap** | Past completed milestones and upcoming feature roadmap | [Project Roadmap](18-Roadmap) |
-| **Frequently Asked Questions**| Common donor, recipient, and contributor questions | [FAQ](21-FAQ) |
+Explore the full documentation chapters in this wiki:
+- [01. Product Overview & Vision](01-Product-Overview)
+- [02. Platform Features](02-Features)
+- [03. Architecture & Data Flow](03-Architecture)
+- [04. Component Catalog](04-Component-Catalog)
+- [05. Domain Model & Blood Matrix](05-Domain-Model)
+- [06. State Management](06-State-Management)
+- [07. Security & Privacy](07-Security-and-Privacy)
+- [08. Geolocation & Search](08-Geolocation-and-Search)
+- [09. Design System & Tokens](09-Design-System)
+- [10. Accessibility & WCAG](10-Accessibility)
+- [11. Local Development Guide](11-Development)
+- [12. Testing & QA Matrix](12-Testing-and-QA)
+- [13. CI/CD Workflows](13-CI-CD)
+- [14. Production Deployment](14-Deployment)
+- [15. Open Source Contributing](15-Contributing)
+- [16. Good First Issues](16-Good-First-Issues)
+- [17. Code of Conduct](17-Code-of-Conduct)
+- [18. Project Roadmap](18-Roadmap)
+- [19. Performance Optimization](19-Performance)
+- [20. Troubleshooting Guide](20-Troubleshooting)
+- [21. Frequently Asked Questions](21-FAQ)
+- [22. Internationalization](22-Internationalization)
+- [23. User Flows & UX Journey](23-User-Flows-and-UX)
+- [24. Maintainer Runbook](24-Maintainer-Runbook)

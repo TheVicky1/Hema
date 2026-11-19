@@ -48,7 +48,7 @@ flowchart TD
 | :--- | :--- | :--- |
 | **`Navbar`** | [`src/components/Navbar.jsx`](../src/components/Navbar.jsx) | 72px vertically centered header, active underline indicator, theme switch, responsive drawer. |
 | **`DonorCard`** | [`src/components/DonorCard.jsx`](../src/components/DonorCard.jsx) | Displays donor name, blood type, city location, availability status, and interactive emergency request action button. |
-| **`DonorModal`** | [`src/components/DonorModal.jsx`](../src/components/DonorModal.jsx) | Accessible dialog with keyboard Escape close, backdrop click dismiss, and complete contact details. |
+| **`DonorModal`** | [`src/components/DonorModal.jsx`](../src/components/DonorModal.jsx) | Accessible dialog with keyboard Escape close, backdrop click dismiss, donor profile stats, and request action. |
 | **`WaveBackground`** | [`src/components/WaveBackground.jsx`](../src/components/WaveBackground.jsx) | Atmospheric floating wave orbs and curved boundary lines for hero and inner pages. |
 | **`ToastContainer`** | [`src/components/ToastContainer.jsx`](../src/components/ToastContainer.jsx) | Global notification toast system with auto-dismiss timers. |
 | **`Footer`** | [`src/components/Footer.jsx`](../src/components/Footer.jsx) | 4-column responsive footer navigation with platform, company, and resources links. |

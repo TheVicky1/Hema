@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Search, SlidersHorizontal, ChevronDown } from "lucide-react";
-import { useDonors } from "../context/DonorContext";
+import { useDonors } from "../context/useDonors";
 import DonorCard from "../components/DonorCard";
 import SkeletonCard from "../components/SkeletonCard";
 import DonorModal from "../components/DonorModal";

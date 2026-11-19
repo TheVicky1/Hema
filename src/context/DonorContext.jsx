@@ -1,8 +1,8 @@
-import React, { createContext, useContext, useEffect, useState, useCallback } from "react";
-import { addToast } from "../components/ToastContainer";
+import React, { useEffect, useState, useCallback } from "react";
+import { addToast } from "../utils/toast";
+import { DonorContext } from "./context";
 
 const BLOOD_GROUPS = ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"];
-const DonorContext = createContext(null);
 
 export function DonorProvider({ children }) {
   const [donors, setDonors] = useState([]);
@@ -45,7 +45,7 @@ export function DonorProvider({ children }) {
   const requestDonor = useCallback((id) => {
     const donor = donors.find((d) => d.id === id);
     setDonors((prev) => prev.map((d) => d.id === id ? { ...d, requested: true } : d));
-    addToast({ type: "success", title: "Request sent!", message: `Your request to ${donor?.name} has been sent.`, duration: 4500 });
+    addToast({ type: "success", title: "Request sent!", message: `Demonstration request to ${donor?.name} recorded.`, duration: 4500 });
   }, [donors]);
 
   return (
@@ -53,11 +53,5 @@ export function DonorProvider({ children }) {
       {children}
     </DonorContext.Provider>
   );
-}
-
-export function useDonors() {
-  const ctx = useContext(DonorContext);
-  if (!ctx) throw new Error("useDonors must be used within DonorProvider");
-  return ctx;
 }
 

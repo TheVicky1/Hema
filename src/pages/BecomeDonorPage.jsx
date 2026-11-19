@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { addToast } from "../components/ToastContainer";
+import { addToast } from "../utils/toast";
 import WaveBackground from "../components/WaveBackground";
 
 const BLOOD_GROUPS = ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"];
@@ -10,12 +10,12 @@ const benefits = [
   {
     icon: "❤️",
     title: "Save up to 3 lives",
-    desc: "A single donation can be separated into red cells, plasma, and platelets — helping up to three patients.",
+    desc: "A single donation can be separated into red cells, plasma, and platelets - helping up to three patients.",
   },
   {
     icon: "🔬",
     title: "Free health screening",
-    desc: "Every donation includes a mini health check — blood pressure, haemoglobin, and more.",
+    desc: "Every donation includes a mini health check - blood pressure, haemoglobin, and more.",
   },
   {
     icon: "🌍",
@@ -25,7 +25,7 @@ const benefits = [
   {
     icon: "🩺",
     title: "Replenishes in 56 days",
-    desc: "Your body fully replenishes donated red blood cells within 4–8 weeks. It's safe, quick, and easy.",
+    desc: "Your body fully replenishes donated red blood cells within 4-8 weeks. It's safe, quick, and easy.",
   },
 ];
 
@@ -81,7 +81,7 @@ export default function BecomeDonorPage() {
       <section className="section">
         <div className="container">
           <div className="donate-layout">
-            {/* Left — Info */}
+            {/* Left - Info */}
             <div className="donate-info">
               <h2 className="donate-title">Why donate blood?</h2>
               <p className="donate-subtitle">
@@ -102,15 +102,15 @@ export default function BecomeDonorPage() {
               </div>
             </div>
 
-            {/* Right — Form */}
+            {/* Right - Form */}
             <div className="form-card">
               {submitted ? (
                 <div className="form-success">
                   <span className="success-icon">🎉</span>
                   <h3>You're registered!</h3>
                   <p>
-                    Thank you, <strong>{form.name.split(" ")[0]}</strong>. Your donor profile is now active.
-                    People in your area can now find and contact you when they need {form.bloodGroup} blood.
+                    Thank you, <strong>{form.name.split(" ")[0]}</strong>. Your demonstration registration has been recorded for this session.
+                    In a production release, donors in your area will be able to discover your profile when they need {form.bloodGroup || "blood"}.
                   </p>
                   <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                     <Link to="/donors" className="btn btn-primary" style={{ padding: "12px", justifyContent: "center" }}>
@@ -168,7 +168,7 @@ export default function BecomeDonorPage() {
                     <label className="form-label">Availability</label>
                     <select className="input select" value={form.availability} onChange={(e) => set("availability", e.target.value)}>
                       <option value="available">Available to donate now</option>
-                      <option value="soon">Available in 1–2 weeks</option>
+                      <option value="soon">Available in 1-2 weeks</option>
                       <option value="unavailable">Currently unavailable</option>
                     </select>
                   </div>

@@ -34,7 +34,7 @@ HEMA integrates 12 cohesive feature systems designed for emergency speed, aesthe
 - Spring-eased modal entrance animation.
 - Escape key listener and backdrop click dismiss.
 - Background body scroll locking while dialog is active.
-- Complete donor contact info, emergency response estimates, and verified donor shield.
+- Donor profile statistics including blood group, city location, total donation count, and last donation timing.
 
 ## 6. Live Network Statistics Bar
 - 3-column live metric grid: Total Registered Donors, Active Lifesavers, Unique Blood Types.
@@ -44,13 +44,13 @@ HEMA integrates 12 cohesive feature systems designed for emergency speed, aesthe
 ## 7. Instant Request Dispatch
 - Optimistic UI updates switching button to 'Request Sent'.
 - Immediate auto-dismissing toast notification.
-- SessionStorage tracking preventing duplicate accidental requests.
+- In-memory request tracking updating button state to 'Request Sent' for the active session.
 
 ## 8. Donor Registration Workflow
 - Clean 2-column layout with donation benefits sidebar.
 - Form fields: Name, Email, Phone, City, Blood Group, Availability.
 - Client-side validation ensuring valid email format and required fields.
-- Toast confirmation and instant local directory preview.
+- Toast confirmation and demonstration success feedback panel.
 
 ## 9. Process Walkthrough & FAQ Accordion
 - 5-step numbered donation timeline from search to hospital coordination.

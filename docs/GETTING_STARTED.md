@@ -1,6 +1,6 @@
 # Getting Started with Hema
 
-Welcome to **Hema** — an open-source community blood donor locator web application built with React 19 and Vite 7.
+Welcome to **Hema** - an open-source community blood donor locator web application built with React 19 and Vite 7.
 
 This guide provides step-by-step instructions for getting Hema up and running on your local machine.
 

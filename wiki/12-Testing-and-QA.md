@@ -1,6 +1,6 @@
 # Testing & Quality Assurance Matrix
 
-HEMA enforces rigorous quality gates before merging code to ensure zero regressions.
+HEMA enforces automated quality gates before merging code to assess code quality, static syntax correctness, and build compilation without guaranteeing zero regressions. The gates currently verify secret patterns, link integrity, dependency synchronization, static lint rules, and production bundle compilation.
 
 ---
 

@@ -66,8 +66,7 @@ export default function DonorModal({ donor, onClose, onRequest }) {
           </div>
 
           <div className="modal-note">
-            Sending a request will notify <strong>{donor.name.split(" ")[0]}</strong> that you need their help.
-            They'll reach out to coordinate the donation at a time and location convenient for both of you.
+            In this demonstration platform, clicking <strong>Send Request</strong> records an in-memory request for your active session and displays a confirmation toast.
           </div>
         </div>
 
