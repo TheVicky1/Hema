@@ -63,7 +63,7 @@ HEMA integrates 12 cohesive feature systems designed for emergency speed, aesthe
 - 4000ms auto-dismiss timer with manual close button.
 
 ## 11. Dual Theme System
-- Pure white light theme (`#FFFFFF`) and OLED Obsidian dark theme (`#0C0C0C`).
+- Pure white light theme (`#FFFFFF`) by default and user-toggleable OLED Obsidian dark theme (`#0C0C0C`).
 - Seamless transitions via CSS Custom Properties.
 
 ## 12. Shimmer Skeleton Loading
