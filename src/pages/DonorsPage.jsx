@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Search, SlidersHorizontal, ChevronDown } from "lucide-react";
+import { Search, SlidersHorizontal, ChevronDown, X } from "lucide-react";
 import { useDonors } from "../context/useDonors";
 import DonorCard from "../components/DonorCard";
 import SkeletonCard from "../components/SkeletonCard";
@@ -58,6 +58,16 @@ export default function DonorsPage() {
                   onChange={(e) => setSearchCity(e.target.value)}
                   aria-label="Search by city"
                 />
+                {searchCity && (
+                  <button
+                    className="search-clear"
+                    type="button"
+                    onClick={() => setSearchCity("")}
+                    aria-label="Clear city search"
+                  >
+                    <X size={15} aria-hidden="true" />
+                  </button>
+                )}
               </div>
               {/* Available toggle */}
               <button

@@ -630,7 +630,37 @@
   pointer-events: none;
 }
 
-.search-wrap .input { padding-left: 40px; }
+.search-wrap .input {
+  padding-left: 40px;
+  padding-right: 42px;
+}
+
+.search-clear {
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+
+.search-clear:hover {
+  background: var(--color-primary-subtle);
+  color: var(--color-primary);
+}
+
+.search-clear:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
 
 .blood-pills {
   display: flex;
