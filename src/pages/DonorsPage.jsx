@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Search, SlidersHorizontal, ChevronDown, X } from "lucide-react";
 import { useDonors } from "../context/useDonors";
 import DonorCard from "../components/DonorCard";
@@ -14,6 +14,7 @@ export default function DonorsPage() {
   const [searchCity, setSearchCity] = useState("");
   const [showAvailOnly, setShowAvailOnly] = useState(false);
   const [selectedDonor, setSelectedDonor] = useState(null);
+  const searchInputRef = useRef(null);
 
   const filtered = donors
     .filter((d) => selectedGroup === "All" || d.bloodGroup === selectedGroup)
@@ -51,6 +52,7 @@ export default function DonorsPage() {
               <div className="search-wrap">
                 <Search size={15} className="icon-left" />
                 <input
+                  ref={searchInputRef}
                   className="input"
                   type="text"
                   placeholder="Search by city…"
@@ -62,7 +64,10 @@ export default function DonorsPage() {
                   <button
                     className="search-clear"
                     type="button"
-                    onClick={() => setSearchCity("")}
+                    onClick={() => {
+                      setSearchCity("");
+                      searchInputRef.current?.focus();
+                    }}
                     aria-label="Clear city search"
                   >
                     <X size={15} aria-hidden="true" />
