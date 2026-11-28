@@ -15,6 +15,15 @@ export default function DonorModal({ donor, onClose, onRequest }) {
     return () => document.removeEventListener("keydown", handler);
   }, [onClose]);
 
+  useEffect(() => {
+    if (!donor) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = previousOverflow;
+    };
+  }, [donor]);
+
   if (!donor) return null;
 
   return (
